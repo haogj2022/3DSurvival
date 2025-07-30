@@ -1,0 +1,2410 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!104 &69
+RenderSettings:
+  serializedVersion: 9
+  m_ObjectHideFlags: 0
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &70
+LightmapSettings:
+  serializedVersion: 12
+  m_ObjectHideFlags: 0
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 112000000, guid: cfffffff010a6aa4ca9961854471a576, type: 2}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &71
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &1
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 23}
+  - component: {fileID: 55}
+  - component: {fileID: 74}
+  m_Layer: 19
+  m_Name: Boundaries
+  m_TagString: ChunkZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 24}
+  - component: {fileID: 72}
+  - component: {fileID: 56}
+  m_Layer: 19
+  m_Name: 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &3
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 43}
+  - component: {fileID: 73}
+  - component: {fileID: 57}
+  m_Layer: 19
+  m_Name: Exit_Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 25}
+  - component: {fileID: 58}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 26}
+  - component: {fileID: 51}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 27}
+  - component: {fileID: 59}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 28}
+  - component: {fileID: 47}
+  - component: {fileID: 45}
+  - component: {fileID: 49}
+  m_Layer: 8
+  m_Name: Rock_03
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &8
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 29}
+  - component: {fileID: 62}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &9
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 30}
+  - component: {fileID: 60}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &10
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 31}
+  - component: {fileID: 63}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &11
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 32}
+  - component: {fileID: 61}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &12
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 33}
+  - component: {fileID: 52}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &13
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 34}
+  - component: {fileID: 67}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &14
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 35}
+  - component: {fileID: 53}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &15
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 36}
+  - component: {fileID: 64}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &16
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 37}
+  - component: {fileID: 48}
+  - component: {fileID: 46}
+  - component: {fileID: 50}
+  m_Layer: 8
+  m_Name: Rock_01
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &17
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 38}
+  - component: {fileID: 65}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &18
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 39}
+  - component: {fileID: 66}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &19
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 40}
+  - component: {fileID: 68}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &20
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 41}
+  - component: {fileID: 54}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &21
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 42}
+  - component: {fileID: 75}
+  m_Layer: 0
+  m_Name: R10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &22
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 44}
+  m_Layer: 0
+  m_Name: Exits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &23
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 11.72, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 24}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+--- !u!4 &24
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 23}
+  - {fileID: 44}
+  m_Father: {fileID: 42}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &25
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_LocalRotation: {x: 0.96189946, y: -0.27320525, z: 0.009617076, w: 0.0039904015}
+  m_LocalPosition: {x: 0.27348328, y: 0.64361, z: 5.893655E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 179.8612, y: 1.1850595, z: 31.7105}
+--- !u!4 &26
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -4.2751125E-08, w: -9.111899E-09}
+  m_LocalPosition: {x: 0.50613785, y: -0.22626114, z: -1.4445654E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -4.5736388E-06, z: -24.063765}
+--- !u!4 &27
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_LocalRotation: {x: 0.9612439, y: -0.2755027, z: 0.0096076485, w: 0.004012931}
+  m_LocalPosition: {x: 1.0472107, y: 0.26481247, z: -6.174774E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850605, z: 31.984291}
+--- !u!4 &28
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_LocalRotation: {x: -0.7738123, y: -0.6334151, z: 3.3824417E-08, w: -2.7687447E-08}
+  m_LocalPosition: {x: -2.3300004, y: -0.91999245, z: -0.3}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 29}
+  - {fileID: 25}
+  - {fileID: 26}
+  - {fileID: 27}
+  - {fileID: 30}
+  - {fileID: 32}
+  - {fileID: 33}
+  - {fileID: 31}
+  m_Father: {fileID: 43}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -180, y: -5.0089566E-06, z: -78.605064}
+--- !u!4 &29
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_LocalRotation: {x: 0.99750805, y: 0.07055326, z: 2.4165926E-11, w: -3.6314118E-10}
+  m_LocalPosition: {x: -0.439888, y: -0.011802673, z: 8.653908E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: 5.698237E-09, z: -8.091531}
+--- !u!4 &30
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_LocalRotation: {x: 0.9386858, y: -0.34461677, z: 0.009290802, w: 0.0047004335}
+  m_LocalPosition: {x: 1.1761589, y: 0.192276, z: -1.341611E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850748, z: 40.31765}
+--- !u!4 &31
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_LocalRotation: {x: 0.86077476, y: -0.50887954, z: 0.008285825, w: 0.0063048964}
+  m_LocalPosition: {x: -0.9676895, y: -0.3799553, z: 1.1440043E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 179.86125, y: 1.185037, z: 61.180687}
+--- !u!4 &32
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_LocalRotation: {x: 0.99346477, y: -0.113663815, z: 0.0101369135, w: 0.0023781885}
+  m_LocalPosition: {x: 0.660347, y: 0.3937664, z: 3.16776E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850734, z: 13.052399}
+--- !u!4 &33
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -4.2751125E-08, w: -9.111899E-09}
+  m_LocalPosition: {x: 0.17569351, y: -0.08924866, z: 1.44427075E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -180, y: -4.5736388E-06, z: -24.063765}
+--- !u!4 &34
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_LocalRotation: {x: 3.388701E-09, y: -1.6943505E-09, z: -0.03876222, w: 0.9992485}
+  m_LocalPosition: {x: -0.4780655, y: -0.054138184, z: -9.625035E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 37}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.9555073E-07, y: 1.7896035E-07, z: 4.4429364}
+--- !u!4 &35
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7829437, y: -0.24689388, z: 1.6864615E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 37}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &36
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_LocalRotation: {x: -0.045642883, y: 0.9989579, z: -2.3828033E-08, w: 4.266828E-08}
+  m_LocalPosition: {x: -0.35362244, y: -0.6566744, z: 2.7591817E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 37}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -4.7597014E-06, z: 174.7679}
+--- !u!4 &37
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_LocalRotation: {x: -0.8425124, y: -0.53867704, z: -2.5054259E-08, w: 4.1960003E-08}
+  m_LocalPosition: {x: 2.4799995, y: -0.94999313, z: -0.12}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 34}
+  - {fileID: 35}
+  - {fileID: 36}
+  - {fileID: 41}
+  - {fileID: 38}
+  - {fileID: 39}
+  - {fileID: 40}
+  m_Father: {fileID: 43}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: 5.0089584E-06, z: -65.18725}
+--- !u!4 &38
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17}
+  m_LocalRotation: {x: 0.40862298, y: 0.91270334, z: -2.086299E-09, w: 4.882628E-08}
+  m_LocalPosition: {x: 0.1254425, y: 0.030004501, z: -2.014733E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 37}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 180, y: -5.2043374E-06, z: -131.76328}
+--- !u!4 &39
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_LocalRotation: {x: -0.16481131, y: 0.98632514, z: -2.876095E-08, w: 3.9511594E-08}
+  m_LocalPosition: {x: -0.2733307, y: 0.33691406, z: 2.0982336E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 37}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -180, y: -3.9226E-06, z: 161.02745}
+--- !u!4 &40
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19}
+  m_LocalRotation: {x: 0.2734203, y: 0.9618947, z: -9.071296E-09, w: 4.802154E-08}
+  m_LocalPosition: {x: -0.78884125, y: -0.56801987, z: -4.4133756E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 37}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 180, y: -5.5773935E-06, z: -148.2642}
+--- !u!4 &41
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.29808044, y: -0.23303318, z: -2.3359421E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 37}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &42
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 24}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 90}
+--- !u!4 &43
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.42, y: 20.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 37}
+  - {fileID: 28}
+  m_Father: {fileID: 44}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &44
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.75, y: 7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 43}
+  m_Father: {fileID: 24}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!23 &45
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5efa54a35e894134b84ef2c9acdf8bfa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!23 &46
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5efa54a35e894134b84ef2c9acdf8bfa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &47
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_Mesh: {fileID: 4300000, guid: 6d134cff5e91aa648a113c818d8eedd3, type: 2}
+--- !u!33 &48
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_Mesh: {fileID: 4300000, guid: ab07040e818108b4fb4f33e2fb239989, type: 2}
+--- !u!50 &49
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!50 &50
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &51
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.7
+--- !u!58 &52
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.85
+--- !u!58 &53
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.4
+--- !u!58 &54
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.75
+--- !u!61 &55
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 32, y: 10}
+  m_EdgeRadius: 0
+--- !u!61 &56
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.49, y: 11.16}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 6, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &57
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -10.87}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &58
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.81, y: 0.34}
+  m_EdgeRadius: 0
+--- !u!61 &59
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.32, y: 0.43}
+  m_EdgeRadius: 0
+--- !u!61 &60
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.17, y: 0.31}
+  m_EdgeRadius: 0
+--- !u!61 &61
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.63, y: 0.43}
+  m_EdgeRadius: 0
+--- !u!61 &62
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.19, y: 1.85}
+  m_EdgeRadius: 0
+--- !u!61 &63
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.81, y: 0.34}
+  m_EdgeRadius: 0
+--- !u!61 &64
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.69, y: 0.44}
+  m_EdgeRadius: 0
+--- !u!61 &65
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.41, y: 1.4}
+  m_EdgeRadius: 0
+--- !u!61 &66
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.28, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &67
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.21, y: 1.22}
+  m_EdgeRadius: 0
+--- !u!61 &68
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.57, y: 0.44}
+  m_EdgeRadius: 0
+--- !u!114 &72
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd5c6c7632f5fae881efee50f03308a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  chunkType: 0
+  generateReturn: 1
+  returnProbability: 0.7
+  doorElements:
+  - name: Rock_24
+    position: {x: -0.50000006, y: -0.059999943, z: -0.3}
+    rotation: {x: 0.76435906, y: -0.64479095, z: -2.818471E-08, w: -3.3411197E-08}
+    scale: {x: 1, y: 1, z: 1}
+  chunkBoundaries:
+    serializedVersion: 2
+    x: 0
+    y: 6.0999985
+    width: 27.450005
+    height: -11.07
+  chunkOrientation: 0
+  safeRevivePosition: {x: 0, y: 0}
+  spawnpoints:
+    FixedElements:
+    - name: Rock_05
+      position: {x: 1.0200006, y: 2.3900008, z: -0.25}
+      rotation: {x: 0.9842998, y: 0.17650518, z: -4.3025132E-08, w: 7.715299E-09}
+      scale: {x: 1.0000001, y: 1.0000012, z: 1.0000007}
+    - name: Rock_04
+      position: {x: 1.0600001, y: -2.500001, z: -0.34}
+      rotation: {x: -0.32048702, y: -0.947253, z: 6.693968E-09, w: 4.841025E-08}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000007}
+    - name: Rock_02
+      position: {x: 2.9100003, y: -3.1300018, z: -0.4}
+      rotation: {x: -0.95980537, y: 0.28066668, z: -1.22683295E-08, w: -4.1954426E-08}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000007}
+    - name: Rock_23
+      position: {x: 3.900002, y: 3.290001, z: -0.27}
+      rotation: {x: -0.99611837, y: -0.08802503, z: 3.8476955E-09, w: -4.354172E-08}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.000001}
+    - name: QuadMask
+      position: {x: 3.800001, y: 4.92, z: 0.1}
+      rotation: {x: -0, y: -0, z: -0.9996574, w: 0.026177019}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_05
+      position: {x: 5.260001, y: -3.480002, z: -0.4}
+      rotation: {x: 0.9704291, y: 0.24138671, z: -3.0610146E-08, w: 3.1204316E-08}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: Rock_22_D
+      position: {x: 3.2300017, y: -3.4200027, z: 4.34}
+      rotation: {x: 0.09723824, y: -0.9754986, z: -0.165814, w: -0.10701902}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000006}
+    - name: QuadMask
+      position: {x: 4.36, y: -4.9700007, z: 0.1}
+      rotation: {x: -0, y: -0, z: -0.9999144, w: 0.013089657}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_22_D
+      position: {x: 2.9700022, y: 3.5800023, z: 4.83}
+      rotation: {x: 0.95333314, y: -0.09444901, z: -0.007670775, w: 0.28666472}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: Rock_02
+      position: {x: 6.9900026, y: 2.9800005, z: -0.48}
+      rotation: {x: 0.09071946, y: 0.99587655, z: -1.939043E-07, w: 1.7663758E-08}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Rock_02_D
+      position: {x: 6.2231684, y: -2.509299, z: 4.42}
+      rotation: {x: -0.17509577, y: 0.9239304, z: 0.33811706, w: -0.037027016}
+      scale: {x: 1.3000014, y: 1.3000004, z: 1.3000007}
+    - name: Rock_23
+      position: {x: 7.960003, y: -2.2100015, z: -0.46}
+      rotation: {x: 0.11753738, y: -0.9930686, z: 4.3408413E-08, w: 5.1377267E-09}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Rock_23_D
+      position: {x: 6.7700043, y: 2.8900013, z: 4.71}
+      rotation: {x: 0.97602355, y: -0.1377159, z: -0.015817083, w: 0.16781622}
+      scale: {x: 1.3000001, y: 1.3000009, z: 1.3000007}
+    - name: Rock_03
+      position: {x: 9.420004, y: 3.0200005, z: -0.3}
+      rotation: {x: 0.99960893, y: 0.027967751, z: 4.140567E-08, w: -1.400912E-08}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.000001}
+    - name: Rock_22_D
+      position: {x: 9.370005, y: -1.6600022, z: 4.53}
+      rotation: {x: 0.0016511381, y: 0.9920908, z: 0.11256905, w: -0.055510744}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000007}
+    - name: Border_08
+      position: {x: 9.420001, y: 0.11999893, z: 5.55}
+      rotation: {x: 0.7826082, y: -0.62251467, z: 1.2120807E-07, w: 1.5237944E-07}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuadMask
+      position: {x: 11.540001, y: 5.1100006, z: 0.04}
+      rotation: {x: -0, y: -0, z: -0.99999565, w: -0.0029670596}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_32
+      position: {x: 12.570014, y: -2.0800028, z: -0.3}
+      rotation: {x: 0.052684456, y: 0.99861133, z: 6.282579E-10, w: 1.1908321E-08}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: QuadMask
+      position: {x: 12.170002, y: -4.2500024, z: 0.36}
+      rotation: {x: -0, y: -0, z: -0.9999144, w: 0.013089657}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_23_D
+      position: {x: 11.730141, y: 3.090001, z: 4.46}
+      rotation: {x: -0.029922575, y: 0.9559424, z: -0.29200676, w: 0.003343314}
+      scale: {x: 1.3000014, y: 1.3000002, z: 1.3000011}
+    - name: Wall_22
+      position: {x: 12.110002, y: 1.2099981, z: 5.52}
+      rotation: {x: -0.527549, y: -0.8495246, z: 3.71339E-08, w: -2.3059899E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_33
+      position: {x: 13.410006, y: 3.0500011, z: -0.3}
+      rotation: {x: -0.9980323, y: 0.06270343, z: -2.7408547E-09, w: -4.3625377E-08}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Rock_23_D
+      position: {x: 13.52014, y: -1.5200043, z: 4.46}
+      rotation: {x: -0.03924316, y: -0.9563621, z: -0.2807521, w: -0.070780806}
+      scale: {x: 1.3000021, y: 1.3000004, z: 1.3000021}
+    - name: Border_09
+      position: {x: 14.6900015, y: 0.829998, z: 5.6}
+      rotation: {x: 0.7742822, y: 0.6328405, z: 1.0310281E-07, w: -1.261466E-07}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_05
+      position: {x: 16.400005, y: -1.7100029, z: -0.19}
+      rotation: {x: -0.05747685, y: 0.9983469, z: -6.854055E-10, w: 1.1905167E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_23_D
+      position: {x: 17.130009, y: 3.4799995, z: 4.7}
+      rotation: {x: -0.93334246, y: -0.10717884, z: -0.01497227, w: -0.34228736}
+      scale: {x: 1.3000003, y: 1.3000001, z: 1.3000002}
+    - name: Rock_23
+      position: {x: 17.810005, y: 4.029999, z: -0.3}
+      rotation: {x: 0.96462655, y: 0.2636205, z: -5.132881E-08, w: 1.8781972E-07}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.000001}
+    - name: Rock_03
+      position: {x: 18.680006, y: -1.0600014, z: -0.19}
+      rotation: {x: -0.13830888, y: 0.9903892, z: -1.928359E-07, w: -2.6929719E-08}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.99999964}
+    - name: Rock_23_D
+      position: {x: 18.36001, y: -1.8600025, z: 4.5}
+      rotation: {x: -0.045266062, y: -0.92756283, z: -0.3701138, w: -0.024376184}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: QuadMask
+      position: {x: 19.710001, y: -3.170002, z: 0.36}
+      rotation: {x: -0, y: -0, z: -0.9959632, w: 0.08976352}
+      scale: {x: 8, y: 4, z: 4}
+    - name: QuadMask
+      position: {x: 19.220001, y: 6.0999985, z: 0.02}
+      rotation: {x: -0, y: -0, z: -0.997859, w: 0.06540313}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_22_D
+      position: {x: 20.750011, y: 4.7299995, z: 5.23}
+      rotation: {x: 0.9092386, y: 0.37125137, z: 0.052989297, w: 0.1806933}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000007}
+    - name: Rock_34
+      position: {x: 22.680006, y: -0.62000275, z: -0.3}
+      rotation: {x: -0.99905217, y: 0.043532133, z: -1.9028512E-09, w: -4.3669957E-08}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: Rock_33
+      position: {x: 22.640005, y: 4.08, z: -0.3}
+      rotation: {x: -0.99837685, y: 0.056954235, z: -2.4895446E-09, w: -4.364044E-08}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.000001}
+    Boulders: []
+    StarSpawnpoints: []
+    PreySpawnpoints:
+    - {x: 2.8000011, y: -1.0100005, z: 0}
+    - {x: 5.1500025, y: 1.2200003, z: 0}
+    - {x: 20.94001, y: 1.1100006, z: 0}
+    - {x: 25.080013, y: 2.1000004, z: 0}
+    MotileWildlifeSpawnpoints:
+    - <Position>k__BackingField: {x: 22.28001, y: 2.5, z: 0}
+      <Biome>k__BackingField: 109012021
+    SessileWildlifeSpawnpoints:
+    - <Position>k__BackingField: {x: 3.0980017, y: -2.8950012, z: -0.514}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.4882199, y: 0.35904416, z: -0.2708529, w: 0.74790883}
+    - <Position>k__BackingField: {x: 5.0510025, y: 3.0710015, z: -0.45}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.32895863, y: 0.5876024, z: -0.660384, w: 0.33226943}
+    - <Position>k__BackingField: {x: 6.708022, y: -2.1700063, z: -0.61200005}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.6373424, y: 0.24963337, z: -0.26135394, w: 0.6805676}
+    - <Position>k__BackingField: {x: 11.270231, y: 3.3201141, z: -0.41999602}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.49373206, y: 0.5673908, z: -0.5187535, w: 0.40643767}
+    - <Position>k__BackingField: {x: 13.22201, y: 3.1490002, z: -0.665}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.7132354, y: 0.04638335, z: -0.09349942, w: 0.69311035}
+    - <Position>k__BackingField: {x: 16.627007, y: 3.3270016, z: -0.542}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.7360651, y: 0.041475356, z: -0.09815368, w: 0.6684717}
+    - <Position>k__BackingField: {x: 20.08401, y: -0.23600006, z: -0.38}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.47587442, y: 0.5781139, z: -0.45376152, w: 0.48314446}
+    - <Position>k__BackingField: {x: 22.85801, y: -0.056999207, z: -0.402}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.40644053, y: 0.593897, z: -0.36678156, w: 0.58954585}
+    - <Position>k__BackingField: {x: 23.986513, y: -0.3560009, z: -0.3429975}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.62245154, y: -0.0063777864, z: -0.18280023, w: 0.76098466}
+    SmallSessileWildlifeSpawnpoints:
+    - <Position>k__BackingField: {x: 3.6401272, y: 2.9900773, z: -0.4199988}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.6446376, y: 0.2794225, z: -0.38101393, w: 0.6009942}
+    - <Position>k__BackingField: {x: 7.9880037, y: -1.9060011, z: -0.591}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.45978326, y: 0.5993151, z: -0.461732, w: 0.46499965}
+    - <Position>k__BackingField: {x: 9.489004, y: 2.493001, z: -0.459}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.25722706, y: 0.56508374, z: -0.7470089, w: 0.23768169}
+    - <Position>k__BackingField: {x: 10.209003, y: 2.972001, z: -0.442}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.67848074, y: 0.14543656, z: -0.21965191, w: 0.68575895}
+    - <Position>k__BackingField: {x: 14.4690075, y: 2.9490013, z: -0.444}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.7553271, y: 0.29688975, z: -0.25934532, w: 0.5235244}
+    - <Position>k__BackingField: {x: 17.822008, y: 3.7380009, z: -0.425}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.3362205, y: 0.5855173, z: -0.6453562, w: 0.35726857}
+    - <Position>k__BackingField: {x: 19.011007, y: -0.3390007, z: -0.326}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.58861136, y: -0.24842557, z: 0.20169199, w: 0.7423894}
+    - <Position>k__BackingField: {x: 21.271093, y: -0.16799927, z: -0.5319982}
+      <Biome>k__BackingField: 109012021
+      <Rotation>k__BackingField: {x: -0.6208091, y: -0.14797418, z: 0.17787212, w: 0.7490404}
+  varyingAreas:
+  - areaVariants:
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 15
+      spawnableGroup:
+        FixedElements:
+        - name: Humenganui
+          position: {x: 10.460058, y: -1.0500107, z: -0.08}
+          rotation: {x: -0, y: -0, z: 0.04041004, w: 0.9991833}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 9.910004, y: 1.4000006, z: 0}
+        - {x: 13.830007, y: 0.53999996, z: 0}
+        - {x: 15.6600065, y: 1.3300009, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 6.8500037, y: -0.39000034, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 13.380007, y: -0.40999985, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 16.900007, y: 1.0100002, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 20
+      spawnableGroup:
+        FixedElements:
+        - name: CrystalCluster_02
+          position: {x: 8.860004, y: -1.3300009, z: -0.23}
+          rotation: {x: -0, y: -0, z: 0.20107791, w: 0.9795754}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_00
+          position: {x: 9.400004, y: 2.0899992, z: 0.01}
+          rotation: {x: -0, y: -0, z: -0.99514204, w: 0.098451436}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_01
+          position: {x: 9.580005, y: -1.1900015, z: -0.32}
+          rotation: {x: -0, y: -0, z: 0.08802503, w: 0.99611837}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: CrystalCluster_02
+          position: {x: 10.070004, y: 2.38, z: 0}
+          rotation: {x: -0, y: -0, z: -0.9617176, w: 0.27404323}
+          scale: {x: 1.5, y: 1.5, z: 1.5}
+        - name: CrystalCluster_02
+          position: {x: 10.820004, y: -0.8300009, z: 0}
+          rotation: {x: -0, y: -0, z: 0.02094245, w: 0.9997809}
+          scale: {x: 1.5, y: 1.5, z: 1.5}
+        - name: CrystalCluster_00
+          position: {x: 10.920005, y: 2.5299997, z: 0.01}
+          rotation: {x: -0, y: -0, z: 0.9433098, w: 0.3319143}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_02
+          position: {x: 11.5300045, y: -0.9700012, z: 0}
+          rotation: {x: -0, y: -0, z: -0.27815306, w: 0.96053696}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: CrystalCluster_01
+          position: {x: 11.420005, y: 2.3900003, z: -0.49}
+          rotation: {x: -0, y: -0, z: 0.9959626, w: 0.08977103}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: CrystalCluster_02
+          position: {x: 12.02001, y: 2.5099983, z: -0.15}
+          rotation: {x: -0, y: -0, z: -0.97206545, w: 0.2347107}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_01
+          position: {x: 13.42001, y: -1.2600021, z: -0.14}
+          rotation: {x: -0, y: -0, z: 0.29862452, w: 0.95437086}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: CrystalCluster_00
+          position: {x: 13.996007, y: -1.1320009, z: 0.01}
+          rotation: {x: -0, y: -0, z: 0.02294907, w: 0.9997368}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_01
+          position: {x: 14.120009, y: 2.4399977, z: 0.03}
+          rotation: {x: -0, y: -0, z: 0.9282137, w: 0.37204775}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: CrystalCluster_00
+          position: {x: 14.5400095, y: 2.032998, z: 0.056}
+          rotation: {x: -0, y: -0, z: -0.9929657, w: -0.11840388}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_02
+          position: {x: 15.110009, y: 2.0199976, z: 0.19}
+          rotation: {x: -0, y: -0, z: -0.987414, w: 0.1581581}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 9.900003, y: 0.14000034, z: 0}
+        - {x: 12.740006, y: 1.4100008, z: 0}
+        - {x: 18.480005, y: 0.8900013, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 8.110003, y: 0.22000027, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 14.850008, y: 0.05000019, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 17.780008, y: 1.9900017, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 3
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Ahopiro_S2
+          position: {x: 8.500001, y: -1.460001, z: 0}
+          rotation: {x: -0, y: -0, z: 0.043619365, w: 0.99904823}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 10.277846, y: -1.1400013, z: -0.75139576}
+          rotation: {x: -0.15527415, y: 0.8872379, z: -0.4341629, w: 0.014198974}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_M1
+          position: {x: 10.710001, y: -0.7900009, z: 0}
+          rotation: {x: -0, y: -0, z: -0.01745236, w: 0.99984777}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 12.310002, y: -1.7500019, z: -0.58}
+          rotation: {x: -0.6600603, y: 0.029321223, z: -0.033312112, w: 0.7499007}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_L1
+          position: {x: 12.700002, y: -1.2800016, z: 0}
+          rotation: {x: -0, y: -0, z: 0.02617699, w: 0.99965745}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 13.340002, y: -1.2900019, z: -0.696175}
+          rotation: {x: -0.35650593, y: 0.5712693, z: -0.41671526, w: 0.6106583}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_S1
+          position: {x: 13.860002, y: -1.0700026, z: 0}
+          rotation: {x: -0, y: -0, z: -0.04884982, w: 0.99880624}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 15.610002, y: -1.2400017, z: -0.51361513}
+          rotation: {x: -0.51843697, y: -0.3390112, z: 0.3002606, w: 0.7253539}
+          scale: {x: 0.8, y: 0.8, z: 0.8}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 9.494001, y: -2.103001, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.414, y: -0.066, z: -0.757}
+          meshLocalRotation: {x: 0.022984153, y: 0.19413513, z: 0.22340664, w: 0.9549203}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: 11.146001, y: -1.7880011, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.255, y: 0.118, z: -0.608}
+          meshLocalRotation: {x: 0.07599115, y: 0.1254688, z: 0.06954651, w: 0.98673517}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: 9.580004, y: 0.069999695, z: 0}
+        - {x: 13.310007, y: 1.6000004, z: 0}
+        - {x: 16.080008, y: 0.29000092, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 17.360008, y: 0.09000015, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 5
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Ahopiro_S1
+          position: {x: 6.580001, y: -1.3300009, z: 0}
+          rotation: {x: -0, y: -0, z: 0.13312137, w: 0.99109983}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_L1
+          position: {x: 7.630001, y: -1.4100008, z: 0}
+          rotation: {x: -0, y: -0, z: -0.026177019, w: 0.9996574}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 10.240001, y: -1.2600012, z: -0.68}
+          rotation: {x: -0.15527415, y: 0.8872379, z: -0.4341629, w: 0.014198974}
+          scale: {x: 1.1, y: 1.1, z: 1.1}
+        - name: Ahopiro_M1
+          position: {x: 10.450001, y: -0.85000134, z: 0}
+          rotation: {x: -0, y: -0, z: 0.02617699, w: 0.99965745}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 12.310002, y: -1.6600018, z: -0.59}
+          rotation: {x: -0.35650593, y: 0.5712693, z: -0.41671526, w: 0.6106583}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_L1
+          position: {x: 12.800002, y: -1.2400017, z: 0}
+          rotation: {x: -0, y: -0, z: -0, w: 1.0000001}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_S2
+          position: {x: 14.6900015, y: -1.1800022, z: 0}
+          rotation: {x: -0, y: -0, z: -0.034899503, w: 0.99939096}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 15.570002, y: -1.420002, z: -0.484}
+          rotation: {x: -0.56888264, y: -0.16064797, z: 0.27792972, w: 0.75717896}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Ahopiro_S1
+          position: {x: 16.510002, y: -0.53000164, z: 0}
+          rotation: {x: -0, y: -0, z: -0, w: 1.0000001}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 17.160002, y: -1.1210022, z: -0.41}
+          rotation: {x: -0.6304563, y: -0.20342365, z: -0.1538541, w: 0.7331253}
+          scale: {x: 0.8, y: 0.8, z: 0.8}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 9.494001, y: -2.103001, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.414, y: -0.066, z: -0.757}
+          meshLocalRotation: {x: 0.022984153, y: 0.19413513, z: 0.22340664, w: 0.9549203}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: 11.139001, y: -1.802001, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.38, y: 0.21, z: -0.56}
+          meshLocalRotation: {x: 0.07599115, y: 0.1254688, z: 0.06954651, w: 0.98673517}
+          meshLocalScale: {x: 0.7, y: 0.7, z: 0.7}
+        - position: {x: 13.850002, y: -2.000002, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.241, y: -0.073, z: -0.645}
+          meshLocalRotation: {x: -0.0013218016, y: 0.06138637, z: -0.30240953, w: 0.9511984}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: 10.550005, y: 1.8200006, z: 0}
+        - {x: 13.830006, y: 1.0800009, z: 0}
+        - {x: 17.460007, y: -0.07999992, z: 0}
+        MotileWildlifeSpawnpoints: []
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 5
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao_45Degrees
+          position: {x: 12.670006, y: 2.3000011, z: 0.39}
+          rotation: {x: -0.5048151, y: -0.30279672, z: 0.7729355, w: 0.23674205}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 14.492214, y: -1.073987, z: 0.39}
+          rotation: {x: -0.33318883, y: 0.48529327, z: -0.1888887, w: 0.7860007}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 18.960016, y: 3.3700008, z: 0.39}
+          rotation: {x: 0.4868352, y: 0.33093163, z: -0.7851154, w: -0.1925354}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 8.930004, y: -0.5, z: 0}
+        - {x: 10.420005, y: 1.4800005, z: 0}
+        - {x: 14.780007, y: 1.3100004, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 6.8500037, y: -0.39000034, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 17.270008, y: 0.059999466, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 5
+      maxDifficulty: 20
+      spawnableGroup:
+        FixedElements:
+        - name: Plantern_1S
+          position: {x: 7.5500126, y: -1.5800037, z: 0.09}
+          rotation: {x: -0, y: -0, z: 0.15384817, w: 0.9880947}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1L
+          position: {x: 7.8700123, y: -1.590004, z: 0.15}
+          rotation: {x: -0, y: -0, z: -0.073238224, w: 0.9973146}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 8.020013, y: -1.4200029, z: 0.61}
+          rotation: {x: -0, y: -0, z: -0.07123625, w: 0.99745965}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 9.820014, y: -1.2800026, z: 0.88}
+          rotation: {x: -0, y: -0, z: 0.17794356, w: 0.98404086}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1S
+          position: {x: 9.970014, y: -1.2900028, z: 0.27}
+          rotation: {x: -0, y: -0, z: 0.23259676, w: 0.9725734}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 10.660014, y: -0.9700022, z: 0.78}
+          rotation: {x: -0, y: -0, z: 0.02094242, w: 0.9997808}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1M
+          position: {x: 10.890015, y: -0.94000244, z: 0.25}
+          rotation: {x: -0, y: -0, z: 0.02617699, w: 0.9996576}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1S
+          position: {x: 11.230015, y: -0.9600029, z: 0.17}
+          rotation: {x: -0, y: -0, z: -0.22325021, w: 0.9747614}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 11.460015, y: -1.0600023, z: 0.78}
+          rotation: {x: -0, y: -0, z: -0.2982079, w: 0.95450103}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 13.750023, y: -1.2200031, z: 0.71}
+          rotation: {x: 0.27395937, y: -0.96174145, z: 4.2039055E-08, w: 1.1975143E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1S
+          position: {x: 14.250024, y: -1.2300024, z: 0.18}
+          rotation: {x: -0, y: -0, z: 0.1933783, w: 0.9811244}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1L
+          position: {x: 14.560024, y: -1.2100029, z: 0.17}
+          rotation: {x: -0, y: -0, z: -0.020069897, w: 0.9997987}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 15.0700245, y: -1.0900021, z: 0.96}
+          rotation: {x: -0, y: -0, z: 0.1822356, w: 0.983255}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1S
+          position: {x: 15.760025, y: -0.8300028, z: 0.321}
+          rotation: {x: -0, y: -0, z: 0.1659083, w: 0.9861413}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 15.770025, y: -0.8000021, z: 0.881}
+          rotation: {x: -0, y: -0, z: 0.03751576, w: 0.9992962}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 10.560005, y: 1.4800005, z: 0}
+        - {x: 17.340008, y: 2.0200005, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 5.9800043, y: -0.7000003, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 12.430019, y: 0.83999634, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 15.710019, y: 1.4899969, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 10
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao_45Degrees
+          position: {x: 9.430005, y: -1.0800009, z: 0.39}
+          rotation: {x: 0.37775248, y: -0.4514736, z: 0.11342427, w: -0.8003812}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 11.850005, y: 2.290001, z: 0.39}
+          rotation: {x: -0.4482566, y: -0.38156396, z: 0.8013138, w: 0.106637}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 14.560008, y: -1.1100006, z: 0.39}
+          rotation: {x: 0.3470878, y: -0.4754541, z: 0.16607586, w: -0.79113376}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 19.100018, y: 3.380001, z: 0.39}
+          rotation: {x: -0.48358163, y: -0.33566877, z: 0.7869569, w: 0.18486327}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 10.180005, y: 1.4800005, z: 0}
+        - {x: 12.340007, y: -0.5, z: 0}
+        - {x: 16.950008, y: 0.059999466, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 5.680002, y: -0.71000004, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 17.370008, y: 2.0500011, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 20
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao_45Degrees
+          position: {x: 8.660004, y: -1.2300005, z: 0.39}
+          rotation: {x: 0.38090068, y: -0.44881994, z: 0.1078231, w: -0.8011553}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 10.285087, y: 2.285079, z: 0.45}
+          rotation: {x: -0.4319671, y: -0.3999116, z: 0.80513406, w: 0.07234928}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 14.909763, y: 1.9519386, z: 0.39}
+          rotation: {x: -0.48921353, y: -0.32740593, z: 0.78390086, w: 0.1974214}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 18.130007, y: -0.21999931, z: 0.39}
+          rotation: {x: 0.4867542, y: -0.33105025, z: -0.10963273, w: -0.8009101}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 18.97679, y: 3.4664593, z: 0.39}
+          rotation: {x: 0.4750406, y: 0.34765065, z: -0.7913316, w: -0.16513664}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 10.450005, y: -0.09000015, z: 0}
+        - {x: 14.780007, y: -0.4300003, z: 0}
+        - {x: 16.820005, y: 1.8100014, z: 0}
+        MotileWildlifeSpawnpoints: []
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 2
+      maxDifficulty: 25
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 7.5600038, y: -1.4200006, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9993285, w: 0.036643744}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 9.150003, y: -1.3900003, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.052335948, w: 0.9986297}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 11.950005, y: -1.2300005, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.99003613, w: -0.1408149}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 13.450009, y: -1.1600018, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9944304, w: 0.10539627}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 14.700009, y: -1.3900013, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.26976037, w: 0.9629277}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 17.66001, y: -0.7200012, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.1753667, w: 0.9845033}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 18.98001, y: -0.1400013, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.05756396, w: 0.998342}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 10.230004, y: 1.4800005, z: 0}
+        - {x: 12.730006, y: 0.10000038, z: 0}
+        - {x: 15.200007, y: 1.2300005, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 7.9800043, y: 0.53999996, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 17.760008, y: 2.3600006, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 8
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 7.140005, y: 2.1900005, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9776001, w: -0.21047187}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 8.590005, y: 2.0999994, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.11060169, w: 0.993865}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 9.630005, y: -1.170001, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9902804, w: 0.13908672}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 10.960005, y: -0.8600006, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.67107403, w: 0.7413906}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 11.990005, y: -1.3200006, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.4115144, w: 0.9114034}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 14.21001, y: 2.3899984, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.91032296, w: -0.41389912}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 15.240009, y: 1.829998, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.6710738, w: 0.7413908}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 16.220009, y: 2.459999, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.3428401, w: 0.9393939}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 17.76001, y: -0.52000237, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.91566277, w: 0.40194786}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 19.140009, y: -0.040002823, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.1123361, w: 0.9936704}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 13.810009, y: -2.010003, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.25499272, y: -0.012961388, z: -0.652}
+          meshLocalRotation: {x: -0.016155923, y: 0.07236125, z: 0.07401758, w: 0.994497}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        PreySpawnpoints:
+        - {x: 10.260005, y: 1.6500006, z: 0}
+        - {x: 12.350007, y: 1.7200012, z: 0}
+        - {x: 15.850008, y: 0.10999966, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 5.700002, y: -0.8500004, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 17.970007, y: 2.040001, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 12
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 7.140005, y: 2.1900005, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9776001, w: -0.21047187}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 8.590005, y: 2.0999994, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.11060169, w: 0.993865}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 9.630005, y: -1.210001, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9902804, w: 0.13908672}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 10.960005, y: -0.8600006, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.67107403, w: 0.7413906}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 11.810005, y: -1.3800011, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.4115144, w: 0.9114034}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 12.650009, y: 2.659998, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.5983248, w: 0.8012539}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 13.740009, y: 2.459999, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.11840388, w: 0.9929657}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 15.080009, y: -1.0400019, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9654728, w: 0.26050463}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 16.24001, y: -0.66000175, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.6710738, w: 0.7413908}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 17.25001, y: -1.0800018, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.36243805, w: 0.932008}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 17.20001, y: 3.08, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9992167, w: 0.039577574}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 18.65001, y: 3.4500008, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.26586282, w: 0.9640111}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 13.810009, y: -2.010003, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.25499272, y: -0.012961388, z: -0.652}
+          meshLocalRotation: {x: -0.016155923, y: 0.07236125, z: 0.07401758, w: 0.994497}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        PreySpawnpoints:
+        - {x: 10.720005, y: 1.7700005, z: 0}
+        - {x: 13.780006, y: -0.47000027, z: 0}
+        - {x: 17.080008, y: 1.3800011, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 5.940003, y: -0.7300005, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 12.420007, y: 0.029999733, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 20
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 6.210005, y: 2.1999989, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.97397614, w: -0.22665134}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 7.670005, y: 2.1099997, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.053207397, w: 0.9985837}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 7.9900045, y: -1.3300009, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9923321, w: 0.123601556}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 9.490005, y: -1.2800007, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.17794356, w: 0.98404086}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 11.790005, y: 2.3200006, z: 0.39}
+          rotation: {x: -0.4657036, y: -0.36006194, z: 0.7954129, w: 0.14420131}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 14.940009, y: -1.1500025, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9381914, w: 0.3461171}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 16.25001, y: -0.58000183, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.01745233, w: 0.9998479}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 17.40001, y: -0.88000107, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.67107385, w: 0.74139076}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 17.61001, y: 3.2600002, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.99611837, w: -0.08802503}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 19.17001, y: 3.2799988, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.0305385, w: 0.9995337}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 12.910007, y: -2.2300034, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.3779832, y: -0.1529274, z: -0.47600356}
+          meshLocalRotation: {x: -0.06633551, y: 0.081484966, z: 0.08159182, w: 0.9911118}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        PreySpawnpoints:
+        - {x: 10.090005, y: 1.5600004, z: 0}
+        - {x: 12.640007, y: -0.34000015, z: 0}
+        - {x: 17.800007, y: 0.5799999, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 6.0700035, y: -0.8500004, z: 0}
+          <Biome>k__BackingField: 109012021
+        - <Position>k__BackingField: {x: 16.530008, y: 1.8300018, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 30
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 6.1200047, y: 2.209999, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9555362, w: -0.29487437}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 7.670005, y: 1.999999, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.053207397, w: 0.9985837}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 10.070004, y: -1.0600014, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.97939956, w: 0.20193282}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 10.260005, y: 2.2000008, z: 0.48000002}
+          rotation: {x: -0.4272004, y: -0.4049993, z: 0.8058716, w: 0.063613445}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 11.310005, y: -0.77000046, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.6710738, w: 0.7413908}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 12.110009, y: -1.3600016, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.45787394, w: 0.88901734}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 16.100008, y: 2.5300007, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9999358, w: 0.011344373}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 17.520008, y: 3.0300026, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.3296907, w: 0.9440892}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 18.230007, y: -0.15999985, z: 0.53}
+          rotation: {x: -0.48228633, y: 0.33752638, z: 0.09891829, w: 0.8023038}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 20.08001, y: 0.12000084, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9980269, w: 0.06279045}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 21.17001, y: -0.089998245, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.67107385, w: 0.74139076}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 13.810009, y: -2.010003, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.25499272, y: -0.012961388, z: -0.652}
+          meshLocalRotation: {x: -0.016155923, y: 0.07236125, z: 0.07401758, w: 0.994497}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        PreySpawnpoints:
+        - {x: 8.350004, y: -0.5100002, z: 0}
+        - {x: 12.250006, y: 1.8000011, z: 0}
+        - {x: 15.230007, y: -0.14000034, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 13.710007, y: 1.4500008, z: 0}
+          <Biome>k__BackingField: 109012021
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+--- !u!114 &73
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5a1c382317059a962ec079790ac2e6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnedChunk: {fileID: 0}
+  returnConnector: 0
+--- !u!114 &74
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ff7e1db3338e1f64cbd3749a40a357, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &75
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a728e458119278bb5c7e351f2af2f4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

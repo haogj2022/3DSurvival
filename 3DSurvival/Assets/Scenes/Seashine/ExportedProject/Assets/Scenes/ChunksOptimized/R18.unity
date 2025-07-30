@@ -1,0 +1,2527 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!104 &69
+RenderSettings:
+  serializedVersion: 9
+  m_ObjectHideFlags: 0
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &70
+LightmapSettings:
+  serializedVersion: 12
+  m_ObjectHideFlags: 0
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 112000000, guid: 84a23d1be5e855c4a8eec98074c3e6fd, type: 2}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &71
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &1
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 23}
+  m_Layer: 0
+  m_Name: Exits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 24}
+  - component: {fileID: 72}
+  - component: {fileID: 51}
+  m_Layer: 19
+  m_Name: Exit_Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 25}
+  - component: {fileID: 57}
+  - component: {fileID: 74}
+  m_Layer: 19
+  m_Name: Boundaries
+  m_TagString: ChunkZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 26}
+  - component: {fileID: 58}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 27}
+  - component: {fileID: 59}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 28}
+  - component: {fileID: 61}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 29}
+  - component: {fileID: 53}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &8
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 30}
+  - component: {fileID: 60}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &9
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 31}
+  - component: {fileID: 52}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &10
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 32}
+  - component: {fileID: 62}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &11
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 33}
+  - component: {fileID: 47}
+  - component: {fileID: 45}
+  - component: {fileID: 49}
+  m_Layer: 8
+  m_Name: Rock_01
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &12
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 34}
+  - component: {fileID: 73}
+  m_Layer: 0
+  m_Name: R18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &13
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 35}
+  - component: {fileID: 75}
+  - component: {fileID: 54}
+  m_Layer: 19
+  m_Name: 18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &14
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 36}
+  - component: {fileID: 66}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &15
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 37}
+  - component: {fileID: 56}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &16
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 38}
+  - component: {fileID: 65}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &17
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 39}
+  - component: {fileID: 64}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &18
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 40}
+  - component: {fileID: 48}
+  - component: {fileID: 46}
+  - component: {fileID: 50}
+  m_Layer: 8
+  m_Name: Rock_03
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &19
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 41}
+  - component: {fileID: 63}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &20
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 42}
+  - component: {fileID: 55}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &21
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 43}
+  - component: {fileID: 68}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &22
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 44}
+  - component: {fileID: 67}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &23
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -1, w: -4.371139E-08}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 24}
+  m_Father: {fileID: 35}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -180}
+--- !u!4 &24
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 19.2, y: -12.67, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 33}
+  - {fileID: 40}
+  m_Father: {fileID: 23}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 90}
+--- !u!4 &25
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -8.28, y: 5.77, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 35}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+--- !u!4 &26
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_LocalRotation: {x: 0.40862298, y: 0.91270334, z: -2.086299E-09, w: 4.882628E-08}
+  m_LocalPosition: {x: 0.1254425, y: 0.030004501, z: -2.014733E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 33}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 180, y: -5.2043374E-06, z: -131.76328}
+--- !u!4 &27
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_LocalRotation: {x: -0.16481131, y: 0.98632514, z: -2.876095E-08, w: 3.9511594E-08}
+  m_LocalPosition: {x: -0.2733307, y: 0.33691406, z: 2.0982336E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 33}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -180, y: -3.9226E-06, z: 161.02745}
+--- !u!4 &28
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_LocalRotation: {x: 0.2734203, y: 0.9618947, z: -9.071296E-09, w: 4.802154E-08}
+  m_LocalPosition: {x: -0.78884125, y: -0.56801987, z: -4.4133756E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 33}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 180, y: -5.5773935E-06, z: -148.2642}
+--- !u!4 &29
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.29808044, y: -0.23303318, z: -2.3359421E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 33}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &30
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_LocalRotation: {x: 3.388701E-09, y: -1.6943505E-09, z: -0.03876222, w: 0.9992485}
+  m_LocalPosition: {x: -0.4780655, y: -0.054138184, z: -9.625035E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 33}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.9555073E-07, y: 1.7896035E-07, z: 4.4429364}
+--- !u!4 &31
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7829437, y: -0.24689388, z: 1.6864615E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 33}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &32
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_LocalRotation: {x: -0.045642883, y: 0.9989579, z: -2.3828033E-08, w: 4.266828E-08}
+  m_LocalPosition: {x: -0.35362244, y: -0.6566744, z: 2.7591817E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 33}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -4.7597014E-06, z: 174.7679}
+--- !u!4 &33
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_LocalRotation: {x: -0.84251237, y: -0.53867704, z: -2.5054259E-08, w: 4.196001E-08}
+  m_LocalPosition: {x: 2.4800057, y: -0.9499986, z: -0.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 30}
+  - {fileID: 31}
+  - {fileID: 32}
+  - {fileID: 29}
+  - {fileID: 26}
+  - {fileID: 27}
+  - {fileID: 28}
+  m_Father: {fileID: 24}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: 5.0089593E-06, z: -65.18725}
+--- !u!4 &34
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 35}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 90}
+--- !u!4 &35
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 25}
+  - {fileID: 23}
+  m_Father: {fileID: 34}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &36
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14}
+  m_LocalRotation: {x: 0.99346477, y: -0.113663815, z: 0.0101369135, w: 0.0023781885}
+  m_LocalPosition: {x: 0.660347, y: 0.3937664, z: 3.16776E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850734, z: 13.052399}
+--- !u!4 &37
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -4.2751125E-08, w: -9.111899E-09}
+  m_LocalPosition: {x: 0.17569351, y: -0.08924866, z: 1.44427075E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -180, y: -4.5736388E-06, z: -24.063765}
+--- !u!4 &38
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_LocalRotation: {x: 0.9386858, y: -0.34461677, z: 0.009290802, w: 0.0047004335}
+  m_LocalPosition: {x: 1.1761589, y: 0.192276, z: -1.341611E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850748, z: 40.31765}
+--- !u!4 &39
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17}
+  m_LocalRotation: {x: 0.86077476, y: -0.50887954, z: 0.008285825, w: 0.0063048964}
+  m_LocalPosition: {x: -0.9676895, y: -0.3799553, z: 1.1440043E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 179.86125, y: 1.185037, z: 61.180687}
+--- !u!4 &40
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_LocalRotation: {x: -0.7738122, y: -0.63341516, z: 3.3824417E-08, w: -2.7687447E-08}
+  m_LocalPosition: {x: -2.329998, y: -0.9199947, z: -0.24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 41}
+  - {fileID: 44}
+  - {fileID: 42}
+  - {fileID: 43}
+  - {fileID: 38}
+  - {fileID: 36}
+  - {fileID: 37}
+  - {fileID: 39}
+  m_Father: {fileID: 24}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -180, y: -5.0089566E-06, z: -78.60508}
+--- !u!4 &41
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19}
+  m_LocalRotation: {x: 0.99750805, y: 0.07055326, z: 2.4165926E-11, w: -3.6314118E-10}
+  m_LocalPosition: {x: -0.439888, y: -0.011802673, z: 8.653908E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: 5.698237E-09, z: -8.091531}
+--- !u!4 &42
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20}
+  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -4.2751125E-08, w: -9.111899E-09}
+  m_LocalPosition: {x: 0.50613785, y: -0.22626114, z: -1.4445654E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -4.5736388E-06, z: -24.063765}
+--- !u!4 &43
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21}
+  m_LocalRotation: {x: 0.9612439, y: -0.2755027, z: 0.0096076485, w: 0.004012931}
+  m_LocalPosition: {x: 1.0472107, y: 0.26481247, z: -6.174774E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850605, z: 31.984291}
+--- !u!4 &44
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22}
+  m_LocalRotation: {x: 0.96189946, y: -0.27320525, z: 0.009617076, w: 0.0039904015}
+  m_LocalPosition: {x: 0.27348328, y: 0.64361, z: 5.893655E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 179.8612, y: 1.1850595, z: 31.7105}
+--- !u!23 &45
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5efa54a35e894134b84ef2c9acdf8bfa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!23 &46
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5efa54a35e894134b84ef2c9acdf8bfa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &47
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_Mesh: {fileID: 4300000, guid: ab07040e818108b4fb4f33e2fb239989, type: 2}
+--- !u!33 &48
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_Mesh: {fileID: 4300000, guid: 6d134cff5e91aa648a113c818d8eedd3, type: 2}
+--- !u!50 &49
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!50 &50
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &51
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -5.44, y: -8.05}
+  m_Radius: 2.3
+--- !u!58 &52
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.4
+--- !u!58 &53
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.75
+--- !u!58 &54
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -10.02, y: 7}
+  m_Radius: 2.3
+--- !u!58 &55
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.7
+--- !u!58 &56
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.85
+--- !u!61 &57
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 18.8, y: 22.5}
+  m_EdgeRadius: 0
+--- !u!61 &58
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.41, y: 1.4}
+  m_EdgeRadius: 0
+--- !u!61 &59
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.28, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &60
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.21, y: 1.22}
+  m_EdgeRadius: 0
+--- !u!61 &61
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.57, y: 0.44}
+  m_EdgeRadius: 0
+--- !u!61 &62
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.69, y: 0.44}
+  m_EdgeRadius: 0
+--- !u!61 &63
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.19, y: 1.85}
+  m_EdgeRadius: 0
+--- !u!61 &64
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.81, y: 0.34}
+  m_EdgeRadius: 0
+--- !u!61 &65
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.17, y: 0.31}
+  m_EdgeRadius: 0
+--- !u!61 &66
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.63, y: 0.43}
+  m_EdgeRadius: 0
+--- !u!61 &67
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.81, y: 0.34}
+  m_EdgeRadius: 0
+--- !u!61 &68
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.32, y: 0.43}
+  m_EdgeRadius: 0
+--- !u!114 &72
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5a1c382317059a962ec079790ac2e6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnedChunk: {fileID: 0}
+  returnConnector: 0
+--- !u!114 &73
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a728e458119278bb5c7e351f2af2f4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &74
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ff7e1db3338e1f64cbd3749a40a357, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &75
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd5c6c7632f5fae881efee50f03308a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  chunkType: 0
+  generateReturn: 0
+  returnProbability: 0
+  doorElements:
+  - name: Rock_24
+    position: {x: -0.3900001, y: -0.24999991, z: -0.3}
+    rotation: {x: 0.6564541, y: -0.75436604, z: 3.2974388E-08, w: 2.8694526E-08}
+    scale: {x: 1, y: 1, z: 1}
+  chunkBoundaries:
+    serializedVersion: 2
+    x: 0
+    y: 19.199999
+    width: 15.341119
+    height: -22.394527
+  chunkOrientation: 0
+  safeRevivePosition: {x: 0, y: 0}
+  spawnpoints:
+    FixedElements:
+    - name: Rock_05
+      position: {x: 1.0163237, y: 2.3925881, z: -0.34}
+      rotation: {x: 0.9842998, y: 0.17650518, z: -4.3025132E-08, w: 7.715299E-09}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_04
+      position: {x: 1.0600001, y: -2.500001, z: -0.23}
+      rotation: {x: -0.32048702, y: -0.947253, z: 6.693968E-09, w: 4.841025E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_32
+      position: {x: 4.220002, y: -1.5200014, z: -0.26}
+      rotation: {x: 0.381877, y: -0.92421323, z: 4.0398646E-08, w: 1.6692375E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_20
+      position: {x: 3.1600022, y: 4.0700006, z: -0.3}
+      rotation: {x: -0.95956004, y: -0.28150424, z: 1.2304941E-08, w: -4.1943707E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Maramaiti_B
+      position: {x: 5.5398736, y: 0.3297825, z: -0.47875345}
+      rotation: {x: -0.49121407, y: -0.54101074, z: 0.4634138, w: 0.5012625}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: Maramaiti_A
+      position: {x: 4.261093, y: 4.972626, z: -0.3444755}
+      rotation: {x: -0.61857617, y: -0.5998558, z: 0.3554639, w: 0.36219063}
+      scale: {x: 1.5, y: 1.5, z: 1.5}
+    - name: Rock_23
+      position: {x: 4.1400037, y: 7.440002, z: -0.23}
+      rotation: {x: 0.66653264, y: -0.745476, z: 3.2585792E-08, w: 2.9135064E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_23
+      position: {x: 8.860003, y: 2.4299994, z: -0.36}
+      rotation: {x: 0.68263644, y: -0.73075825, z: 3.1942466E-08, w: 2.983899E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuadMask
+      position: {x: 2.5500011, y: 9.970001, z: 0}
+      rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_24
+      position: {x: 8.780005, y: 6.600004, z: -0.3}
+      rotation: {x: -0.6066824, y: -0.7949444, z: 3.4748126E-08, w: -2.6518933E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_23_D
+      position: {x: 10.440006, y: 6.790004, z: -2.7}
+      rotation: {x: -0.44588995, y: -0.85985243, z: 0.23008576, w: 0.09432244}
+      scale: {x: 1.2000017, y: 1.2000004, z: 1.2000016}
+    - name: Rock_30
+      position: {x: 4.370003, y: 11.980003, z: -0.3}
+      rotation: {x: -0.75298953, y: -0.65803266, z: 2.8763528E-08, w: -3.2914226E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_05
+      position: {x: 8.650004, y: 9.530001, z: -0.36}
+      rotation: {x: 0.5792813, y: -0.8151279, z: 3.5630375E-08, w: 2.5321189E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_32_D
+      position: {x: 4.810003, y: 12.940001, z: 3.53}
+      rotation: {x: -0.8636801, y: -0.46487355, z: -0.01866059, w: -0.19391009}
+      scale: {x: 1.5000012, y: 1.5000007, z: 1.5000013}
+    - name: Rock_05_D
+      position: {x: 10.050006, y: 9.810003, z: -2.87}
+      rotation: {x: -0.9009707, y: -0.2833476, z: 0.19987746, w: 0.26079717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_23_D
+      position: {x: 14.240025, y: 3.9299984, z: -2.56}
+      rotation: {x: -0.17767304, y: -0.95040876, z: 0.25123104, w: 0.0451509}
+      scale: {x: 1.2000016, y: 1.2000005, z: 1.2000015}
+    - name: QuadMask
+      position: {x: 4.5500026, y: 15.300001, z: 0}
+      rotation: {x: -0, y: -0, z: -0.9552784, w: 0.29570806}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_32
+      position: {x: 11.774178, y: 11.507812, z: -0.27}
+      rotation: {x: -0.3223483, y: 0.94662124, z: -4.10006E-07, w: -1.3961733E-07}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuadMask
+      position: {x: 14.450003, y: 8.409999, z: -2.61}
+      rotation: {x: -0, y: -0, z: -0.99943787, w: 0.03352958}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_23_D
+      position: {x: 13.250013, y: 10.430003, z: -3.1}
+      rotation: {x: -0.9598378, y: -0.023278475, z: 0.0024209917, w: 0.27957806}
+      scale: {x: 1.2000005, y: 1.2000008, z: 1.2000011}
+    - name: Rock_34
+      position: {x: 7.810006, y: 15.580007, z: -0.25}
+      rotation: {x: 0.2731198, y: -0.9619801, z: 4.2049486E-08, w: 1.19384485E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_24
+      position: {x: 14.150008, y: 15.520003, z: -0.3}
+      rotation: {x: -0.757565, y: -0.6527598, z: 2.853304E-08, w: -3.3114222E-08}
+      scale: {x: 1, y: 1, z: 1}
+    Boulders: []
+    StarSpawnpoints:
+    - position: {x: 4.4500012, y: 7.6200004, z: 0}
+      rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+      meshLocalPosition: {x: -0.01, y: 0.05, z: -0.54}
+      meshLocalRotation: {x: 0.019620867, y: -0.0027261034, z: -0.36221126, w: 0.93188554}
+      meshLocalScale: {x: 1, y: 1, z: 1}
+    PreySpawnpoints: []
+    MotileWildlifeSpawnpoints: []
+    SessileWildlifeSpawnpoints:
+    - <Position>k__BackingField: {x: 1.4300004, y: 1.810001, z: -0.433}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.80690694, y: -0.01855278, z: -0.11638458, w: 0.5788022}
+    - <Position>k__BackingField: {x: 9.160004, y: 7.67031, z: -2.63}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.64295197, y: 0.55126536, z: -0.46373475, w: 0.26013386}
+    - <Position>k__BackingField: {x: 9.323058, y: 8.830353, z: -2.8740025}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.59053934, y: 0.28679836, z: 0.19973022, w: 0.7274051}
+    - <Position>k__BackingField: {x: 5.004004, y: 13.435991, z: -0.5369947}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.50958747, y: 0.6249085, z: -0.47283164, w: -0.35530344}
+    - <Position>k__BackingField: {x: 9.780004, y: 16.910007, z: -0.418}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.41723803, y: 0.54481244, z: -0.57905084, w: 0.44021863}
+    SmallSessileWildlifeSpawnpoints:
+    - <Position>k__BackingField: {x: 1.7420008, y: -2.027001, z: -0.431}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.25679308, y: 0.87287277, z: -0.413921, w: 0.028637007}
+    - <Position>k__BackingField: {x: 3.0450017, y: -1.7470008, z: -0.35}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.34207892, y: 0.6261108, z: -0.42525813, w: 0.55688703}
+    - <Position>k__BackingField: {x: 2.4040153, y: 3.0430257, z: -0.32299957}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.6877837, y: 0.35139176, z: -0.47256136, w: 0.42445666}
+    - <Position>k__BackingField: {x: 3.1420016, y: 3.1350017, z: -0.246}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.84081775, y: -0.1477884, z: 0.09459688, w: 0.51208985}
+    - <Position>k__BackingField: {x: 4.3990026, y: 12.862007, z: -0.53}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.5575627, y: 0.3793223, z: -0.49131054, w: -0.55122846}
+    - <Position>k__BackingField: {x: 5.850002, y: 14.390009, z: -0.38}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.15818182, y: 0.6799028, z: -0.70963585, w: -0.09554157}
+  varyingAreas:
+  - areaVariants:
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 20
+      spawnableGroup:
+        FixedElements: []
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 6.7600107, y: 11.610006, z: 0}
+        - {x: 11.750005, y: 13.780007, z: 0}
+        - {x: 12.130007, y: 16.950008, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 7.3200045, y: 12.8700075, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 10.080005, y: 12.530005, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 10.330004, y: 13.930008, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 3
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Ahopiro_D2
+          position: {x: 8.030003, y: 9.950004, z: -0.6018511}
+          rotation: {x: -0.6072862, y: -0.2731483, z: 0.4008087, w: 0.62924254}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_S1
+          position: {x: 7.7900047, y: 10.420005, z: -0.1}
+          rotation: {x: -0, y: -0, z: 0.2158432, w: 0.97642815}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 9.0139065, y: 10.660279, z: -0.5343632}
+          rotation: {x: 0.1812993, y: -0.73210335, z: 0.6472987, w: -0.11027205}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Ahopiro_L1
+          position: {x: 9.170005, y: 10.790005, z: 0}
+          rotation: {x: -0, y: -0, z: 0.0871557, w: 0.99619484}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 11.400003, y: 11.570004, z: -0.37}
+          rotation: {x: -0.5318717, y: -0.25794113, z: 0.4793109, w: 0.64872205}
+          scale: {x: 0.7, y: 0.7, z: 0.7}
+        - name: Ahopiro_M1
+          position: {x: 11.590004, y: 12.350008, z: -0.06}
+          rotation: {x: -0, y: -0, z: 0.17364821, w: 0.98480785}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 11.800006, y: 12.360007, z: -0.46}
+          rotation: {x: -0.68809056, y: 0.041068047, z: 0.22861847, w: 0.6874435}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 12.680006, y: 13.460007, z: -0.559}
+          rotation: {x: 0.5742874, y: 0.100259826, z: -0.23264143, w: -0.778473}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Ahopiro_D1
+          position: {x: 13.390008, y: 14.550008, z: -0.42}
+          rotation: {x: 0.676918, y: -0.33319828, z: 0.14874466, w: -0.63924664}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 10.528002, y: 10.714999, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.3303461, y: -0.12276459, z: -0.5629827}
+          meshLocalRotation: {x: -0.015465425, y: 0.13080199, z: 0.17785375, w: 0.9752025}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: 7.2700014, y: 12.980004, z: 0}
+        - {x: 12.220005, y: 15.150003, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 10.330002, y: 12.370005, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 10.080001, y: 15.420005, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 10
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Ahopiro_D1
+          position: {x: 7.970003, y: 10.330005, z: -0.51}
+          rotation: {x: 0.5830739, y: -0.3189885, z: 0.18538117, w: -0.723813}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_S2
+          position: {x: 8.110004, y: 10.580005, z: 0}
+          rotation: {x: -0, y: -0, z: 0.17364821, w: 0.98480785}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 10.080005, y: 11.210005, z: -0.5343632}
+          rotation: {x: 0.1812993, y: -0.73210335, z: 0.6472987, w: -0.11027205}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Ahopiro_S1
+          position: {x: 9.880003, y: 11.480004, z: -0.1}
+          rotation: {x: -0, y: -0, z: 0.10452849, w: 0.99452204}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_L1
+          position: {x: 10.760005, y: 11.640005, z: 0}
+          rotation: {x: -0, y: -0, z: -0.017452419, w: 0.9998478}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 11.400003, y: 11.570004, z: -0.37}
+          rotation: {x: -0.5318717, y: -0.25794113, z: 0.4793109, w: 0.64872205}
+          scale: {x: 0.7, y: 0.7, z: 0.7}
+        - name: Ahopiro_D2
+          position: {x: 11.800006, y: 12.360007, z: -0.46}
+          rotation: {x: -0.68809056, y: 0.041068047, z: 0.22861847, w: 0.6874435}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 13.040006, y: 13.740006, z: -0.43}
+          rotation: {x: 0.5742874, y: 0.100259826, z: -0.23264143, w: -0.778473}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Ahopiro_D2
+          position: {x: 13.482008, y: 15.014008, z: -0.497}
+          rotation: {x: -0.6072862, y: -0.2731483, z: 0.4008087, w: 0.62924254}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 8.9400015, y: 9.85, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.39, y: -0.08, z: -0.62}
+          meshLocalRotation: {x: 0.14051746, y: 0.056409437, z: 0.46015817, w: 0.8748299}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: 12.745004, y: 12.516999, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.356, y: -0.2, z: -0.596}
+          meshLocalRotation: {x: 0.048169516, y: 0.13162147, z: 0.798934, w: 0.58485895}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: 6.7800016, y: 12.740005, z: 0}
+        - {x: 12.220003, y: 14.930004, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 9.280002, y: 14.510005, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 12.370003, y: 16.130003, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 3
+      maxDifficulty: 15
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao_45Degrees
+          position: {x: 12.200007, y: 13.340007, z: 0.5}
+          rotation: {x: -0.48075554, y: 0.3397037, z: 0.09528956, w: 0.8027427}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 7.760004, y: 13.330006, z: 0}
+        - {x: 12.680007, y: 15.8700075, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 10.060006, y: 12.710008, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 11.480006, y: 11.780006, z: -0.3}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.56340635, y: 0.05839756, z: 0.15745187, w: 0.8089328}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 9.692007, y: 10.864007, z: -0.379}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5587707, y: 0.6084525, z: -0.26721823, w: 0.49614072}
+        - <Position>k__BackingField: {x: 10.241007, y: 11.371007, z: -0.361}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4978692, y: -0.23658071, z: 0.2614604, w: 0.7923349}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 10
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao_45Degrees
+          position: {x: 8.480003, y: 14.710009, z: 0.39}
+          rotation: {x: -0.28017777, y: -0.5177111, z: 0.78573513, w: -0.1899896}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 12.410007, y: 13.540007, z: 0.39}
+          rotation: {x: 0.4744857, y: -0.34840798, z: -0.08064428, w: -0.8043457}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 13.610006, y: 17.270008, z: 0.39}
+          rotation: {x: 0.50489306, y: -0.3026713, z: -0.15525678, w: -0.7933277}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 10.400004, y: 12.360007, z: 0}
+        - {x: 11.660005, y: 16.720005, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 6.470003, y: 12.2400055, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 7.6200047, y: 13.320007, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 12.470008, y: 15.720008, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 10.400002, y: 11.085, z: -0.504}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.60794485, y: -0.073587775, z: 0.07231641, w: 0.78724736}
+        - <Position>k__BackingField: {x: 11.795002, y: 11.572999, z: -0.423}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.45926547, y: 0.5858811, z: -0.5314958, w: 0.4041423}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 8.900002, y: 10.36, z: -0.532}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.41475618, y: 0.49315476, z: -0.36093742, w: 0.67416626}
+        - <Position>k__BackingField: {x: 12.120004, y: 12.55, z: -0.525}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5798202, y: -0.18422769, z: 0.32001773, w: 0.7262627}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 5
+      maxDifficulty: 40
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 9.370004, y: 10.950005, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.91319036, w: 0.4075338}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 10.730003, y: 11.460006, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.052335948, w: 0.9986297}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 13.040006, y: 13.760007, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.55962706, w: 0.8287449}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 13.280005, y: 15.670007, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.63338095, w: 0.77384037}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 13.610006, y: 16.880007, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.39073122, w: 0.92050505}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 10.980004, y: 13.200006, z: 0}
+        - {x: 11.710006, y: 16.440006, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 7.000004, y: 12.570005, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 9.020003, y: 14.400008, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 11.590004, y: 14.280008, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 12.840004, y: 13.02, z: -0.547}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.62248313, y: -0.04562977, z: 0.08606005, w: 0.77654785}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 11.640003, y: 12.040001, z: -0.351}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5689088, y: 0.5627068, z: -0.3196407, w: 0.50747794}
+        - <Position>k__BackingField: {x: 13.270004, y: 14.309999, z: -0.302}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6314135, y: -0.18442369, z: 0.34945577, w: 0.6672223}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 12
+      maxDifficulty: 80
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 7.140007, y: 14.00001, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9997987, w: 0.020069897}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 11.430002, y: 12.35001, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.8638357, w: 0.50377405}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 8.400008, y: 14.690009, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.4154872, w: 0.9095992}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 12.4900055, y: 13.310007, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.16504765, w: 0.9862858}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 10.780005, y: 17.03001, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9629277, w: 0.26976037}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 11.100005, y: 18.290009, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.75298953, w: -0.6580328}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 7.6000032, y: 12.3700075, z: 0}
+        - {x: 12.330008, y: 15.270008, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 9.060004, y: 11.5300045, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 9.960004, y: 12.310006, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 10.120004, y: 15.160008, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 13.480003, y: 14.34, z: -0.363}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6881019, y: -0.049768925, z: 0.08144534, w: 0.7193092}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 12.900003, y: 13.369999, z: -0.476}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.49622485, y: 0.5859871, z: -0.30541664, w: 0.5631172}
+        - <Position>k__BackingField: {x: 13.620004, y: 15.63, z: -0.455}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.63015264, y: -0.041796267, z: 0.3746732, w: 0.6788084}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 25
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 8.520002, y: 10.590005, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9786887, w: 0.20535025}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 9.840003, y: 11.200005, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.029666305, w: 0.99956}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 9.322509, y: 15.514277, z: 0.49}
+          rotation: {x: -0.3510142, y: -0.4725603, z: 0.80477774, w: -0.07621685}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 12.800007, y: 13.650007, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.8530961, w: 0.52175415}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 13.210008, y: 14.760007, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.4123096, w: 0.91104394}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 10.940005, y: 17.480007, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.99718535, w: 0.07497874}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 11.200006, y: 18.470009, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.7635708, w: -0.6457243}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 7.8200045, y: 13.6200075, z: 0}
+        - {x: 10.800006, y: 12.720008, z: 0}
+        - {x: 12.750008, y: 16.420008, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 6.550004, y: 13.190007, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 11.180005, y: 15.900006, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 11.780002, y: 11.84, z: -0.404}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6995873, y: -0.047877908, z: 0.07995707, w: 0.70844364}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 12.330183, y: 12.79018, z: -0.51300275}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.52872765, y: 0.58034205, z: -0.31753823, w: 0.53180796}
+        - <Position>k__BackingField: {x: 13.410431, y: 14.600428, z: -0.327}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6675725, y: -0.17125873, z: 0.24966335, w: 0.68021005}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 25
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 6.4800043, y: 13.920007, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9926523, w: 0.12100312}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 7.9800043, y: 14.410008, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.37217802, w: 0.92816156}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 11.5700035, y: 11.990005, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.7863964, w: 0.6177225}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 11.960003, y: 12.930006, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.8530961, w: 0.52175415}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 9.470004, y: 15.670009, z: 0.56}
+          rotation: {x: -0.30978546, y: -0.50055724, z: 0.79544675, w: -0.14401445}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 12.9900055, y: 13.520002, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.15901974, w: 0.9872756}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 13.660006, y: 17.270008, z: 0.53}
+          rotation: {x: -0.50988793, y: 0.29417774, z: 0.168515, w: 0.79061794}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 9.270005, y: 13.530007, z: 0}
+        - {x: 12.350007, y: 15.040008, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 8.340003, y: 11.380005, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 11.380004, y: 16.470005, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+  - areaVariants:
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 20
+      spawnableGroup:
+        FixedElements:
+        - name: Plantern_1S
+          position: {x: 4.500006, y: 0.19999981, z: 0.09}
+          rotation: {x: -0, y: -0, z: 0.510543, w: 0.8598523}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 4.460006, y: 0.10999966, z: 0.88}
+          rotation: {x: -0, y: -0, z: 0.4656145, w: 0.8849879}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1L
+          position: {x: 4.7500067, y: 0.42999983, z: 0.15}
+          rotation: {x: -0, y: -0, z: 0.240228, w: 0.97071666}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 5.050007, y: 0.8600006, z: 0.61}
+          rotation: {x: -0, y: -0, z: 0.094108194, w: 0.9955621}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1S
+          position: {x: 6.190012, y: 1.5200019, z: 0.27}
+          rotation: {x: -0, y: -0, z: 0.3288666, w: 0.9443766}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 6.690012, y: 1.670002, z: 0.78}
+          rotation: {x: -0, y: -0, z: 0.02094242, w: 0.9997808}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800086, y: 0.77999926, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1M
+          position: {x: 6.860011, y: 1.8000021, z: 0.25}
+          rotation: {x: -0, y: -0, z: 0.09497699, w: 0.9954796}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1S
+          position: {x: 7.1200123, y: 1.7900009, z: 0.17}
+          rotation: {x: -0, y: -0, z: -0.13312137, w: 0.99109983}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 7.490012, y: 1.5800009, z: 0.78}
+          rotation: {x: -0, y: -0, z: -0.2982079, w: 0.95450103}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints: []
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 7.3800125, y: 4.2600045, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 6.200003, y: 7.570004, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 30
+      spawnableGroup:
+        FixedElements:
+        - name: Rock_05_G2A
+          position: {x: 6.830003, y: 1.1999989, z: -0.4}
+          rotation: {x: 0.13658014, y: -0.9906292, z: 4.330178E-08, w: 5.9701097E-09}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 3.750002, y: 1.1400003, z: 0}
+        - {x: 5.9500017, y: 6.420004, z: 0}
+        - {x: 7.640004, y: 4.2900023, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 3.220002, y: -0.6900003, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 6.0600033, y: 8.520004, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 3
+      maxDifficulty: 40
+      spawnableGroup:
+        FixedElements:
+        - name: Ahopiro_D2
+          position: {x: 4.70806, y: -0.09124613, z: -0.6018511}
+          rotation: {x: -0.66447866, y: 0.0433037, z: 0.059179902, w: 0.74370074}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_S1
+          position: {x: 5.880002, y: 1.5100007, z: -0.1}
+          rotation: {x: -0, y: -0, z: 0.19038072, w: 0.98171055}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800086, y: 0.77999926, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_M1
+          position: {x: 7.2400036, y: 1.9500008, z: -0.06}
+          rotation: {x: -0, y: -0, z: -0, w: 1.0000001}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 7.887871, y: 1.6300049, z: -0.61}
+          rotation: {x: -0.49650663, y: 0.37474626, z: -0.34233242, w: 0.7041699}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Ahopiro_D2
+          position: {x: 8.725779, y: 2.365118, z: -0.5232328}
+          rotation: {x: -0.7960315, y: -0.04622203, z: 0.08380628, w: 0.5976407}
+          scale: {x: 0.8, y: 0.8, z: 0.8}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 6.899001, y: 1.0629992, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.349, y: -0.123, z: -0.627}
+          meshLocalRotation: {x: -0.11393309, y: 0.26867905, z: -0.06886514, w: 0.9539856}
+          meshLocalScale: {x: 0.9, y: 0.9, z: 0.9}
+        PreySpawnpoints:
+        - {x: 3.450001, y: 0.5200002, z: 0}
+        - {x: 6.4100018, y: 5.8300004, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 4.8000007, y: 1.4100003, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 6.9300013, y: 8.340002, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 5
+      maxDifficulty: 50
+      spawnableGroup:
+        FixedElements:
+        - name: Ahopiro_S1
+          position: {x: 2.175001, y: -1.8160009, z: 0.009}
+          rotation: {x: -0, y: -0, z: -0, w: 1.0000001}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 4.70806, y: -0.09124613, z: -0.6018511}
+          rotation: {x: -0.66447866, y: 0.0433037, z: 0.059179902, w: 0.74370074}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_M1
+          position: {x: 5.490002, y: 0.89000034, z: 0}
+          rotation: {x: -0, y: -0, z: 0.10941821, w: 0.99399596}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 6.4800034, y: 1.3900003, z: -0.6103351}
+          rotation: {x: -0.28082237, y: 0.7782041, z: -0.47984448, w: 0.29203895}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Ahopiro_L1
+          position: {x: 6.680003, y: 1.8600006, z: -0.077}
+          rotation: {x: -0, y: -0, z: 0.017452419, w: 0.9998478}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800086, y: 0.77999926, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 7.877475, y: 1.3101025, z: -0.5657906}
+          rotation: {x: -0.7983328, y: -0.05955991, z: -0.08746335, w: 0.59284747}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 8.730003, y: 4.620002, z: -0.5232328}
+          rotation: {x: -0.6465616, y: -0.37559196, z: 0.25294086, w: 0.61392987}
+          scale: {x: 0.8, y: 0.8, z: 0.8}
+        - name: Ahopiro_D1
+          position: {x: 9.130005, y: 3.9000025, z: -0.61}
+          rotation: {x: -0.49650663, y: 0.37474626, z: -0.34233242, w: 0.7041699}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 4.5580006, y: -1.3150005, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.076939225, y: -0.26468801, z: -0.46199933}
+          meshLocalRotation: {x: -0.057218306, y: -0.010248697, z: 0.1450717, w: 0.98771214}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: 9.010001, y: 2.5999994, z: 0}
+          rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.077, y: -0.265, z: -0.584}
+          meshLocalRotation: {x: -0.08986029, y: -0.008436777, z: 0.2103579, w: 0.97344935}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: 3.3200006, y: 0.58000016, z: 0}
+        - {x: 7.510002, y: 4.5000005, z: 0}
+        - {x: 5.930001, y: 9.270002, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 4.3200006, y: 1.2000003, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 5.9800005, y: 6.1000023, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 6.9800024, y: 8.230001, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 6
+      maxDifficulty: 30
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao_45Degrees
+          position: {x: 4.4500017, y: 0.52000046, z: 0.39}
+          rotation: {x: 0.5007924, y: -0.30940536, z: -0.14461839, w: -0.79533714}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800086, y: 0.77999926, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 7.965981, y: 5.2125683, z: 0.5}
+          rotation: {x: -0.58265615, y: 0.08390103, z: 0.44993773, w: 0.67158675}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 4.870002, y: 2.9000015, z: 0}
+        - {x: 6.820003, y: 7.770004, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 7.240004, y: 3.340002, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 5.900002, y: 8.650003, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 8
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao_45Degrees
+          position: {x: 3.990002, y: -0.26941705, z: 0.39}
+          rotation: {x: 0.5324835, y: -0.25096995, z: -0.23336762, w: -0.77396077}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 4.410002, y: 3.880004, z: 0.39}
+          rotation: {x: -0.22465236, y: -0.5441101, z: 0.7616338, w: -0.27090544}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800086, y: 0.77999926, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 7.5900044, y: 6.6300035, z: 0.39}
+          rotation: {x: 0.5886639, y: 0.0010128617, z: -0.5420972, w: -0.59967065}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 3.9600022, y: 1.9700012, z: 0}
+        - {x: 7.2700033, y: 4.5500026, z: 0}
+        - {x: 6.1100035, y: 8.3200035, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 7.2800045, y: 2.770001, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 10
+      maxDifficulty: 30
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 0.9900007, y: 1.3400005, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9999758, w: -0.0069812834}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 2.3200014, y: 1.920001, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.3987492, w: 0.91706014}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 5.6700025, y: 1.2000003, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.91319036, w: 0.4075338}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800086, y: 0.77999926, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 4.690003, y: 5.1900024, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.87852556, w: 0.47769552}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 7.0300045, y: 1.710001, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.052335948, w: 0.9986297}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 8.040003, y: 6.4100046, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.48938257, w: 0.8720694}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 7.800004, y: 7.750004, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.553537, w: 0.8328247}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 3.7900019, y: 1.8100007, z: 0}
+        - {x: 6.760003, y: 4.950002, z: 0}
+        - {x: 6.6900034, y: 8.860003, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 3.1400018, y: -0.20000005, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 5.0700026, y: 3.7600017, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 7.5900044, y: 3.340002, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 15
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao_45Degrees
+          position: {x: 4.650002, y: 0.6800003, z: 0.39}
+          rotation: {x: 0.51589024, y: -0.28351817, z: -0.18490633, w: -0.7869464}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800086, y: 0.77999926, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 7.980004, y: 5.2000027, z: 0.39}
+          rotation: {x: 0.58383846, y: -0.07522467, z: -0.4598783, w: -0.6648205}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 5.3800025, y: 8.480003, z: 0.39}
+          rotation: {x: -0.041735917, y: -0.58718204, z: 0.63695633, w: -0.49775723}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 2.6300013, y: -0.1400001, z: 0}
+        - {x: 7.260004, y: 2.7000008, z: 0}
+        - {x: 6.290003, y: 6.9400034, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 5.9400024, y: 2.4900012, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 15
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 1.5400009, y: -1.5000014, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.99974275, w: -0.022687286}
+          scale: {x: 1.0000013, y: 1.0000013, z: 1}
+        - name: Kinateko2
+          position: {x: 3.1200023, y: -1.4700011, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.1123361, w: 0.9936704}
+          scale: {x: 1.0000002, y: 1.0000002, z: 1}
+        - name: Kinateko2
+          position: {x: 3.090003, y: 2.580001, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.99886847, w: 0.047562808}
+          scale: {x: 1.0000011, y: 1.0000011, z: 1}
+        - name: Kinateko1
+          position: {x: 4.1400027, y: 3.0400019, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.35549563, w: 0.93467814}
+          scale: {x: 1.0000001, y: 1.0000001, z: 1}
+        - name: Kinateko2
+          position: {x: 4.610003, y: 4.2000017, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.6225148, w: 0.78260833}
+          scale: {x: 1.0000005, y: 1.0000005, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800086, y: 0.77999926, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 7.8200045, y: 2.3300009, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.7699567, w: 0.6380962}
+          scale: {x: 1.0000002, y: 1.0000002, z: 1}
+        - name: Kinateko2
+          position: {x: 8.350006, y: 3.7000017, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.45243472, w: 0.8917976}
+          scale: {x: 1.0000002, y: 1.0000002, z: 1}
+        - name: Kinateko2
+          position: {x: 7.880006, y: 6.4100037, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.52324253, w: 0.852184}
+          scale: {x: 1.0000004, y: 1.0000004, z: 1}
+        - name: Kinateko2
+          position: {x: 7.6400056, y: 7.730004, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.52093524, w: 0.8535964}
+          scale: {x: 1.0000002, y: 1.0000002, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 3.5900016, y: 0.64000034, z: 0}
+        - {x: 7.320004, y: 4.8100014, z: 0}
+        - {x: 6.2400026, y: 8.980003, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 6.290004, y: 2.650001, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 5.710002, y: 5.3300023, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 20
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 1.0600005, y: 1.3700006, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.9999986, w: 0.0017452836}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 2.2900014, y: 1.9800012, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.44775915, w: 0.8941544}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 5.4800024, y: 1.1000004, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.90408266, w: 0.42735794}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800086, y: 0.77999926, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 6.7800045, y: 1.6899996, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.0043632984, w: 0.9999907}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 5.130003, y: 5.7900023, z: 0.49}
+          rotation: {x: -0.26653796, y: -0.52486426, z: 0.7804955, w: -0.21048018}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 8.040003, y: 6.310004, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.47024202, w: 0.8825377}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 7.8200035, y: 7.810004, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.55991626, w: 0.8285494}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 3.840002, y: 1.3300009, z: 0}
+        - {x: 7.6100035, y: 3.9600024, z: 0}
+        - {x: 5.990002, y: 8.140003, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 3.1600018, y: -0.8400004, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 4.670002, y: 3.3300014, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 25
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: 1.740001, y: -1.5900015, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.99915916, w: -0.041003764}
+          scale: {x: 1.0000011, y: 1.0000011, z: 1}
+        - name: Kinateko2
+          position: {x: 3.1700017, y: -1.5300008, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.12619898, w: 0.9920051}
+          scale: {x: 1.0000001, y: 1.0000001, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 4.5500016, y: 0.5800004, z: 0.56}
+          rotation: {x: -0.5102805, y: 0.29349732, z: 0.16956985, w: 0.79039204}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 4.1800017, y: 3.6700015, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.95265687, w: 0.30404803}
+          scale: {x: 1.0000005, y: 1.0000005, z: 1}
+        - name: Kinateko2
+          position: {x: 4.650001, y: 4.9100018, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.6927843, w: 0.72114515}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: 6.9800053, y: 0.7799988, z: -0.4}
+          rotation: {x: -0.07062703, y: 0.99750286, z: -1.1895102E-08, w: -8.4221874E-10}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 8.110003, y: 2.38, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.72236407, w: 0.6915132}
+          scale: {x: 1.0000004, y: 1.0000004, z: 1}
+        - name: Kinateko2
+          position: {x: 8.590004, y: 3.8400002, z: 0.85}
+          rotation: {x: -0, y: -0, z: 0.47945786, w: 0.877565}
+          scale: {x: 1.0000005, y: 1.0000005, z: 1}
+        - name: Mahamakao_45Degrees
+          position: {x: 7.610004, y: 6.870003, z: 0.53}
+          rotation: {x: -0.57588077, y: 0.12202242, z: 0.4048148, w: 0.69971216}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: 2.1200006, y: 0.09000015, z: 0}
+        - {x: 5.4800024, y: 2.040001, z: 0}
+        - {x: 6.610003, y: 4.7800026, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 6.630004, y: 2.6000009, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 5.8800025, y: 9.300003, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []

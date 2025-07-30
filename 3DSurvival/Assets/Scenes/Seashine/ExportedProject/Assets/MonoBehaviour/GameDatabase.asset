@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495c05e5e5f1dbc1ad9528898183b335, type: 3}
+  m_Name: GameDatabase
+  m_EditorClassIdentifier:
+  jellyfishes:
+  - name: Karumoana
+    localizationKey:
+    price: 150
+    size: 0
+    speed: 0
+    resistance: 0
+    brightness: 0
+    lifetime: 0
+    secretJellyfish: 0
+    poisonImmunity: 0
+  - name: Karuirapa
+    localizationKey:
+    price: 150
+    size: 0
+    speed: 0.8
+    resistance: -0.2
+    brightness: 0.2
+    lifetime: -0.3
+    secretJellyfish: 0
+    poisonImmunity: 0
+  - name: Mahanaiti
+    localizationKey:
+    price: 130
+    size: -0.8
+    speed: -0.7
+    resistance: -0.5
+    brightness: 0.7
+    lifetime: 0.1
+    secretJellyfish: 0
+    poisonImmunity: 0
+  - name: Rimakopi
+    localizationKey:
+    price: 160
+    size: 0
+    speed: 0.1
+    resistance: -0.68
+    brightness: -0.5
+    lifetime: 0.6
+    secretJellyfish: 0
+    poisonImmunity: 0
+  - name: Manawanui
+    localizationKey:
+    price: 170
+    size: -0.1
+    speed: 0
+    resistance: -1
+    brightness: -0.3
+    lifetime: 0.85
+    secretJellyfish: 0
+    poisonImmunity: 0
+  - name: Kirimiru
+    localizationKey:
+    price: 150
+    size: 0.35
+    speed: -0.2
+    resistance: 0.8
+    brightness: -0.5
+    lifetime: -0.1
+    secretJellyfish: 0
+    poisonImmunity: 0
+  - name: Maikopunga
+    localizationKey:
+    price: 200
+    size: 1
+    speed: -0.2
+    resistance: 0.3
+    brightness: 0
+    lifetime: 0.8
+    secretJellyfish: 0
+    poisonImmunity: 0
+  abilities:
+  - name: Antidote
+    id: AP
+    price: 50
+  - name: Antiparasite
+    id: APa
+    price: 100
+  - name: SpeedBoost
+    id: SB
+    price: 100
+  - name: Magnet
+    id: PM
+    price: 150
+  - name: Shockwave
+    id: SW
+    price: 200
+  - name: Stun
+    id: SF
+    price: 200
+  - name: Supersense
+    id: SS
+    price: 300
+  - name: LightBoost
+    id: LB
+    price: 400
+  lifeforms:
+  - {fileID: 11400000, guid: 8589ac121a84ee549be7e2d9921f4773, type: 2}
+  - {fileID: 11400000, guid: 1cb3490a2662375439f0e44ece41ee7b, type: 2}
+  - {fileID: 11400000, guid: be3ebad173d75434bb827aac63fa251f, type: 2}
+  - {fileID: 11400000, guid: caaa06e3160fc3c459b9c96ff9c87e9f, type: 2}
+  - {fileID: 11400000, guid: b00d928fd3117ea4498128a39d31f063, type: 2}
+  - {fileID: 11400000, guid: 853cfc29eb6b5e0438bfc97ae53efd15, type: 2}
+  - {fileID: 11400000, guid: 59bdc4b5e0cb5624ca546ebda47b2b8e, type: 2}
+  - {fileID: 11400000, guid: 67cf4800f81ead64889d34753e0e0467, type: 2}
+  - {fileID: 11400000, guid: 9b145308c29289844b86359c4c5dfb4d, type: 2}
+  - {fileID: 11400000, guid: 6777eed671640064f929a82d2a9b629b, type: 2}
+  - {fileID: 11400000, guid: 163dbdbe7e7378e4f9bd1057683c7765, type: 2}
+  - {fileID: 11400000, guid: c6bf62eb846e31647b7b2174afd07aee, type: 2}
+  - {fileID: 11400000, guid: 9cd9c76adf79177428d9a9371958151f, type: 2}
+  - {fileID: 11400000, guid: d3912d6d7dd14c149964d1eac18efc95, type: 2}
+  - {fileID: 11400000, guid: c2a381b6dcc39a243b8b832cde9ade99, type: 2}
+  - {fileID: 11400000, guid: ba8fecbbe3e958341a462e47db9523f8, type: 2}
+  - {fileID: 11400000, guid: c8f7db464c23a6b45848e3e803c38db0, type: 2}
+  - {fileID: 11400000, guid: 53b36888e9de5f34cb2e1f2f151eb274, type: 2}
+  - {fileID: 11400000, guid: b14ef67d402b401409a001544fe797bc, type: 2}
+  - {fileID: 11400000, guid: d68f4ca54761b9f4d9a7ce50b6fc6250, type: 2}
+  - {fileID: 11400000, guid: 4abdda0a9ee9b74499ecf23804b6e6d4, type: 2}
+  - {fileID: 11400000, guid: 681ec0056bf38cd4b9aa31dae5a9618e, type: 2}
+  - {fileID: 11400000, guid: 5b09e324b10eab94fbf7af1d4515d37c, type: 2}
+  - {fileID: 11400000, guid: 93d5e1e925a764c49a2eddd63fc71944, type: 2}
+  - {fileID: 11400000, guid: b7dc6951c6115104c8ca487d45d7de01, type: 2}
+  - {fileID: 11400000, guid: b4dac79a22f465044b8cd449a7a0c181, type: 2}
+  - {fileID: 11400000, guid: 72a5115c777761c40b83ea5315036018, type: 2}
+  - {fileID: 11400000, guid: 8bfae1e8a06a65c40a4240f5c29bbf6d, type: 2}
+  - {fileID: 11400000, guid: f5769f3560f65594e9dca47692425436, type: 2}
+  - {fileID: 11400000, guid: bc44f4e3d1a4c2f4f8bebc5b31b1f6fd, type: 2}
+  - {fileID: 11400000, guid: 99be3969ed8f6874abf004e6104fe7b8, type: 2}
+  - {fileID: 11400000, guid: af35d7663b419d544bb0233264700940, type: 2}
+  - {fileID: 11400000, guid: 41f6d9768c0d8e348b28d3c8bb243733, type: 2}
+  - {fileID: 11400000, guid: d18928343e07e604db909a8a7d32f770, type: 2}
+  - {fileID: 11400000, guid: 818d23f18438f3444b66b19daf4954cb, type: 2}
+  - {fileID: 11400000, guid: 34a7e36fa41339247958ed567a7cb889, type: 2}
+  - {fileID: 11400000, guid: 0674d1ec76725534cad0e304a02c1bb0, type: 2}
+  - {fileID: 11400000, guid: 2ffde411d142ccf48b6051759b6593ec, type: 2}
+  - {fileID: 11400000, guid: fbd85e6855f24df4592621ddda1579b2, type: 2}
+  - {fileID: 11400000, guid: 84b9fe983693a6849b50a3a76707900b, type: 2}
+  - {fileID: 11400000, guid: fd9d9c6d612aacc46996c316ef441516, type: 2}
+  - {fileID: 11400000, guid: 1b375c62745ffd14ba6e0c7989e9bea5, type: 2}
+  - {fileID: 11400000, guid: cbebaad75528471409b54cb1f99bbd92, type: 2}
+  - {fileID: 11400000, guid: 8cf4d88cbd6fb524290444902d3226c8, type: 2}
+  - {fileID: 11400000, guid: 1861e5934ab73684ba90d73816fb46af, type: 2}
+  - {fileID: 11400000, guid: 629babd80f8bf2249bb1fda762bd8cb5, type: 2}
+  - {fileID: 11400000, guid: 8b71f1375fee5cf4791b2adeb580bd02, type: 2}
+  - {fileID: 11400000, guid: 96918ac617414bf45a05eef1a552db48, type: 2}
+  - {fileID: 11400000, guid: 3fb2bae7f54033347ae5a200843281c4, type: 2}
+  - {fileID: 11400000, guid: 0df096dee81e9a644af5d8c00fbde16b, type: 2}
+  - {fileID: 11400000, guid: cbb80f2df26e27841897119872e606d0, type: 2}
+  - {fileID: 11400000, guid: 5f2fe413581edb847bea4527c694fcd4, type: 2}
+  - {fileID: 11400000, guid: 48bd4dd1dc39fc1498b52bc77be5eddd, type: 2}
+  - {fileID: 11400000, guid: fa379aafb26fbf34d921bb6a3117d7ee, type: 2}
+  - {fileID: 11400000, guid: 220e759a72006574c999154c707be587, type: 2}
+  - {fileID: 11400000, guid: 1c0b687645bf9794a980e8e80735cffc, type: 2}
+  - {fileID: 11400000, guid: 4dc47e43f66bbe74f955e50dc3b3bcaf, type: 2}
+  - {fileID: 11400000, guid: d799d7feb3d04d049a007b54acf6a008, type: 2}
+  - {fileID: 11400000, guid: 19df701a683564a4abdcc86eed45392b, type: 2}
+  kohatoraPieces:
+  - name: AnaheraHead_3x1
+    xSize: 3
+    ySize: 1
+  - name: AnaheraLeftWing_2x2
+    xSize: 2
+    ySize: 2
+  - name: FeetFin_3x1
+    xSize: 3
+    ySize: 1
+  - name: MatakohatuJaw_2x1
+    xSize: 2
+    ySize: 1
+  - name: MatakohatuShield_1x3
+    xSize: 1
+    ySize: 3
+  - name: MatakohatuSkull_2x2
+    xSize: 2
+    ySize: 2
+  - name: ReptileHead_1x2
+    xSize: 1
+    ySize: 2
+  - name: Sun_2x2
+    xSize: 2
+    ySize: 2
+  - name: RightWing_1x2
+    xSize: 1
+    ySize: 2
+  kohatoraRecipes:
+  - target: Anahera
+    type: 112090605
+    recipe:
+    - piece: AnaheraHead_3x1
+      slot: 0
+    - piece: AnaheraLeftWing_2x2
+      slot: 3
+    - piece: RightWing_1x2
+      slot: 5
+  - target: Honumara
+    type: 112090605
+    recipe:
+    - piece: ReptileHead_1x2
+      slot: 0
+    - piece: Sun_2x2
+      slot: 1
+    - piece: FeetFin_3x1
+      slot: 6
+  - target: Matakohatu
+    type: 112090605
+    recipe:
+    - piece: MatakohatuSkull_2x2
+      slot: 0
+    - piece: MatakohatuShield_1x3
+      slot: 2
+    - piece: MatakohatuJaw_2x1
+      slot: 6

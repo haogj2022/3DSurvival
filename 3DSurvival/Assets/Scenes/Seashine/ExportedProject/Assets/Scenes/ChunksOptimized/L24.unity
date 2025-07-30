@@ -1,0 +1,4121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!104 &135
+RenderSettings:
+  serializedVersion: 9
+  m_ObjectHideFlags: 0
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &136
+LightmapSettings:
+  serializedVersion: 12
+  m_ObjectHideFlags: 0
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 112000000, guid: 9336f93e79232614f9d3cf22ee5d8ab7, type: 2}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &137
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &1
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 45}
+  - component: {fileID: 138}
+  - component: {fileID: 103}
+  m_Layer: 19
+  m_Name: 24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &2
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 46}
+  - component: {fileID: 108}
+  m_Layer: 19
+  m_Name: BottomBoulderFilter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 47}
+  m_Layer: 0
+  m_Name: SP2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 48}
+  m_Layer: 0
+  m_Name: SP3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 49}
+  - component: {fileID: 139}
+  - component: {fileID: 109}
+  m_Layer: 19
+  m_Name: BoulderSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 50}
+  m_Layer: 0
+  m_Name: SP1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 51}
+  m_Layer: 0
+  m_Name: SP4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &8
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 52}
+  m_Layer: 19
+  m_Name: BoulderSMax
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &9
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 53}
+  - component: {fileID: 110}
+  - component: {fileID: 93}
+  m_Layer: 17
+  m_Name: BoulderBlocker1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &10
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 54}
+  - component: {fileID: 111}
+  - component: {fileID: 142}
+  m_Layer: 19
+  m_Name: Boundaries
+  m_TagString: ChunkZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &11
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 55}
+  m_Layer: 0
+  m_Name: SP5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &12
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 56}
+  - component: {fileID: 94}
+  - component: {fileID: 112}
+  m_Layer: 8
+  m_Name: InvisibleWall
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &13
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 57}
+  - component: {fileID: 95}
+  - component: {fileID: 113}
+  m_Layer: 8
+  m_Name: InvisibleWall
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &14
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 58}
+  m_Layer: 0
+  m_Name: Boulders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &15
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 59}
+  - component: {fileID: 96}
+  - component: {fileID: 114}
+  m_Layer: 8
+  m_Name: InvisibleWall
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &16
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 60}
+  - component: {fileID: 140}
+  m_Layer: 19
+  m_Name: L24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &17
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 61}
+  - component: {fileID: 115}
+  m_Layer: 15
+  m_Name: BoulderCleaner
+  m_TagString: Cleaner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &18
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 62}
+  - component: {fileID: 97}
+  - component: {fileID: 116}
+  m_Layer: 8
+  m_Name: InvisibleWall
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &19
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 66}
+  - component: {fileID: 91}
+  - component: {fileID: 89}
+  m_Layer: 8
+  m_Name: Rock_03
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &20
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 65}
+  - component: {fileID: 119}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &21
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 71}
+  - component: {fileID: 123}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &22
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 63}
+  - component: {fileID: 104}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &23
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 70}
+  - component: {fileID: 122}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &24
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 69}
+  - component: {fileID: 121}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &25
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 64}
+  - component: {fileID: 118}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &26
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 68}
+  - component: {fileID: 105}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &27
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 67}
+  - component: {fileID: 120}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &28
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 77}
+  - component: {fileID: 92}
+  - component: {fileID: 90}
+  m_Layer: 8
+  m_Name: Rock_01
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &29
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 76}
+  - component: {fileID: 126}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &30
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 74}
+  - component: {fileID: 107}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &31
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 73}
+  - component: {fileID: 124}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &32
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 72}
+  - component: {fileID: 106}
+  m_Layer: 8
+  m_Name: 2DCol_Circ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &33
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 75}
+  - component: {fileID: 125}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &34
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 79}
+  - component: {fileID: 128}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &35
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 78}
+  - component: {fileID: 127}
+  m_Layer: 8
+  m_Name: 2DCol_Sqr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &36
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 80}
+  - component: {fileID: 141}
+  - component: {fileID: 117}
+  m_Layer: 19
+  m_Name: Exit_Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &37
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 81}
+  - component: {fileID: 129}
+  - component: {fileID: 98}
+  m_Layer: 17
+  m_Name: BoulderBlocker2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &38
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 82}
+  - component: {fileID: 130}
+  m_Layer: 16
+  m_Name: TopBoulderFilter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &39
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 83}
+  m_Layer: 19
+  m_Name: Misc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &40
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 84}
+  - component: {fileID: 99}
+  - component: {fileID: 131}
+  m_Layer: 8
+  m_Name: InvisibleWall
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &41
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 85}
+  - component: {fileID: 132}
+  - component: {fileID: 100}
+  m_Layer: 17
+  m_Name: BoulderBlocker4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &42
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 86}
+  - component: {fileID: 101}
+  - component: {fileID: 133}
+  m_Layer: 8
+  m_Name: InvisibleWall
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &43
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 87}
+  - component: {fileID: 134}
+  - component: {fileID: 102}
+  m_Layer: 17
+  m_Name: BoulderBlocker3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &44
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 88}
+  m_Layer: 19
+  m_Name: BoulderSMin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &45
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 54}
+  - {fileID: 80}
+  - {fileID: 83}
+  m_Father: {fileID: 60}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &46
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_LocalRotation: {x: 0, y: 0, z: -0.9918501, w: 0.12741086}
+  m_LocalPosition: {x: -6.5, y: 26.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 165.36}
+--- !u!4 &47
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.79, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 49}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &48
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.22, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 49}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &49
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 7.2, y: -1.42, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 50}
+  - {fileID: 47}
+  - {fileID: 48}
+  - {fileID: 51}
+  - {fileID: 55}
+  m_Father: {fileID: 58}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+--- !u!4 &50
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.58, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 49}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &51
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.01, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 49}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &52
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -53.3, y: -1.8, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 58}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+--- !u!4 &53
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_LocalRotation: {x: 0, y: 0, z: 0.04527583, w: -0.99897456}
+  m_LocalPosition: {x: -10.36, y: 19.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.1900015}
+--- !u!4 &54
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 31.2, y: 15.51, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 45}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 90}
+--- !u!4 &55
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.85, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 49}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &56
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_LocalRotation: {x: 0, y: 0, z: -0.811472, w: -0.5843913}
+  m_LocalPosition: {x: -4.01, y: 28.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -108.48}
+--- !u!4 &57
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_LocalRotation: {x: 0, y: 0, z: 0.6538063, w: -0.75666195}
+  m_LocalPosition: {x: -9.280008, y: -38.380024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 81.6584}
+--- !u!4 &58
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: -0.7071068}
+  m_LocalPosition: {x: -7.92, y: 16.220001, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 49}
+  - {fileID: 52}
+  - {fileID: 88}
+  m_Father: {fileID: 83}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+--- !u!4 &59
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_LocalRotation: {x: 0, y: 0, z: -0.6839107, w: -0.7295658}
+  m_LocalPosition: {x: -9.21, y: 27.64, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -86.299995}
+--- !u!4 &60
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 45}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+--- !u!4 &61
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7880107, w: 0.6156615}
+  m_LocalPosition: {x: -6.84, y: 29.13, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -103.99999}
+--- !u!4 &62
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7031372, w: -0.71105427}
+  m_LocalPosition: {x: -2.6400023, y: -37.380024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.35849}
+--- !u!4 &63
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22}
+  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -4.2751125E-08, w: -9.111899E-09}
+  m_LocalPosition: {x: 0.50613785, y: -0.22626114, z: -1.4445654E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 66}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -4.5736388E-06, z: -24.063765}
+--- !u!4 &64
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25}
+  m_LocalRotation: {x: 0.99346477, y: -0.113663815, z: 0.0101369135, w: 0.0023781885}
+  m_LocalPosition: {x: 0.660347, y: 0.3937664, z: 3.16776E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 66}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850734, z: 13.052399}
+--- !u!4 &65
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20}
+  m_LocalRotation: {x: 0.99750805, y: 0.07055326, z: 2.4165926E-11, w: -3.6314118E-10}
+  m_LocalPosition: {x: -0.439888, y: -0.011802673, z: 8.653908E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 66}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: 5.698237E-09, z: -8.091531}
+--- !u!4 &66
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19}
+  m_LocalRotation: {x: -0.77381223, y: -0.63341504, z: 3.3824413E-08, w: -2.7687445E-08}
+  m_LocalPosition: {x: -2.3290672, y: -0.92152977, z: -0.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 65}
+  - {fileID: 71}
+  - {fileID: 63}
+  - {fileID: 70}
+  - {fileID: 69}
+  - {fileID: 64}
+  - {fileID: 68}
+  - {fileID: 67}
+  m_Father: {fileID: 80}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: -5.008956E-06, z: -78.60506}
+--- !u!4 &67
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27}
+  m_LocalRotation: {x: 0.86077476, y: -0.50887954, z: 0.008285825, w: 0.0063048964}
+  m_LocalPosition: {x: -0.9676895, y: -0.3799553, z: 1.1440043E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 66}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 179.86125, y: 1.185037, z: 61.180687}
+--- !u!4 &68
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26}
+  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -4.2751125E-08, w: -9.111899E-09}
+  m_LocalPosition: {x: 0.17569351, y: -0.08924866, z: 1.44427075E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 66}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -180, y: -4.5736388E-06, z: -24.063765}
+--- !u!4 &69
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24}
+  m_LocalRotation: {x: 0.9386858, y: -0.34461677, z: 0.009290802, w: 0.0047004335}
+  m_LocalPosition: {x: 1.1761589, y: 0.192276, z: -1.341611E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 66}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850748, z: 40.31765}
+--- !u!4 &70
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23}
+  m_LocalRotation: {x: 0.9612439, y: -0.2755027, z: 0.0096076485, w: 0.004012931}
+  m_LocalPosition: {x: 1.0472107, y: 0.26481247, z: -6.174774E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 66}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850605, z: 31.984291}
+--- !u!4 &71
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21}
+  m_LocalRotation: {x: 0.96189946, y: -0.27320525, z: 0.009617076, w: 0.0039904015}
+  m_LocalPosition: {x: 0.27348328, y: 0.64361, z: 5.893655E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 66}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 179.8612, y: 1.1850595, z: 31.7105}
+--- !u!4 &72
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.29808044, y: -0.23303318, z: -2.3359421E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 77}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &73
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31}
+  m_LocalRotation: {x: -0.045642883, y: 0.9989579, z: -2.3828033E-08, w: 4.266828E-08}
+  m_LocalPosition: {x: -0.35362244, y: -0.6566744, z: 2.7591817E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 77}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -4.7597014E-06, z: 174.7679}
+--- !u!4 &74
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7829437, y: -0.24689388, z: 1.6864615E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 77}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &75
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33}
+  m_LocalRotation: {x: 0.40862295, y: 0.9127033, z: -2.0862987E-09, w: 4.8826276E-08}
+  m_LocalPosition: {x: 0.1254425, y: 0.030004501, z: -2.014733E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 77}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 180, y: -5.2043374E-06, z: -131.76328}
+--- !u!4 &76
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29}
+  m_LocalRotation: {x: 3.388701E-09, y: -1.6943505E-09, z: -0.03876222, w: 0.9992485}
+  m_LocalPosition: {x: -0.4780655, y: -0.054138184, z: -9.625035E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 77}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.9555073E-07, y: 1.7896035E-07, z: 4.4429364}
+--- !u!4 &77
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28}
+  m_LocalRotation: {x: -0.8425124, y: -0.53867704, z: -2.505426E-08, w: 4.1960003E-08}
+  m_LocalPosition: {x: 2.4772816, y: -0.94959927, z: -0.44}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 76}
+  - {fileID: 74}
+  - {fileID: 73}
+  - {fileID: 72}
+  - {fileID: 75}
+  - {fileID: 79}
+  - {fileID: 78}
+  m_Father: {fileID: 80}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -180, y: 5.008959E-06, z: -65.18725}
+--- !u!4 &78
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35}
+  m_LocalRotation: {x: 0.2734203, y: 0.9618947, z: -9.071296E-09, w: 4.802154E-08}
+  m_LocalPosition: {x: -0.78884125, y: -0.56801987, z: -4.4133756E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 77}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 180, y: -5.5773935E-06, z: -148.2642}
+--- !u!4 &79
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34}
+  m_LocalRotation: {x: -0.16481131, y: 0.98632514, z: -2.876095E-08, w: 3.9511594E-08}
+  m_LocalPosition: {x: -0.2733307, y: 0.33691406, z: 2.0982336E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 77}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -180, y: -3.9226E-06, z: 161.02745}
+--- !u!4 &80
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 66.05, y: 6.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 66}
+  - {fileID: 77}
+  m_Father: {fileID: 45}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 90}
+--- !u!4 &81
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37}
+  m_LocalRotation: {x: 0, y: 0, z: 0.07758909, w: 0.99698544}
+  m_LocalPosition: {x: -10.08, y: -2.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -8.9}
+--- !u!4 &82
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7378666, w: 0.6749466}
+  m_LocalPosition: {x: -6.28, y: -33.92, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -95.09999}
+--- !u!4 &83
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 25.36, y: 23.88, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 53}
+  - {fileID: 81}
+  - {fileID: 87}
+  - {fileID: 85}
+  - {fileID: 82}
+  - {fileID: 86}
+  - {fileID: 62}
+  - {fileID: 57}
+  - {fileID: 46}
+  - {fileID: 61}
+  - {fileID: 56}
+  - {fileID: 59}
+  - {fileID: 84}
+  - {fileID: 58}
+  m_Father: {fileID: 45}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+--- !u!4 &84
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: -0.7071068}
+  m_LocalPosition: {x: -7.24, y: 29.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -90}
+--- !u!4 &85
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41}
+  m_LocalRotation: {x: 0, y: 0, z: -0.9932215, w: 0.11623735}
+  m_LocalPosition: {x: -11.340004, y: -33.780025, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 166.65001}
+--- !u!4 &86
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071069, w: -0.70710677}
+  m_LocalPosition: {x: -5.8200035, y: -41.040028, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.00001}
+--- !u!4 &87
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43}
+  m_LocalRotation: {x: 0, y: 0, z: -0.05233596, w: 0.9986295}
+  m_LocalPosition: {x: -2.2500103, y: -13.520001, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 6}
+--- !u!4 &88
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 7.8, y: -1.6, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 58}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+--- !u!23 &89
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 414d687c0479164478142a5aa58cdac1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!23 &90
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 414d687c0479164478142a5aa58cdac1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &91
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19}
+  m_Mesh: {fileID: 4300000, guid: 6d134cff5e91aa648a113c818d8eedd3, type: 2}
+--- !u!33 &92
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28}
+  m_Mesh: {fileID: 4300000, guid: ab07040e818108b4fb4f33e2fb239989, type: 2}
+--- !u!50 &93
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &94
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &95
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &96
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &97
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &98
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &99
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &100
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &101
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &102
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &103
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 5.93, y: 16}
+  m_Radius: 3.6
+--- !u!58 &104
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.7
+--- !u!58 &105
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.85
+--- !u!58 &106
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.75
+--- !u!58 &107
+CircleCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.4
+--- !u!61 &108
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 8, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &109
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 40, y: 40}
+  m_EdgeRadius: 0
+--- !u!61 &110
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 3.77}
+  m_EdgeRadius: 0
+--- !u!61 &111
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 38, y: 70}
+  m_EdgeRadius: 0
+--- !u!61 &112
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &113
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 7, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &114
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &115
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 7}
+  m_EdgeRadius: 0
+--- !u!61 &116
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 8, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &117
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -7.65, y: -9.3}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 4}
+  m_EdgeRadius: 0
+--- !u!61 &118
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.63, y: 0.43}
+  m_EdgeRadius: 0
+--- !u!61 &119
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.19, y: 1.85}
+  m_EdgeRadius: 0
+--- !u!61 &120
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.81, y: 0.34}
+  m_EdgeRadius: 0
+--- !u!61 &121
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.17, y: 0.31}
+  m_EdgeRadius: 0
+--- !u!61 &122
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.32, y: 0.43}
+  m_EdgeRadius: 0
+--- !u!61 &123
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.81, y: 0.34}
+  m_EdgeRadius: 0
+--- !u!61 &124
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.69, y: 0.44}
+  m_EdgeRadius: 0
+--- !u!61 &125
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.41, y: 1.4}
+  m_EdgeRadius: 0
+--- !u!61 &126
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.21, y: 1.22}
+  m_EdgeRadius: 0
+--- !u!61 &127
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.57, y: 0.44}
+  m_EdgeRadius: 0
+--- !u!61 &128
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.28, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &129
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 3.77}
+  m_EdgeRadius: 0
+--- !u!61 &130
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 7}
+  m_EdgeRadius: 0
+--- !u!61 &131
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 5}
+  m_EdgeRadius: 0
+--- !u!61 &132
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 3.77}
+  m_EdgeRadius: 0
+--- !u!61 &133
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 8}
+  m_EdgeRadius: 0
+--- !u!61 &134
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 3.77}
+  m_EdgeRadius: 0
+--- !u!114 &138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd5c6c7632f5fae881efee50f03308a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  chunkType: 0
+  generateReturn: 0
+  returnProbability: 0
+  doorElements:
+  - name: Rock_23
+    position: {x: 0.34000003, y: -0.15999997, z: -0.4}
+    rotation: {x: -0.7412149, y: 0.671268, z: -2.9342058E-08, w: -3.239953E-08}
+    scale: {x: 1, y: 1, z: 1}
+  chunkBoundaries:
+    serializedVersion: 2
+    x: -32.90004
+    y: 66.05001
+    width: 32.90004
+    height: -70.280014
+  chunkOrientation: 0
+  safeRevivePosition: {x: 0, y: 0}
+  spawnpoints:
+    FixedElements:
+    - name: Rock_05
+      position: {x: -1.0163232, y: -2.3925886, z: -0.34}
+      rotation: {x: -0.17650518, y: 0.9842998, z: 7.715299E-09, w: 4.3025132E-08}
+      scale: {x: 1.0000013, y: 1.0000001, z: 1.0000007}
+    - name: Rock_04
+      position: {x: -1.0586687, y: 2.4984574, z: -0.4}
+      rotation: {x: 0.947253, y: -0.32048702, z: 4.841025E-08, w: -6.693968E-09}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000007}
+    - name: Rock_23
+      position: {x: -3.9100046, y: 3.409996, z: -0.23}
+      rotation: {x: -0.15550107, y: -0.9878358, z: -4.123375E-08, w: 1.4507829E-08}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000007}
+    - name: Rock_34
+      position: {x: -4.920004, y: -2.2900035, z: -0.3}
+      rotation: {x: 0.18480918, y: 0.9827745, z: 4.2958433E-08, w: -8.0782705E-09}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuadMask
+      position: {x: -5.2700043, y: -3.9000044, z: -0.05}
+      rotation: {x: -0, y: -0, z: -0.98525906, w: -0.17106938}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_22_D
+      position: {x: -5.140004, y: 2.849996, z: 3.81}
+      rotation: {x: 0.97779804, y: 0.04679078, z: 0.0030805394, w: 0.20423585}
+      scale: {x: 1.5000005, y: 1.4999996, z: 1.5000007}
+    - name: QuadMask
+      position: {x: -2.080005, y: 6.8499975, z: 0.06}
+      rotation: {x: -0, y: -0, z: -0.7071069, w: 0.70710677}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Border_08
+      position: {x: -7.0299973, y: 3.5500011, z: 1}
+      rotation: {x: -0.91343904, y: -0.40697572, z: -3.992769E-08, w: -1.7789477E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_33_D
+      position: {x: -7.090003, y: 0.3799982, z: 3.6}
+      rotation: {x: -0.5174955, y: -0.81821644, z: -0.21922956, w: -0.12107323}
+      scale: {x: 1.5000007, y: 1.5000002, z: 1.5000004}
+    - name: Rock_23
+      position: {x: -8.240004, y: 1.2499971, z: -0.4}
+      rotation: {x: 0.56568694, y: 0.8246201, z: 3.6045314E-08, w: -2.4726939E-08}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000007}
+    - name: QuadMask
+      position: {x: -5.2500052, y: 6.6599965, z: 0.09}
+      rotation: {x: -0, y: -0, z: -0.27429503, w: 0.96164566}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_32
+      position: {x: -7.3536944, y: 5.720916, z: -0.3}
+      rotation: {x: -0.94910294, y: 0.31496626, z: -9.342559E-09, w: -4.2701323E-08}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000007}
+    - name: QuadMask
+      position: {x: -10.140005, y: -0.36000156, z: -0.05}
+      rotation: {x: -0, y: -0, z: -0.90704405, w: -0.42103592}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_05
+      position: {x: -10.069998, y: 3.1899939, z: -0.3}
+      rotation: {x: -0.23004985, y: -0.973179, z: 4.2539E-08, w: -1.0055787E-08}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: Wall_22
+      position: {x: -9.450014, y: 5.390008, z: 0.95}
+      rotation: {x: -0.34611705, y: -0.9381914, z: 4.100965E-08, w: -1.512926E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Maramaiti_A
+      position: {x: -10.868996, y: 6.6829996, z: -0.653}
+      rotation: {x: 0.1288571, y: 0.6746892, z: -0.7037854, w: -0.18131885}
+      scale: {x: 1.5000037, y: 1.5000015, z: 1.5000021}
+    - name: QuadMask
+      position: {x: -12.790006, y: -0.62000275, z: -0.05}
+      rotation: {x: -0, y: -0, z: 0.6313528, w: 0.7754959}
+      scale: {x: 8, y: 4, z: 4}
+    - name: QuadMask
+      position: {x: -9.480004, y: 8.769999, z: -0.05}
+      rotation: {x: -0, y: -0, z: -0.983255, w: -0.18223563}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_24
+      position: {x: -12.689991, y: 3.9299908, z: -0.34}
+      rotation: {x: -0.14176512, y: -0.98990047, z: 4.326992E-08, w: -6.196755E-09}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: Rock_23_D
+      position: {x: -13.260001, y: -1.3699989, z: -2.04}
+      rotation: {x: -0.22777462, y: -0.9598141, z: -0.15950888, w: 0.037853267}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Rock_30
+      position: {x: -11.829991, y: 7.1399975, z: -0.4}
+      rotation: {x: -0.9992036, y: 0.03990394, z: -6.1688663E-09, w: -4.3273907E-08}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.000001}
+    - name: Border_08
+      position: {x: -12.500001, y: 6.0700035, z: 1}
+      rotation: {x: 0.5891963, y: -0.80798995, z: 2.5754595E-08, w: -3.5318365E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_23
+      position: {x: -14.339992, y: 2.0999918, z: -0.3}
+      rotation: {x: 0.7227332, y: -0.69112724, z: 2.0170019E-07, w: 2.4054236E-07}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000007}
+    - name: Rock_04_D
+      position: {x: -13.380001, y: 3.4900026, z: 4.39}
+      rotation: {x: 0.33071724, y: 0.8957393, z: -0.15534012, w: -0.25327244}
+      scale: {x: 1.5, y: 1.5, z: 1.5}
+    - name: Rock_04
+      position: {x: -14.639992, y: -0.77001, z: -0.3}
+      rotation: {x: 0.9137939, y: -0.4061785, z: 3.99432E-08, w: -1.7754626E-08}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Maramaiti_B
+      position: {x: -14.299999, y: 4.1279984, z: -0.561}
+      rotation: {x: 0.6219373, y: -0.35160583, z: 0.14671165, w: -0.6841368}
+      scale: {x: 1.500001, y: 1.500001, z: 1.5000018}
+    - name: QuadMask
+      position: {x: -14.640005, y: -3.6900034, z: -1.45}
+      rotation: {x: -0, y: -0, z: -0.10886699, w: 0.9940564}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_23_D
+      position: {x: -14.900001, y: 0.10000229, z: 4.46}
+      rotation: {x: -0.56633496, y: 0.79611087, z: 0.20713457, w: -0.050670467}
+      scale: {x: 1.3000009, y: 1.2999997, z: 1.3000004}
+    - name: Rock_22_D
+      position: {x: -13.559999, y: 7.47001, z: 3.69}
+      rotation: {x: 0.5693567, y: 0.68959427, z: -0.3706109, w: -0.2508794}
+      scale: {x: 1.5000014, y: 1.5, z: 1.5000017}
+    - name: Rock_04_D
+      position: {x: -15.4900055, y: -3.3199968, z: 3.83}
+      rotation: {x: -0.5740079, y: -0.8139842, z: -0.05737403, w: 0.06821266}
+      scale: {x: 1.1999997, y: 1.1999996, z: 1.1999989}
+    - name: Rock_23
+      position: {x: -13.929991, y: 9.859994, z: -0.4}
+      rotation: {x: -0.6946584, y: -0.71933985, z: 3.1443346E-08, w: -3.0364486E-08}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000007}
+    - name: Rock_32_D
+      position: {x: -17.410006, y: -1.0999966, z: -1.76}
+      rotation: {x: 0.06606147, y: -0.9840864, z: -0.16480641, w: 0.006986752}
+      scale: {x: 1.0000012, y: 1.0000004, z: 1.0000008}
+    - name: Rock_22_D
+      position: {x: -17.560007, y: -2.4999943, z: 3.51}
+      rotation: {x: -0.0107470155, y: 0.9640664, z: 0.24394915, w: 0.10464031}
+      scale: {x: 1.3000007, y: 1.3000005, z: 1.3000009}
+    - name: QuadMask
+      position: {x: -11.760004, y: 15, z: -0.05}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_01
+      position: {x: -14.189988, y: 12.79, z: -0.3}
+      rotation: {x: 0.7051853, y: 0.7090231, z: -0, w: 0}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000007}
+    - name: Maramaiti_A
+      position: {x: -14.696, y: 12.338006, z: -0.515}
+      rotation: {x: 0.7561449, y: -0.16519275, z: -0.034173608, w: -0.6322883}
+      scale: {x: 1.5000005, y: 1.5000011, z: 1.5000015}
+    - name: Rock_23_D
+      position: {x: -14.399995, y: 13.280013, z: 3.85}
+      rotation: {x: -0.61819184, y: 0.692186, z: 0.29999116, w: -0.22073242}
+      scale: {x: 1.5000002, y: 1.5000012, z: 1.5000013}
+    - name: QuadMask
+      position: {x: -20.000006, y: -4.010002, z: -1.45}
+      rotation: {x: -0, y: -0, z: 0.11454001, w: 0.9934187}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_05
+      position: {x: -14.109988, y: 14.820001, z: -0.3}
+      rotation: {x: -0.6250872, y: 0.78055507, z: -0, w: 0}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000007}
+    - name: Rock_23_D
+      position: {x: -20.140009, y: -0.62999344, z: 4.45}
+      rotation: {x: 0.5309439, y: 0.7521093, z: 0.33153397, w: 0.20619327}
+      scale: {x: 1.4999999, y: 1.5000005, z: 1.5000011}
+    - name: Rock_23
+      position: {x: -20.810005, y: -0.040000916, z: -0.15}
+      rotation: {x: -0.7666052, y: 0.6421189, z: -2.8067909E-08, w: -3.3509373E-08}
+      scale: {x: 0.99999994, y: 1, z: 0.9999995}
+    - name: Maramaiti_B
+      position: {x: -20.602007, y: 4.722006, z: -0.433}
+      rotation: {x: 0.29955292, y: 0.6891716, z: -0.656021, w: -0.070337385}
+      scale: {x: 2, y: 2, z: 2}
+    - name: Rock_24_D
+      position: {x: -21.270006, y: -2.1599941, z: -2.17}
+      rotation: {x: -0.9351011, y: -0.25502306, z: -0.08141695, w: 0.232208}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000006}
+    - name: Rock_34
+      position: {x: -20.990004, y: 5.199999, z: -0.3}
+      rotation: {x: -0.7181264, y: 0.69591284, z: -3.041932E-08, w: -3.1390304E-08}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: Maramaiti_B
+      position: {x: -20.736008, y: 6.7210064, z: -0.521}
+      rotation: {x: 0.10302806, y: 0.82195497, z: -0.55574286, w: 0.070180446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_22_D
+      position: {x: -21.100004, y: 3.8800087, z: 4.58}
+      rotation: {x: 0.77607673, y: 0.6052378, z: 0.10312241, w: 0.1440766}
+      scale: {x: 1.5, y: 1.5000002, z: 1.5000004}
+    - name: Rock_10
+      position: {x: -14.079989, y: 17.099998, z: -0.15}
+      rotation: {x: -0.6992891, y: 0.7148391, z: -0, w: 0}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000007}
+    - name: Rock_05_D
+      position: {x: -20.880009, y: 7.780012, z: 3.99}
+      rotation: {x: 0.6734711, y: -0.68421745, z: 0.13402304, w: -0.24560389}
+      scale: {x: 1.5000005, y: 1.5000007, z: 1.5000012}
+    - name: QuadMask
+      position: {x: -23.330006, y: 0.7799988, z: 0.03}
+      rotation: {x: -0, y: -0, z: -0.7071069, w: 0.70710677}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_10
+      position: {x: -21.25, y: 9.780001, z: -0.23}
+      rotation: {x: 0.669779, y: -0.7425607, z: 3.2458356E-08, w: 2.9276965E-08}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000007}
+    - name: Rock_23_D
+      position: {x: -14.079993, y: 19.320011, z: 3.81}
+      rotation: {x: -0.71221745, y: 0.6059427, z: 0.2579825, w: -0.24295056}
+      scale: {x: 1.5000001, y: 1.5000017, z: 1.5000019}
+    - name: Rock_23_D
+      position: {x: -20.880005, y: 11.859999, z: 3.68}
+      rotation: {x: -0.6478288, y: 0.70592594, z: -0.21308619, w: 0.19126105}
+      scale: {x: 1.5000005, y: 1.5000017, z: 1.5000015}
+    - name: Rock_05
+      position: {x: -20.989998, y: 12.339998, z: -0.3}
+      rotation: {x: 0.71386176, y: 0.7002867, z: -0, w: 0}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: QuadMask
+      position: {x: -23.330006, y: 8.719999, z: 0.03}
+      rotation: {x: -0, y: -0, z: -0.7071069, w: 0.70710677}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_32
+      position: {x: -13.929988, y: 20.650002, z: -0.15}
+      rotation: {x: 0.70893914, y: -0.70526975, z: -0, w: 0}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000007}
+    - name: QuadMask
+      position: {x: -11.760002, y: 22.800001, z: -0.05}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_23
+      position: {x: -20.989998, y: 15.710001, z: -0.3}
+      rotation: {x: -0.6876407, y: -0.7260513, z: -0, w: 0}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000002}
+    - name: Maramaiti_A
+      position: {x: -20.534002, y: 17.043007, z: -0.432}
+      rotation: {x: 0.6439041, y: 0.30634618, z: -0.0977402, w: -0.6942526}
+      scale: {x: 1.5000012, y: 1.5000011, z: 1.5000024}
+    - name: Rock_23_D
+      position: {x: -20.740002, y: 17.679998, z: 3.85}
+      rotation: {x: 0.65570486, y: 0.7116395, z: 0.18439175, w: 0.17210506}
+      scale: {x: 1.5000007, y: 1.500001, z: 1.5000013}
+    - name: QuadMask
+      position: {x: -23.330004, y: 16.599998, z: 0.03}
+      rotation: {x: -0, y: -0, z: -0.7071069, w: 0.70710677}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_23
+      position: {x: -14.049991, y: 25.130005, z: -0.3}
+      rotation: {x: -0.73372984, y: 0.67944145, z: -2.9699335E-08, w: -3.207236E-08}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000007}
+    - name: Rock_23
+      position: {x: -21.279999, y: 19.750002, z: -0.3}
+      rotation: {x: -0.7119036, y: 0.7022774, z: -3.069752E-08, w: -3.1118297E-08}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.000001}
+    - name: Rock_32_D
+      position: {x: -14.050045, y: 26.22007, z: 3.3}
+      rotation: {x: -0.6344369, y: 0.6479487, z: 0.29547167, w: -0.30058122}
+      scale: {x: 1.5000018, y: 1.5000025, z: 1.5000024}
+    - name: Rock_32
+      position: {x: -21.259996, y: 24.370012, z: -0.3}
+      rotation: {x: -0.69263333, y: -0.72128993, z: 3.2802994E-08, w: -2.8890312E-08}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Rock_33_D
+      position: {x: -20.839998, y: 24.76002, z: 4.08}
+      rotation: {x: -0.6830357, y: -0.66351956, z: -0.23086181, w: -0.19976753}
+      scale: {x: 1.5000007, y: 1.5000011, z: 1.5000027}
+    - name: QuadMask
+      position: {x: -23.330006, y: 24.460003, z: 0.03}
+      rotation: {x: -0, y: -0, z: -0.7071069, w: 0.70710677}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_24
+      position: {x: -13.759988, y: 31.180012, z: -0.4}
+      rotation: {x: -0.6781597, y: -0.73491466, z: 3.2124145E-08, w: -2.9643312E-08}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000007}
+    - name: QuadMask
+      position: {x: -11.760002, y: 34.13, z: -0.05}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_05
+      position: {x: -13.9999895, y: 34.000015, z: -0.3}
+      rotation: {x: 0.619094, y: -0.78531694, z: 3.4327304E-08, w: 2.7061464E-08}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: Rock_34
+      position: {x: -21.189995, y: 30.070011, z: -0.3}
+      rotation: {x: -0.7071068, y: -0.7071068, z: 3.090862E-08, w: -3.090862E-08}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000007}
+    - name: Rock_32_D
+      position: {x: -14.070003, y: 33.989998, z: 3.58}
+      rotation: {x: -0.6461917, y: 0.63629496, z: 0.2932288, w: -0.30262524}
+      scale: {x: 1.5000004, y: 1.5000013, z: 1.5000013}
+    - name: Rock_23_D
+      position: {x: -20.63, y: 31.190027, z: 4.04}
+      rotation: {x: 0.6719269, y: 0.66222936, z: 0.18089627, w: 0.27792695}
+      scale: {x: 1.3000005, y: 1.3000001, z: 1.3000005}
+    - name: QuadMask
+      position: {x: -23.330004, y: 32.410004, z: 0.03}
+      rotation: {x: -0, y: -0, z: -0.7071069, w: 0.70710677}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_32
+      position: {x: -13.879991, y: 37.52002, z: -0.3}
+      rotation: {x: -0.6913707, y: 0.7225003, z: -2.3309731E-07, w: -2.1025984E-07}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000002}
+    - name: Rock_24
+      position: {x: -20.959993, y: 34.810013, z: -0.4}
+      rotation: {x: 0.6946585, y: -0.71933985, z: 3.1443342E-08, w: 3.0364482E-08}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.000001}
+    - name: Rock_22_D
+      position: {x: -21.009996, y: 35.67003, z: 3.89}
+      rotation: {x: 0.6715052, y: 0.7197976, z: 0.14030293, w: 0.10624183}
+      scale: {x: 1.3000011, y: 1.3000002, z: 1.300001}
+    - name: QuadMask
+      position: {x: -11.760001, y: 41.780003, z: -0.05}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Maramaiti_A
+      position: {x: -14.352999, y: 41.039017, z: -0.363}
+      rotation: {x: 0.7304119, y: -0.1489211, z: 0.030441672, w: -0.66587865}
+      scale: {x: 1.500001, y: 1.5000015, z: 1.5000024}
+    - name: Rock_23_D
+      position: {x: -14.370002, y: 41.05, z: 3.49}
+      rotation: {x: 0.68269885, y: -0.6619593, z: -0.21842064, w: 0.21914582}
+      scale: {x: 1.5000002, y: 1.5000006, z: 1.5000008}
+    - name: Rock_01
+      position: {x: -13.939988, y: 41.35001, z: -0.12}
+      rotation: {x: 0.7577588, y: 0.6525349, z: 3.5448487E-08, w: -1.5901753E-07}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.000001}
+    - name: Rock_02_D
+      position: {x: -21.069994, y: 39.730026, z: 3.5}
+      rotation: {x: -0.7997359, y: -0.5446856, z: -0.17950618, w: -0.17753282}
+      scale: {x: 1.5000004, y: 1.5000007, z: 1.500001}
+    - name: Rock_05
+      position: {x: -13.939984, y: 43.440006, z: -0.3}
+      rotation: {x: -0.7101855, y: 0.7040148, z: -2.2100187E-07, w: -2.2293895E-07}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: Rock_24
+      position: {x: -20.879992, y: 43.570007, z: -0.3}
+      rotation: {x: -0.7318891, y: 0.6814239, z: -2.9785983E-08, w: -3.1991892E-08}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.000001}
+    - name: Rock_23
+      position: {x: -14.019979, y: 46.560017, z: -0.3}
+      rotation: {x: 0.708771, y: 0.70543873, z: -3.0554372E-07, w: 3.0698698E-07}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.000001}
+    - name: Rock_23_D
+      position: {x: -20.76999, y: 44.320023, z: 3.68}
+      rotation: {x: -0.6971346, y: 0.6560981, z: -0.17944576, w: 0.22657897}
+      scale: {x: 1.5000002, y: 1.5000006, z: 1.5000005}
+    - name: Rock_23_D
+      position: {x: -14.809979, y: 47.100033, z: 3.53}
+      rotation: {x: -0.6743916, y: 0.637557, z: 0.2802964, w: -0.24525732}
+      scale: {x: 1.5000001, y: 1.4999996, z: 1.4999998}
+    - name: QuadMask
+      position: {x: -11.760004, y: 49.600006, z: -0.05}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 8, y: 4, z: 4}
+    - name: QuadMask
+      position: {x: -23.330002, y: 46.16, z: 0.03}
+      rotation: {x: -0, y: -0, z: -0.7071069, w: 0.70710677}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_23
+      position: {x: -20.899992, y: 47.500023, z: -0.3}
+      rotation: {x: -0.7071068, y: -0.7071068, z: 3.090862E-08, w: -3.090862E-08}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000007}
+    - name: Rock_10
+      position: {x: -14.059984, y: 50.010025, z: -0.3}
+      rotation: {x: -0.6699734, y: 0.74238527, z: -3.2154617E-07, w: -2.901827E-07}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000002}
+    - name: Maramaiti_A
+      position: {x: -20.401003, y: 48.822037, z: -0.437}
+      rotation: {x: 0.66587865, y: 0.29176134, z: -0.10316628, w: -0.6788504}
+      scale: {x: 1.5000011, y: 1.5000012, z: 1.5000019}
+    - name: Rock_05
+      position: {x: -13.939988, y: 52.150024, z: -0.3}
+      rotation: {x: 0.6259235, y: -0.7798846, z: 3.4089847E-08, w: 2.7359992E-08}
+      scale: {x: 0.9999999, y: 1, z: 0.9999993}
+    - name: QuadMask
+      position: {x: -23.330004, y: 49.240005, z: 0.03}
+      rotation: {x: -0, y: -0, z: -0.7071069, w: 0.70710677}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_23_D
+      position: {x: -20.519999, y: 50.63005, z: 3.73}
+      rotation: {x: 0.703116, y: 0.6641428, z: 0.15921652, w: 0.19797122}
+      scale: {x: 1.5000007, y: 1.5000004, z: 1.5000004}
+    - name: QuadMask
+      position: {x: -9.340003, y: 54.030006, z: -0.05}
+      rotation: {x: -0, y: -0, z: 0.15022549, w: 0.98865175}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_33_D
+      position: {x: -14.319985, y: 53.820038, z: 3.61}
+      rotation: {x: 0.63343847, y: -0.73214436, z: -0.17933826, w: 0.17480935}
+      scale: {x: 1.5, y: 1.5000001, z: 1.5000007}
+    - name: Rock_32
+      position: {x: -20.929998, y: 52.190033, z: -0.15}
+      rotation: {x: 0.6996634, y: 0.71447265, z: -2.2428476E-07, w: 2.1963588E-07}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Rock_23
+      position: {x: -13.219987, y: 54.70002, z: -0.3}
+      rotation: {x: -0.8829992, y: -0.46937475, z: 1.937156E-08, w: -3.918455E-08}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Rock_32
+      position: {x: -10.199989, y: 56.28002, z: -0.2}
+      rotation: {x: 0.09063274, y: -0.9958845, z: 3.961677E-09, w: -4.3531493E-08}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1}
+    - name: Rock_04
+      position: {x: -6.8099833, y: 57.42002, z: -0.25}
+      rotation: {x: -0.99987674, y: 0.015707374, z: -6.86585E-10, w: -4.3705988E-08}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Rock_05_D
+      position: {x: -20.879992, y: 54.810043, z: 3.84}
+      rotation: {x: -0.6811079, y: -0.7068422, z: -0.15506765, w: -0.111447394}
+      scale: {x: 1.500001, y: 1.500001, z: 1.5000013}
+    - name: QuadMask
+      position: {x: -4.5100007, y: 58.810005, z: -0.05}
+      rotation: {x: -0, y: -0, z: 0.58070296, w: 0.8141156}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Border_07
+      position: {x: -13.189989, y: 57.51004, z: 1.05}
+      rotation: {x: 0.79443216, y: -0.6073531, z: 2.9982708E-08, w: -3.180761E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wall_02
+      position: {x: -10.850011, y: 58.120075, z: 1}
+      rotation: {x: -0.80482876, y: 0.5935073, z: -2.6967726E-08, w: -3.440099E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wall_10
+      position: {x: -8.700013, y: 59.170074, z: 0.94}
+      rotation: {x: 0.10671446, y: 0.99428976, z: 4.6646385E-09, w: -4.3461792E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_23
+      position: {x: -21.379992, y: 56.64003, z: -0.3}
+      rotation: {x: -0.72956574, y: 0.6839107, z: -2.989469E-08, w: -3.1890334E-08}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: Rock_24
+      position: {x: -5.899983, y: 60.37003, z: -0.3}
+      rotation: {x: -0.76716524, y: -0.64144975, z: 2.8038665E-08, w: -3.3533862E-08}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: Rock_23
+      position: {x: -12.489991, y: 59.760025, z: -0.5}
+      rotation: {x: 0.2967082, y: -0.95496833, z: 4.1742997E-08, w: 1.2969529E-08}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Rock_34_D
+      position: {x: -16.810015, y: 58.80037, z: -2.28}
+      rotation: {x: -0.023066372, y: 0.9874078, z: -0.14837912, w: 0.049774323}
+      scale: {x: 1.0000012, y: 1.0000002, z: 1.0000012}
+    - name: Rock_24_D
+      position: {x: -21.000004, y: 57.750004, z: -3.31}
+      rotation: {x: -0.8911141, y: -0.2672077, z: -0.24612978, w: -0.27191147}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuadMask
+      position: {x: -23.330004, y: 57.05001, z: 0.03}
+      rotation: {x: -0, y: -0, z: -0.7071069, w: 0.70710677}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_23_D
+      position: {x: -15.099984, y: 60.37004, z: 3.57}
+      rotation: {x: -0.7284675, y: 0.5681041, z: 0.20396554, w: -0.3240232}
+      scale: {x: 1.500001, y: 1.500001, z: 1.5000008}
+    - name: Border_08
+      position: {x: -7.1199884, y: 62.110046, z: 1.05}
+      rotation: {x: -0.107999355, y: -0.994151, z: -4.720805E-09, w: -4.3455714E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_24
+      position: {x: -9.22998, y: 62.25003, z: -0.3}
+      rotation: {x: -0.79653007, y: -0.6045992, z: 2.6427873E-08, w: -3.4817436E-08}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000002}
+    - name: Rock_23_D
+      position: {x: -20.949991, y: 59.590042, z: 3.92}
+      rotation: {x: -0.6455524, y: -0.67513, z: -0.2519412, w: -0.25295758}
+      scale: {x: 1.4999996, y: 1.5000007, z: 1.5000005}
+    - name: Rock_04
+      position: {x: -4.650002, y: 63.130005, z: -0.36}
+      rotation: {x: -0.21814308, y: 0.97591686, z: 4.2658687E-08, w: 9.535345E-09}
+      scale: {x: 1.0000011, y: 1.0000002, z: 1.0000007}
+    - name: Rock_23_D
+      position: {x: -14.530003, y: 61.680004, z: -2.27}
+      rotation: {x: -0.6203787, y: -0.7407406, z: -0.14975503, w: -0.20977935}
+      scale: {x: 0.9999999, y: 0.99999964, z: 0.9999993}
+    - name: QuadMask
+      position: {x: -18.450003, y: 61.08, z: -2.28}
+      rotation: {x: 0.045778498, y: -4.637614E-05, z: -0.9961859, w: 0.07428381}
+      scale: {x: 8, y: 4, z: 4}
+    - name: QuadMask
+      position: {x: -20.940002, y: 60.240005, z: -3.29}
+      rotation: {x: -0.1143066, y: -0.19501722, z: 0.16297522, w: 0.96038616}
+      scale: {x: 8, y: 4, z: 4}
+    - name: QuadMask
+      position: {x: -12.420002, y: 62.73, z: -0.01}
+      rotation: {x: -0, y: -0, z: 0.2773145, w: 0.9607792}
+      scale: {x: 8, y: 4, z: 4}
+    Boulders: []
+    StarSpawnpoints:
+    - position: {x: -21.009996, y: 2.8199978, z: 0}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      meshLocalPosition: {x: -0.089984894, y: -0.32987785, z: -0.48000556}
+      meshLocalRotation: {x: -0.100382656, y: -0.015376263, z: -0.380983, w: 0.918988}
+      meshLocalScale: {x: 1, y: 1, z: 1}
+    - position: {x: -13.809991, y: 20.949993, z: 0}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      meshLocalPosition: {x: -0.06, y: 0.26, z: -0.36}
+      meshLocalRotation: {x: 0.03673248, y: 0.022321528, z: -0.55390483, w: 0.8314698}
+      meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+    - position: {x: -20.907995, y: 53.514, z: 0}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      meshLocalPosition: {x: -0.24, y: -0.12, z: -0.49}
+      meshLocalRotation: {x: -0.15465121, y: 0.035917774, z: -0.7410647, w: 0.6523925}
+      meshLocalScale: {x: 0.7, y: 0.7, z: 0.7}
+    - position: {x: -20.789995, y: 54.08, z: 0}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      meshLocalPosition: {x: 0.20019913, y: -0.23992538, z: -0.46000308}
+      meshLocalRotation: {x: -0.10269252, y: -0.111215785, z: -0.54101586, w: 0.827277}
+      meshLocalScale: {x: 1, y: 1, z: 1}
+    PreySpawnpoints:
+    - {x: -4.660004, y: -0.45000315, z: 0}
+    - {x: -9.750004, y: 5.2699986, z: 0}
+    - {x: -12.470005, y: 5.4199963, z: 0}
+    - {x: -16.740005, y: 3.1099968, z: 0}
+    - {x: -16.220005, y: 12.49, z: 0}
+    - {x: -18.080006, y: 10.719999, z: 0}
+    - {x: -16.380005, y: 18.97, z: 0}
+    - {x: -18.700005, y: 22.729998, z: 0}
+    - {x: -16.790005, y: 27.190002, z: 0}
+    - {x: -17.520004, y: 29.890003, z: 0}
+    - {x: -16.760004, y: 36.230003, z: 0}
+    - {x: -18.920002, y: 40.36, z: 0}
+    - {x: -16.200003, y: 46.22, z: 0}
+    - {x: -18.630005, y: 50.660004, z: 0}
+    - {x: -17.110004, y: 53.290005, z: 0}
+    - {x: -11.710002, y: 57.930004, z: 0}
+    - {x: -14.460003, y: 57.45001, z: 0}
+    - {x: -7.5300016, y: 60.220005, z: 0}
+    MotileWildlifeSpawnpoints:
+    - <Position>k__BackingField: {x: -5.8200006, y: 2.29, z: 0}
+      <Biome>k__BackingField: 111210920
+    - <Position>k__BackingField: {x: -8.490008, y: 58.420002, z: 0}
+      <Biome>k__BackingField: 111210920
+    - <Position>k__BackingField: {x: -7.3200088, y: 62.90001, z: 0}
+      <Biome>k__BackingField: 111210920
+    SessileWildlifeSpawnpoints:
+    - <Position>k__BackingField: {x: -5.5650024, y: -1.3220005, z: -0.46}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.5372118, y: -0.29584485, z: 0.23030442, w: -0.7555391}
+    - <Position>k__BackingField: {x: -5.2780023, y: 3.4710016, z: -0.426}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.26676592, y: 0.6540066, z: -0.6913911, w: 0.15195403}
+    - <Position>k__BackingField: {x: -6.5410504, y: 4.916031, z: -0.53199816}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.49496812, y: 0.36099482, z: -0.52259874, w: -0.5929421}
+    - <Position>k__BackingField: {x: -11.560066, y: 3.7800322, z: -0.4190008}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.32585263, y: -0.6668165, z: 0.6079222, w: 0.2821468}
+    - <Position>k__BackingField: {x: -12.427007, y: 6.6830025, z: -0.582}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.40776023, y: -0.53634226, z: 0.6296723, w: 0.3867581}
+    - <Position>k__BackingField: {x: -14.859997, y: 1.0309954, z: -0.46}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.70616347, y: 0.20046663, z: 0.019642591, w: 0.6787936}
+    - <Position>k__BackingField: {x: -14.442998, y: 9.645, z: -0.585}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.28378463, y: -0.5831178, z: 0.64523363, w: 0.40387347}
+    - <Position>k__BackingField: {x: -18.672997, y: -1.0190048, z: -1.984}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.53980124, y: -0.1151506, z: 0.051634014, w: 0.8322796}
+    - <Position>k__BackingField: {x: -20.270006, y: 0.40800285, z: -0.262}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.6432458, y: -0.30789143, z: 0.14306006, w: 0.68627393}
+    - <Position>k__BackingField: {x: -14.383997, y: 17.337004, z: -0.412}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.29258168, y: -0.5467014, z: 0.6208787, w: 0.47960773}
+    - <Position>k__BackingField: {x: -20.579996, y: 12.517002, z: -0.663}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.38163972, y: -0.47532076, z: 0.5474105, w: -0.57337904}
+    - <Position>k__BackingField: {x: -14.185993, y: 25.39701, z: -0.523}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.021755993, y: -0.70201445, z: 0.7089411, w: 0.06407383}
+    - <Position>k__BackingField: {x: -20.889997, y: 22.400005, z: -0.64}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.6602815, y: 0.19712871, z: -0.28503528, w: 0.6662761}
+    - <Position>k__BackingField: {x: -20.700998, y: 34.381012, z: -0.659}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.42032343, y: -0.49205768, z: 0.5804635, w: -0.4942367}
+    - <Position>k__BackingField: {x: -13.853994, y: 37.961006, z: -0.567}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.45282698, y: -0.45970243, z: 0.6103649, w: 0.4594306}
+    - <Position>k__BackingField: {x: -20.752996, y: 44.77202, z: -0.381}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.03881818, y: -0.72137487, z: 0.69105303, w: -0.023609012}
+    - <Position>k__BackingField: {x: -21.159998, y: 46.082016, z: -0.582}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.72666705, y: 0.10891405, z: -0.04468131, w: 0.6768284}
+    - <Position>k__BackingField: {x: -11.520009, y: 56.52067, z: -0.43403295}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.3630774, y: -0.6375407, z: 0.55776554, w: 0.38809112}
+    - <Position>k__BackingField: {x: -10.946996, y: 60.281025, z: -0.742}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.7302358, y: 0.13960502, z: -0.042272776, w: -0.6674423}
+    SmallSessileWildlifeSpawnpoints:
+    - <Position>k__BackingField: {x: -4.6850834, y: -1.5480409, z: -0.39000064}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.5657691, y: -0.2241587, z: 0.012575269, w: 0.79341066}
+    - <Position>k__BackingField: {x: -4.1620026, y: 2.9700012, z: -0.345}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.6034897, y: 0.24448146, z: -0.31736806, w: -0.689425}
+    - <Position>k__BackingField: {x: -6.8200035, y: -0.9000006, z: -0.238}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.442137, y: 0.6382084, z: -0.37437564, w: -0.50699914}
+    - <Position>k__BackingField: {x: -7.600151, y: 5.5700917, z: -0.3840026}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.3630268, y: 0.59383833, z: -0.6590614, w: -0.28496683}
+    - <Position>k__BackingField: {x: -8.508059, y: 5.695982, z: -0.51500857}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.19114764, y: 0.5393199, z: -0.81457293, w: 0.09522566}
+    - <Position>k__BackingField: {x: -9.772337, y: 3.6990404, z: -0.55299777}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.35177362, y: 0.5760598, z: -0.4067614, w: 0.6155939}
+    - <Position>k__BackingField: {x: -10.383167, y: 4.026019, z: -0.4330019}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.13498786, y: 0.7981037, z: -0.47113556, w: 0.3504858}
+    - <Position>k__BackingField: {x: -14.618996, y: 3.296996, z: -0.532}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.36700225, y: 0.69797003, z: -0.61265373, w: 0.05294192}
+    - <Position>k__BackingField: {x: -13.6080065, y: 7.0750046, z: -0.559}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.5841128, y: 0.3963174, z: -0.48328573, w: 0.5178612}
+    - <Position>k__BackingField: {x: -20.763006, y: 1.5770035, z: -0.39}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.6659956, y: 0.0354912, z: -0.08498821, w: 0.7402482}
+    - <Position>k__BackingField: {x: -20.864006, y: 7.538006, z: -0.402}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.024947912, y: 0.70161676, z: -0.7005216, w: 0.12798974}
+    - <Position>k__BackingField: {x: -21.140007, y: 8.130007, z: -0.39}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.3907113, y: 0.69540143, z: -0.49478537, w: -0.34489036}
+    - <Position>k__BackingField: {x: -20.710999, y: 9.557999, z: -0.426}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.72910655, y: 0.011341959, z: 0.051397085, w: -0.6823735}
+    - <Position>k__BackingField: {x: -14.834995, y: 22.536005, z: -0.304}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.66207516, y: -0.14580879, z: -0.25535658, w: -0.68934}
+    - <Position>k__BackingField: {x: -14.449997, y: 24.230007, z: -0.48}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.083114356, y: 0.7653259, z: -0.63739824, w: 0.033045977}
+    - <Position>k__BackingField: {x: -20.602999, y: 20.255005, z: -0.459}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.40395755, y: 0.47037196, z: -0.59344316, w: 0.51321924}
+    - <Position>k__BackingField: {x: -21.006, y: 20.953005, z: -0.559}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.49766207, y: 0.42555374, z: -0.50425625, w: 0.5629941}
+    - <Position>k__BackingField: {x: -20.577, y: 23.563005, z: -0.509}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.30671334, y: 0.77437043, z: -0.5092208, w: -0.21673018}
+    - <Position>k__BackingField: {x: -14.529997, y: 35.97101, z: -0.494}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.5662654, y: 0.27728772, z: -0.4352734, w: -0.6426449}
+    - <Position>k__BackingField: {x: -14.153994, y: 36.56301, z: -0.528}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.41614062, y: 0.6598776, z: -0.45901865, w: 0.4250772}
+    - <Position>k__BackingField: {x: -20.233, y: 35.921005, z: -0.411}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.25603348, y: 0.60673547, z: -0.6455573, w: 0.38674936}
+    - <Position>k__BackingField: {x: -14.358995, y: 39.23501, z: -0.575}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.5395258, y: 0.56244045, z: -0.42670333, w: 0.45879984}
+    - <Position>k__BackingField: {x: -14.623999, y: 43.08101, z: -0.401}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: 0.15544324, y: 0.4422146, z: -0.7330707, w: -0.49284014}
+    - <Position>k__BackingField: {x: -14.432997, y: 43.741013, z: -0.582}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.1165331, y: 0.73851305, z: -0.66392314, w: 0.014994204}
+    - <Position>k__BackingField: {x: -14.628996, y: 45.21701, z: -0.513}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.3017999, y: 0.6699178, z: -0.67253214, w: 0.08847445}
+    - <Position>k__BackingField: {x: -20.694998, y: 47.22902, z: -0.449}
+      <Biome>k__BackingField: 108151815
+      <Rotation>k__BackingField: {x: -0.045544654, y: 0.731254, z: -0.67099535, w: 0.11383754}
+    - <Position>k__BackingField: {x: -9.964009, y: 56.637974, z: -0.31102458}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.5330979, y: 0.30822513, z: -0.37982172, w: -0.6903185}
+    - <Position>k__BackingField: {x: -13.000311, y: 56.581833, z: -0.28105727}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: 0.24706401, y: 0.7379907, z: -0.4809406, w: -0.4037641}
+    - <Position>k__BackingField: {x: -11.938996, y: 59.452026, z: -0.672}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.50624675, y: 0.42145854, z: -0.5595543, w: 0.5029773}
+    - <Position>k__BackingField: {x: -9.680989, y: 60.833027, z: -0.336}
+      <Biome>k__BackingField: 111210920
+      <Rotation>k__BackingField: {x: -0.49539208, y: 0.50805867, z: -0.56445515, w: 0.42172712}
+  varyingAreas:
+  - areaVariants:
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 10
+      spawnableGroup:
+        FixedElements:
+        - name: Rock_23
+          position: {x: -22.900005, y: 36.980003, z: -0.44}
+          rotation: {x: -0.9795753, y: 0.20107794, z: -8.789401E-09, w: -4.28186E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -25.800018, y: 35.870014, z: 0.08}
+          rotation: {x: -0, y: -0, z: -0.15402061, w: 0.9880677}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Border_08
+          position: {x: -21.91, y: 38.580032, z: 1}
+          rotation: {x: -0.7071069, y: -0.70710677, z: 3.0908623E-08, w: -3.0908623E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_20
+          position: {x: -22.420006, y: 40.91, z: -0.38}
+          rotation: {x: -0.99611837, y: -0.08802503, z: 3.8476955E-09, w: -4.3541718E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_22
+          position: {x: -24.640018, y: 39.77002, z: 0.95}
+          rotation: {x: -0.50075567, y: -0.8655888, z: 3.783609E-08, w: -2.188872E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_32
+          position: {x: -27.260008, y: 39.090004, z: -0.43}
+          rotation: {x: 0.2630312, y: 0.96478736, z: -4.2172196E-08, w: 1.1497468E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_34
+          position: {x: -26.490007, y: 42.85, z: -0.3}
+          rotation: {x: -0.9393939, y: 0.34284008, z: -1.4986025E-08, w: -4.106221E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -25.03002, y: 44.42002, z: 0.14}
+          rotation: {x: -0, y: -0, z: -0.31647694, w: 0.9486003}
+          scale: {x: 8, y: 4, z: 4}
+        - name: CrystalCluster_02
+          position: {x: -27.940016, y: 43.30002, z: 0.12}
+          rotation: {x: -0, y: -0, z: -0.05669281, w: 0.99839175}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -31.820023, y: 40.920017, z: 0.08}
+          rotation: {x: -0, y: -0, z: -0.43365905, w: 0.90107703}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_23
+          position: {x: -30.420008, y: 41.97, z: -0.44}
+          rotation: {x: 0.4532128, y: 0.8914024, z: -3.896444E-08, w: 1.981055E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_21
+          position: {x: -29.790022, y: 42.940018, z: 1}
+          rotation: {x: 0.30611083, y: 0.95199597, z: -4.1613063E-08, w: 1.3380536E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_01
+          position: {x: -31.070023, y: 44.590023, z: -0.162}
+          rotation: {x: -0, y: -0, z: 0.7799391, w: -0.6258555}
+          scale: {x: 1.5, y: 1.5, z: 1.5}
+        - name: Rock_05
+          position: {x: -29.300007, y: 45.910004, z: -0.3}
+          rotation: {x: -0.8390981, y: 0.54398024, z: -2.3778147E-08, w: -3.6678134E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_24
+          position: {x: -31.850008, y: 45.189995, z: -0.37}
+          rotation: {x: -0.57214594, y: 0.8201519, z: -3.5849972E-08, w: -2.5009307E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -32.000023, y: 47.37002, z: 0.08}
+          rotation: {x: -0, y: -0, z: 0.9774159, w: -0.21132478}
+          scale: {x: 8, y: 4, z: 4}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: -30.860023, y: 42.97002, z: 0}
+          rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: 0.24018478, y: -0.1597538, z: -0.66399693}
+          meshLocalRotation: {x: 0.0020331885, y: -0.10426361, z: -0.32067224, w: 0.94143206}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        PreySpawnpoints:
+        - {x: -24.460007, y: 39.41, z: 0}
+        - {x: -29.280008, y: 42.93, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -28.160007, y: 41.949997, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -22.883005, y: 40.395004, z: -0.542}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.74900293, y: -0.2461327, z: 0.19942538, w: -0.58193046}
+        - <Position>k__BackingField: {x: -28.337008, y: 40.272995, z: -0.687}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.35242453, y: -0.6837567, z: 0.54969186, w: 0.32574973}
+        - <Position>k__BackingField: {x: -27.659008, y: 43.206, z: -0.567}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.2865516, y: 0.6455823, z: -0.6956966, w: 0.13083628}
+        - <Position>k__BackingField: {x: -28.420008, y: 44.431, z: -0.479}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.57125014, y: 0.40156138, z: -0.4211504, w: -0.5788389}
+        - <Position>k__BackingField: {x: -31.541008, y: 45.09, z: -0.571}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.42717832, y: -0.62516266, z: 0.53111243, w: 0.3802763}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -25.136007, y: 38.501, z: -0.678}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.5367552, y: 0.5791663, z: -0.4261179, w: -0.44145656}
+        - <Position>k__BackingField: {x: -26.004007, y: 39.085, z: -0.671}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6041839, y: -0.20158438, z: 0.032026976, w: 0.77025974}
+        - <Position>k__BackingField: {x: -23.858006, y: 40.509003, z: -0.399}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.6789162, y: 0.10789299, z: -0.36582142, w: -0.62738085}
+        - <Position>k__BackingField: {x: -26.3051, y: 41.76209, z: -0.42900294}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.22345617, y: 0.58212626, z: -0.7773458, w: 0.08324602}
+        - <Position>k__BackingField: {x: -26.664007, y: 42.415, z: -0.465}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.28225398, y: 0.58531344, z: -0.6714287, w: -0.35626486}
+        - <Position>k__BackingField: {x: -29.360008, y: 41.094006, z: -0.588}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.24107368, y: 0.52247983, z: -0.511325, w: 0.63831437}
+        - <Position>k__BackingField: {x: -31.072008, y: 46.008995, z: -0.408}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.31798738, y: 0.6293597, z: -0.6110331, w: 0.35976267}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 15
+      spawnableGroup:
+        FixedElements:
+        - name: QuadMask
+          position: {x: -25.81003, y: 34.880028, z: 0.08}
+          rotation: {x: -0, y: -0, z: 0.06801534, w: 0.99768436}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_23
+          position: {x: -22.900017, y: 36.980022, z: -0.44}
+          rotation: {x: -0.9795753, y: 0.20107794, z: -8.789401E-09, w: -4.28186E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Border_08
+          position: {x: -21.91001, y: 38.580048, z: 1}
+          rotation: {x: -0.7071069, y: -0.70710677, z: 3.0908623E-08, w: -3.0908623E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_32
+          position: {x: -27.214626, y: 36.909416, z: -0.43}
+          rotation: {x: -0.16033462, y: 0.9870628, z: -3.413262E-08, w: 2.730656E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_20
+          position: {x: -22.420017, y: 40.91002, z: -0.38}
+          rotation: {x: -0.99611837, y: -0.08802503, z: 3.8476955E-09, w: -4.3541718E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_22
+          position: {x: -24.64003, y: 39.77004, z: 0.95}
+          rotation: {x: -0.50075567, y: -0.8655888, z: 3.783609E-08, w: -2.188872E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_23
+          position: {x: -31.180023, y: 37.450016, z: -0.44}
+          rotation: {x: 0.37395915, y: 0.9274452, z: -4.0539923E-08, w: 1.6346265E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_21
+          position: {x: -28.240034, y: 40.020042, z: 1}
+          rotation: {x: -0.73075825, y: -0.68263644, z: 2.983898E-08, w: -3.1942463E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -32.90004, y: 36.890034, z: 0.08}
+          rotation: {x: -0, y: -0, z: -0.48785967, w: 0.8729221}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Wall_21
+          position: {x: -29.320034, y: 40.350037, z: 0.97}
+          rotation: {x: -0.70587164, y: 0.70833987, z: -3.096253E-08, w: -3.0854626E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_34
+          position: {x: -26.860022, y: 42.59002, z: -0.3}
+          rotation: {x: 0.24953508, y: 0.9683659, z: -5.27618E-08, w: -2.9580333E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: -31.480022, y: 40.140022, z: -0.3}
+          rotation: {x: -0.8878155, y: -0.46019983, z: 2.0115932E-08, w: -3.880767E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -25.120031, y: 44.400047, z: 0.14}
+          rotation: {x: -0, y: -0, z: -0.31647694, w: 0.9486003}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_24
+          position: {x: -30.720022, y: 42.750023, z: -0.37}
+          rotation: {x: -0.5913097, y: 0.8064447, z: -3.5250803E-08, w: -2.5846983E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -32.29004, y: 43.620037, z: 0.08}
+          rotation: {x: -0, y: -0, z: 0.9092362, w: -0.41628075}
+          scale: {x: 8, y: 4, z: 4}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: -24.29002, y: 39.34002, z: 0}
+        - {x: -27.80002, y: 38.430016, z: 0}
+        - {x: -29.090021, y: 41.750015, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -26.83002, y: 39.99002, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -29.99002, y: 38.240025, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -24.15602, y: 37.899017, z: -0.716}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4444063, y: -0.53748536, z: 0.45518827, w: 0.55354893}
+        - <Position>k__BackingField: {x: -22.881018, y: 40.403023, z: -0.521}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.7845359, y: -0.22186053, z: 0.21898301, w: -0.5360299}
+        - <Position>k__BackingField: {x: -28.814014, y: 36.873993, z: -0.687}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.03746155, y: -0.76832473, z: 0.63525605, w: 0.06872922}
+        - <Position>k__BackingField: {x: -30.350355, y: 42.530342, z: -0.5670435}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.31856853, y: 0.69587857, z: -0.62700903, w: -0.14535084}
+        - <Position>k__BackingField: {x: -28.899021, y: 43.64602, z: -0.412}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.7252753, y: -0.010226101, z: 0.012793213, w: -0.68826425}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -25.28002, y: 38.290024, z: -0.6259998}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.25075036, y: 0.74933356, z: -0.54527885, w: -0.27981168}
+        - <Position>k__BackingField: {x: -27.427593, y: 36.904793, z: -0.505}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5955548, y: -0.34866324, z: 0.38485837, w: 0.61288875}
+        - <Position>k__BackingField: {x: -26.970547, y: 37.551414, z: -0.535}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.13222805, y: 0.6684884, z: -0.6272094, w: -0.3771572}
+        - <Position>k__BackingField: {x: -23.858017, y: 40.50902, z: -0.399}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.6789162, y: 0.10789299, z: -0.36582142, w: -0.62738085}
+        - <Position>k__BackingField: {x: -30.173023, y: 36.734024, z: -0.707}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5266384, y: -0.5138775, z: 0.28964585, w: 0.61211705}
+        - <Position>k__BackingField: {x: -27.863022, y: 42.559017, z: -0.427}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.56465393, y: 0.56647366, z: -0.49114487, w: 0.34503683}
+        - <Position>k__BackingField: {x: -30.429024, y: 41.411022, z: -0.456}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.27948555, y: 0.5193708, z: -0.7016821, w: 0.39973032}
+        - <Position>k__BackingField: {x: -29.954021, y: 43.594017, z: -0.404}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6127687, y: -0.40942043, z: 0.37865824, w: 0.55991757}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 20
+      spawnableGroup:
+        FixedElements:
+        - name: Rock_05
+          position: {x: -21.350006, y: 37.38, z: -0.3}
+          rotation: {x: 0.025304615, y: 0.99967986, z: -4.3697394E-08, w: 1.1060983E-09}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -25.320019, y: 35.410015, z: 0.08}
+          rotation: {x: -0, y: -0, z: -0.11753741, w: 0.9930686}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Border_08
+          position: {x: -21.90999, y: 38.58001, z: 1}
+          rotation: {x: -0.7071069, y: -0.70710677, z: 3.0908623E-08, w: -3.0908623E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_32
+          position: {x: -25.090008, y: 37.21, z: -0.3}
+          rotation: {x: -0.100393385, y: -0.9949479, z: 4.3238284E-08, w: -6.4143144E-09}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_02
+          position: {x: -23.867659, y: 38.047897, z: 0.054}
+          rotation: {x: -0, y: -0, z: -0.03336221, w: 0.9994435}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_01
+          position: {x: -24.662727, y: 37.920704, z: -0.08}
+          rotation: {x: -0, y: -0, z: 0.09490174, w: 0.9954868}
+          scale: {x: 1.5, y: 1.5, z: 1.5}
+        - name: Wall_22
+          position: {x: -24.710018, y: 39.160015, z: 0.95}
+          rotation: {x: -0.50075567, y: -0.8655888, z: 3.783609E-08, w: -2.188872E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_02
+          position: {x: -21.550005, y: 41.08, z: -0.42}
+          rotation: {x: -0.32391742, y: 0.94608545, z: -4.135471E-08, w: -1.4158874E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_00
+          position: {x: -26.162008, y: 38.42, z: -0.13}
+          rotation: {x: -0, y: -0, z: -0.19186807, w: 0.9814209}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Maramaiti_A
+          position: {x: -23.123003, y: 40.38302, z: -0.467}
+          rotation: {x: 0.07070109, y: 0.64068437, z: -0.7496966, w: -0.14993364}
+          scale: {x: 1.5000035, y: 1.5000017, z: 1.5000018}
+        - name: Maramaiti_B
+          position: {x: -27.259695, y: 38.32852, z: -0.51806706}
+          rotation: {x: 0.5631232, y: -0.22105926, z: 0.3241464, w: -0.72729254}
+          scale: {x: 1.5000015, y: 1.5000017, z: 1.5000024}
+        - name: Rock_30
+          position: {x: -24.110004, y: 40.870018, z: -0.2}
+          rotation: {x: -0.9992036, y: 0.03990394, z: -0, w: 0}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_01
+          position: {x: -26.852667, y: 39.336494, z: -0.049999982}
+          rotation: {x: -0, y: -0, z: -0.62840647, w: 0.77788526}
+          scale: {x: 1.5, y: 1.5, z: 1.5}
+        - name: Rock_24
+          position: {x: -27.650007, y: 39.480003, z: -0.26}
+          rotation: {x: 0.6470204, y: -0.7624728, z: 3.4593587E-08, w: 2.6720226E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -25.35002, y: 42.80002, z: 0.14}
+          rotation: {x: -0, y: -0, z: 0.034027338, w: 0.999421}
+          scale: {x: 8, y: 4, z: 4}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: -24.379005, y: 40.69, z: 0}
+          rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.184, y: 0.029, z: -0.516}
+          meshLocalRotation: {x: -0.06777409, y: 0.08392922, z: -0.42887816, w: 0.8968981}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: -23.010006, y: 39, z: 0}
+        MotileWildlifeSpawnpoints: []
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 10
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: QuadMask
+          position: {x: -25.81003, y: 34.880028, z: 0.08}
+          rotation: {x: -0, y: -0, z: 0.06801534, w: 0.99768436}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_23
+          position: {x: -22.900017, y: 36.980022, z: -0.44}
+          rotation: {x: -0.9795753, y: 0.20107794, z: -8.789401E-09, w: -4.28186E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Border_08
+          position: {x: -21.91001, y: 38.580048, z: 1}
+          rotation: {x: -0.7071069, y: -0.70710677, z: 3.0908623E-08, w: -3.0908623E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_32
+          position: {x: -27.216007, y: 36.83168, z: -0.43}
+          rotation: {x: -0.15114522, y: 0.9885117, z: -3.3877114E-08, w: 2.762291E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_20
+          position: {x: -22.420017, y: 40.91002, z: -0.38}
+          rotation: {x: -0.99611837, y: -0.08802503, z: 3.8476955E-09, w: -4.3541718E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_22
+          position: {x: -24.64003, y: 39.77004, z: 0.95}
+          rotation: {x: -0.50075567, y: -0.8655888, z: 3.783609E-08, w: -2.188872E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao
+          position: {x: -27.870022, y: 39.930016, z: 0.97}
+          rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_23
+          position: {x: -31.070023, y: 37.550022, z: -0.44}
+          rotation: {x: 0.37395915, y: 0.9274452, z: -4.0539923E-08, w: 1.6346265E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_21
+          position: {x: -28.240034, y: 40.020042, z: 1}
+          rotation: {x: -0.73075825, y: -0.68263644, z: 2.983898E-08, w: -3.1942463E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -32.52004, y: 37.130035, z: 0.08}
+          rotation: {x: -0, y: -0, z: -0.48785967, w: 0.8729221}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_24
+          position: {x: -25.54002, y: 42.24002, z: -0.37}
+          rotation: {x: 0.3106765, y: 0.95051587, z: -4.1548375E-08, w: 1.3580083E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_21
+          position: {x: -29.320034, y: 40.350037, z: 0.97}
+          rotation: {x: -0.70587164, y: 0.70833987, z: -3.096253E-08, w: -3.0854626E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -25.08003, y: 44.460045, z: 0.14}
+          rotation: {x: -0, y: -0, z: -0.31647694, w: 0.9486003}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_34
+          position: {x: -30.400023, y: 42.13002, z: -0.3}
+          rotation: {x: -0.5343524, y: 0.84526193, z: -1.4606099E-08, w: -5.8697985E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: -27.72002, y: 44.210022, z: -0.3}
+          rotation: {x: -0.85126936, y: 0.524729, z: -2.2936657E-08, w: -3.7210153E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -31.960037, y: 43.500034, z: 0.08}
+          rotation: {x: -0, y: -0, z: 0.8925859, w: -0.45087755}
+          scale: {x: 8, y: 4, z: 4}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: -24.610031, y: 41.360035, z: 0}
+          rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.27014923, y: 0.19851685, z: -0.4530042}
+          meshLocalRotation: {x: -0.01427217, y: 0.057553656, z: -0.022261644, w: 0.99799216}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: -31.070038, y: 37.35004, z: 0}
+          rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: 0.24, y: -0.28, z: -0.66399693}
+          meshLocalRotation: {x: 0.0020331885, y: -0.10426361, z: -0.32067224, w: 0.94143206}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        - position: {x: -26.370035, y: 42.730034, z: 0}
+          rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.11793518, y: 0.27214622, z: -0.63699627}
+          meshLocalRotation: {x: 0.10268907, y: 0.06700299, z: -0.20597419, w: 0.9708451}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: -25.310019, y: 39.55002, z: 0}
+        - {x: -30.060022, y: 39.38002, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -29.66002, y: 38.16002, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -28.16002, y: 41.95002, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -22.883017, y: 40.39502, z: -0.542}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.74900293, y: -0.2461327, z: 0.19942538, w: -0.58193046}
+        - <Position>k__BackingField: {x: -28.815777, y: 36.826027, z: -0.687}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.04460752, y: -0.76794297, z: 0.6345892, w: 0.07463592}
+        - <Position>k__BackingField: {x: -31.190023, y: 40.02002, z: -0.479}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.69805485, y: -0.017234445, z: 0.0060070157, w: -0.71581185}
+        - <Position>k__BackingField: {x: -30.100023, y: 41.77002, z: -0.5670204}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.26586258, y: 0.7025905, z: -0.626724, w: -0.20712513}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -25.354517, y: 38.012253, z: -0.678}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.25552166, y: 0.7471591, z: -0.568608, w: -0.23053654}
+        - <Position>k__BackingField: {x: -26.370022, y: 37.760017, z: -0.671}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.47038314, y: -0.4294351, z: 0.3418674, w: 0.69097906}
+        - <Position>k__BackingField: {x: -23.858017, y: 40.50902, z: -0.399}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.6789162, y: 0.10789299, z: -0.36582142, w: -0.62738085}
+        - <Position>k__BackingField: {x: -31.295023, y: 38.902016, z: -0.512}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.23400652, y: 0.68310213, z: -0.54860926, w: 0.4214741}
+        - <Position>k__BackingField: {x: -29.660223, y: 42.820213, z: -0.58802134}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.43020502, y: 0.5111656, z: -0.56200266, w: 0.48763373}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Rock_30
+          position: {x: -20.810005, y: 39.26, z: -0.19}
+          rotation: {x: -0.70920175, y: -0.7050057, z: 3.0816775E-08, w: -3.1000194E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -22.820005, y: 38.65, z: 0}
+          rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+          scale: {x: 8, y: 4, z: 4}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints: []
+        MotileWildlifeSpawnpoints: []
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+  - areaVariants:
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 7
+      spawnableGroup:
+        FixedElements:
+        - name: QuadMask
+          position: {x: -9.210014, y: 25.940025, z: 0.08}
+          rotation: {x: -0, y: -0, z: 0.077589095, w: 0.9969855}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_32
+          position: {x: -7.6900086, y: 28.340017, z: -0.35}
+          rotation: {x: -0.24022809, y: 0.9707166, z: -4.243137E-08, w: -1.0500695E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_23
+          position: {x: -12.290011, y: 27.090015, z: -0.22}
+          rotation: {x: -0.999263, y: -0.038387835, z: 1.6780088E-09, w: -4.3679172E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: CrystalCluster_01
+          position: {x: -7.9390125, y: 28.926031, z: -0.162}
+          rotation: {x: -0, y: -0, z: -0.37935337, w: -0.92525196}
+          scale: {x: 1.5, y: 1.5, z: 1.5}
+        - name: CrystalCluster_02
+          position: {x: -7.3220115, y: 29.68603, z: -0.147}
+          rotation: {x: -0, y: -0, z: 0.38751563, w: 0.9218632}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Wall_22
+          position: {x: -9.830014, y: 29.130028, z: 0.95}
+          rotation: {x: -0.90741116, y: 0.42024416, z: -1.8369443E-08, w: -3.9664208E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -4.0500083, y: 30.770033, z: 0.08}
+          rotation: {x: -0, y: -0, z: -0.64612406, w: 0.7632325}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Border_08
+          position: {x: -12.600018, y: 28.600029, z: 1}
+          rotation: {x: -0.7509233, y: 0.66038966, z: -2.3595652E-08, w: -3.679583E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_01
+          position: {x: -6.6500115, y: 31.060034, z: 1.01}
+          rotation: {x: -0.7071068, y: 0.7071068, z: -3.090862E-08, w: -3.090862E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_24
+          position: {x: -6.940008, y: 31.42002, z: -0.2}
+          rotation: {x: 0.13139135, y: 0.9913307, z: -4.3332445E-08, w: 5.7432636E-09}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_30
+          position: {x: -11.170011, y: 30.420021, z: -0.13}
+          rotation: {x: -0.1723589, y: 0.98503435, z: -4.3057216E-08, w: -7.534052E-09}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -10.120014, y: 32.910034, z: 0.14}
+          rotation: {x: -0, y: -0, z: 0.098451406, w: 0.995142}
+          scale: {x: 8, y: 4, z: 4}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: -11.87001, y: 28.870018, z: 0}
+        - {x: -8.430009, y: 30.11002, z: 0}
+        MotileWildlifeSpawnpoints: []
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -11.018061, y: 27.756182, z: -0.409999}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.2090962, y: 0.70894533, z: -0.6137441, w: 0.27747732}
+        - <Position>k__BackingField: {x: -6.887008, y: 29.240017, z: -0.631}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.50652474, y: 0.432835, z: -0.4523571, w: -0.5928404}
+        - <Position>k__BackingField: {x: -10.613023, y: 30.115063, z: -0.4009992}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.68305945, y: -0.17789236, z: 0.24313065, w: -0.6653359}
+        - <Position>k__BackingField: {x: -9.340055, y: 30.856249, z: -0.32601458}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.35847294, y: -0.62282485, z: 0.6181688, w: 0.31851822}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -9.686035, y: 27.81913, z: -0.56500113}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.58960867, y: -0.06092319, z: 0.16395739, w: 0.7885227}
+        - <Position>k__BackingField: {x: -6.0680075, y: 30.703014, z: -0.26}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.6598795, y: 0.19268405, z: -0.28374708, w: -0.6685205}
+        - <Position>k__BackingField: {x: -8.071009, y: 31.25302, z: -0.349}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.4924547, y: 0.4175173, z: -0.58011687, w: -0.49662086}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 5
+      maxDifficulty: 25
+      spawnableGroup:
+        FixedElements:
+        - name: QuadMask
+          position: {x: -3.0800066, y: 23.950035, z: 0.08}
+          rotation: {x: -0, y: -0, z: 0.41469324, w: 0.90996134}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_24
+          position: {x: -4.150008, y: 25.070026, z: -0.43}
+          rotation: {x: -0.92520976, y: -0.37945625, z: 1.6586593E-08, w: -4.0442192E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -9.920017, y: 23.960035, z: 0.08}
+          rotation: {x: -0, y: -0, z: -0.15039816, w: 0.98862565}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_23
+          position: {x: -7.6000123, y: 25.330027, z: -0.44}
+          rotation: {x: 0.31647694, y: 0.9486003, z: -4.146464E-08, w: 1.38336205E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_01
+          position: {x: -3.96001, y: 27.020042, z: 0.92}
+          rotation: {x: -0.8616736, y: 0.5074632, z: -2.218191E-08, w: -3.7664954E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_05
+          position: {x: -3.1400073, y: 27.59003, z: -0.3}
+          rotation: {x: -0.58707905, y: 0.80952966, z: -3.538569E-08, w: -2.5662002E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_21
+          position: {x: -7.9400163, y: 27.100042, z: 0.95}
+          rotation: {x: -0.98450327, y: 0.17536676, z: -7.665527E-09, w: -4.3034003E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_30
+          position: {x: -11.560017, y: 26.80003, z: -0.28}
+          rotation: {x: 0.06540313, y: 0.997859, z: -4.3617803E-08, w: 2.8588634E-09}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Wall_22
+          position: {x: -7.2000146, y: 28.930044, z: 0.98}
+          rotation: {x: 0.31978628, y: 0.94748974, z: -4.1416094E-08, w: 1.3978297E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_32
+          position: {x: -5.62001, y: 29.91003, z: -0.43}
+          rotation: {x: -0.984959, y: 0.17278874, z: -3.9491166E-08, w: -3.745107E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -2.8700082, y: 30.37005, z: -0.01}
+          rotation: {x: -0, y: -0, z: -0.35592264, w: 0.93451554}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Border_08
+          position: {x: -12.240023, y: 28.510042, z: 1}
+          rotation: {x: -0.6111127, y: 0.7915437, z: -3.459946E-08, w: -2.6712607E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Rock_30
+          position: {x: -10.740014, y: 29.990032, z: -0.32}
+          rotation: {x: -0.15247262, y: 0.98830783, z: -4.397299E-08, w: -7.4374693E-09}
+          scale: {x: 1, y: 1, z: 1}
+        - name: QuadMask
+          position: {x: -9.320019, y: 32.100048, z: -0.01}
+          rotation: {x: -0, y: -0, z: 0.9991945, w: -0.040131837}
+          scale: {x: 8, y: 4, z: 4}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: -5.160009, y: 24.280027, z: 0}
+          rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: 0.29, y: 0.11, z: -0.54}
+          meshLocalRotation: {x: 0.023093818, y: -0.022965604, z: -0.042505994, w: 0.9985652}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: -4.390008, y: 29.370033, z: 0}
+          rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+          meshLocalPosition: {x: -0.132, y: 0.289, z: -0.755}
+          meshLocalRotation: {x: 0.055880614, y: 0.07222579, z: -0.20216262, w: 0.97508526}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: -5.0300093, y: 27.860031, z: 0}
+        - {x: -7.1600113, y: 27.470028, z: 0}
+        - {x: -10.260015, y: 28.260033, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -5.84001, y: 26.460028, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -7.6900125, y: 28.49003, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -3.5250077, y: 26.113031, z: -0.624}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.18959343, y: 0.7145463, z: -0.62443805, w: -0.2521017}
+        - <Position>k__BackingField: {x: -3.4890077, y: 27.56903, z: -0.633}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.42178622, y: -0.46171376, z: 0.53341967, w: 0.569544}
+        - <Position>k__BackingField: {x: -9.773014, y: 26.70903, z: -0.426}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.64847636, y: -0.21932681, z: 0.13344264, w: -0.7166362}
+        - <Position>k__BackingField: {x: -7.5060124, y: 30.147034, z: -0.714}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.7438897, y: -0.043392867, z: -0.02123037, w: -0.6665542}
+        - <Position>k__BackingField: {x: -12.059059, y: 29.462143, z: -0.61400276}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.049155563, y: -0.6282475, z: 0.7749435, w: 0.04849416}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -6.4030313, y: 24.856152, z: -0.57800114}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.11045021, y: 0.74061304, z: -0.47412398, w: 0.463141}
+        - <Position>k__BackingField: {x: -4.362008, y: 25.508026, z: -0.614}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.17571473, y: 0.6737103, z: -0.62494653, w: -0.35310173}
+        - <Position>k__BackingField: {x: -7.825039, y: 26.338188, z: -0.54599303}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.60486156, y: -0.47170538, z: 0.30726445, w: 0.5632277}
+        - <Position>k__BackingField: {x: -8.434012, y: 26.713028, z: -0.547}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.23628268, y: 0.7273023, z: -0.5532255, w: -0.33036888}
+        - <Position>k__BackingField: {x: -10.716014, y: 27.263031, z: -0.391}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.43197623, y: 0.5144625, z: -0.44748476, w: 0.59032404}
+        - <Position>k__BackingField: {x: -6.471017, y: 29.951263, z: -0.66400015}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.7023139, y: 0.3141313, z: -0.109941185, w: -0.6292772}
+        - <Position>k__BackingField: {x: -10.868014, y: 29.69603, z: -0.552}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.58070725, y: -0.32222617, z: 0.4046656, w: 0.62864554}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: QuadMask
+          position: {x: -11.660022, y: 28.270042, z: -0.05}
+          rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+          scale: {x: 8, y: 4, z: 4}
+        - name: Rock_01
+          position: {x: -13.820011, y: 28.170013, z: -0.3}
+          rotation: {x: -0.7782432, y: -0.62796307, z: 2.744914E-08, w: -3.4018093E-08}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints: []
+        MotileWildlifeSpawnpoints: []
+        SessileWildlifeSpawnpoints: []
+        SmallSessileWildlifeSpawnpoints: []
+--- !u!114 &139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a9b067c1160c9dd7f066727eb23b3ed, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnPoints:
+  - {fileID: 50}
+  - {fileID: 47}
+  - {fileID: 48}
+  - {fileID: 51}
+  - {fileID: 55}
+  maxBoulders: 0
+  maxHeightHelper: {fileID: 52}
+  minHeightHelper: {fileID: 88}
+  spawnCrystalBoulders: 1
+  crystalRarity: 0.75
+--- !u!114 &140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a728e458119278bb5c7e351f2af2f4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5a1c382317059a962ec079790ac2e6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnedChunk: {fileID: 0}
+  returnConnector: 0
+--- !u!114 &142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ff7e1db3338e1f64cbd3749a40a357, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

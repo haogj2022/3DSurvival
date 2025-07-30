@@ -1,0 +1,1276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!104 &9
+RenderSettings:
+  serializedVersion: 9
+  m_ObjectHideFlags: 0
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &10
+LightmapSettings:
+  serializedVersion: 12
+  m_ObjectHideFlags: 0
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 112000000, guid: 89cd202248c8ee943a5b92de6109361b, type: 2}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &11
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &1
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4}
+  - component: {fileID: 12}
+  m_Layer: 19
+  m_Name: D10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 5}
+  - component: {fileID: 7}
+  - component: {fileID: 14}
+  m_Layer: 19
+  m_Name: Boundaries
+  m_TagString: ChunkZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 6}
+  - component: {fileID: 13}
+  - component: {fileID: 8}
+  m_Layer: 19
+  m_Name: 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -1, w: -4.371139E-08}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -180}
+--- !u!4 &5
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.89, y: 9.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &6
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5}
+  m_Father: {fileID: 4}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!61 &7
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 12.2, y: 21.5}
+  m_EdgeRadius: 0
+--- !u!61 &8
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1, y: 10}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a728e458119278bb5c7e351f2af2f4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd5c6c7632f5fae881efee50f03308a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  chunkType: 0
+  generateReturn: 1
+  returnProbability: 1
+  doorElements:
+  - name: Rock_23
+    position: {x: 0.09000006, y: 0.65, z: -0.3}
+    rotation: {x: 0.9874138, y: 0.15815802, z: 4.316123E-08, w: 6.91331E-09}
+    scale: {x: 1, y: 1, z: 1}
+  chunkBoundaries:
+    serializedVersion: 2
+    x: -7.91
+    y: 0
+    width: 12.15
+    height: -20.66
+  chunkOrientation: 0
+  safeRevivePosition: {x: 0, y: 0}
+  spawnpoints:
+    FixedElements:
+    - name: Rock_05
+      position: {x: 2.2525876, y: -0.96632326, z: -0.3}
+      rotation: {x: 0.8208131, y: -0.57119703, z: -3.5878898E-08, w: -2.4967825E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_04
+      position: {x: -2.64, y: -1.0099998, z: -0.23000002}
+      rotation: {x: -0.8964275, y: -0.4431904, z: -2.9497867E-08, w: 3.896456E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_23
+      position: {x: -2.0500002, y: -3.5399997, z: -0.3}
+      rotation: {x: -0.3564935, y: -0.93429786, z: 1.5582824E-08, w: 4.0839456E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_20
+      position: {x: 3.1899998, y: -3.5900002, z: -0.33}
+      rotation: {x: -0.712026, y: 0.7021531, z: 3.1123648E-08, w: -3.0692085E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_24
+      position: {x: -0.7400006, y: -6.6, z: -0.31}
+      rotation: {x: -0.7126386, y: -0.70153135, z: 3.115042E-08, w: 3.066491E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_04
+      position: {x: 3.4399996, y: -6.2600007, z: -0.23}
+      rotation: {x: 0.4152491, y: -0.9097077, z: 1.8151118E-08, w: -3.9764586E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_32_D
+      position: {x: -3.9600008, y: -7.6099997, z: -3.16}
+      rotation: {x: 0.58739334, y: 0.72219867, z: 0.24173245, w: 0.2737949}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_30
+      position: {x: 2.0799992, y: -9.14, z: -0.29}
+      rotation: {x: 0.37541565, y: -0.9268566, z: -4.476788E-09, w: 1.1052654E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuadMask
+      position: {x: -6.32, y: -7.09, z: -2.66}
+      rotation: {x: -0, y: -0, z: 0.65474087, w: -0.7558534}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_23
+      position: {x: -2.490001, y: -10.08, z: -0.32}
+      rotation: {x: -0.7738402, y: -0.63338083, z: 3.382563E-08, w: 2.768596E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_02
+      position: {x: 0.979999, y: -11.77, z: -0.47}
+      rotation: {x: 0.6606571, y: 0.7506879, z: 2.8878231E-08, w: 3.2813613E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Border_09
+      position: {x: -1.0100024, y: -13.270002, z: 1.05}
+      rotation: {x: -0.0052359044, y: -0.9999863, z: -4.3710788E-08, w: 2.2887099E-10}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_05
+      position: {x: -3.5200016, y: -13.100002, z: -0.2}
+      rotation: {x: 0.9051983, y: 0.42498967, z: 1.8576888E-08, w: -3.9567478E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_34_D
+      position: {x: -5.130001, y: -12.41, z: -2.87}
+      rotation: {x: -0.88718474, y: -0.3839626, z: -0.09906676, w: -0.23592749}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_24
+      position: {x: 2.1899989, y: -14.29, z: -0.25}
+      rotation: {x: 0.5062596, y: 0.86238116, z: 2.2129301E-08, w: 3.769588E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuadMask
+      position: {x: -7.91, y: -12.38, z: -2.66}
+      rotation: {x: -0, y: -0, z: 0.89879405, w: -0.43837115}
+      scale: {x: 8, y: 4, z: 4}
+    - name: QuadMask
+      position: {x: 4.24, y: -14.63, z: 0}
+      rotation: {x: -0, y: -0, z: 0.6135964, w: -0.78961986}
+      scale: {x: 8, y: 4, z: 4}
+    - name: QuadMask
+      position: {x: -6.61, y: -13.99, z: 0}
+      rotation: {x: -0, y: -0, z: 0.8304987, w: -0.55702055}
+      scale: {x: 8, y: 4, z: 4}
+    - name: Rock_02
+      position: {x: -4.7600017, y: -14.81, z: -0.23}
+      rotation: {x: 0.34938982, y: -0.93697745, z: 1.5272345E-08, w: -4.0956575E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wall_20
+      position: {x: 0.059999026, y: -15.920002, z: 0.97}
+      rotation: {x: -0.772249, y: -0.63532007, z: -0, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wall_11
+      position: {x: -3.4900014, y: -16.110003, z: 0.93}
+      rotation: {x: 0.953979, y: -0.2998734, z: -1.3107885E-08, w: -4.1699746E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_05
+      position: {x: 2.6099985, y: -17.36, z: -0.2}
+      rotation: {x: 0.33955875, y: -0.94058484, z: 1.4842588E-08, w: -4.111427E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_32
+      position: {x: -3.9900017, y: -18.02, z: -0.22}
+      rotation: {x: 0.36162454, y: 0.9323238, z: 1.5807096E-08, w: 4.075317E-08}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rock_24
+      position: {x: 0.33999833, y: -19.06, z: -0.3}
+      rotation: {x: -0.9865151, y: -0.16367029, z: 4.3121943E-08, w: 7.154259E-09}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wall_02
+      position: {x: -1.3000016, y: -19.31, z: 1.01}
+      rotation: {x: 1, y: -4.371139E-08, z: 4.371139E-08, w: 1.9106855E-15}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuadMask
+      position: {x: -4.84, y: -19.5, z: 0}
+      rotation: {x: -0, y: -0, z: 0.95742035, w: 0.28869763}
+      scale: {x: 8, y: 4, z: 4}
+    - name: QuadMask
+      position: {x: 1.29, y: -20.66, z: 0}
+      rotation: {x: -0, y: -0, z: 0.96944535, w: -0.24530739}
+      scale: {x: 8, y: 4, z: 4}
+    Boulders: []
+    StarSpawnpoints: []
+    PreySpawnpoints: []
+    MotileWildlifeSpawnpoints: []
+    SessileWildlifeSpawnpoints: []
+    SmallSessileWildlifeSpawnpoints: []
+  varyingAreas:
+  - areaVariants:
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 0
+      maxDifficulty: 20
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao
+          position: {x: -1.0900015, y: -15.86, z: 1}
+          rotation: {x: 0.5, y: 0.49999997, z: -0.49999997, w: -0.5}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: -2.9600017, y: -18.69, z: 0}
+          rotation: {x: -0, y: 0, z: -1, w: -4.371139E-08}
+          meshLocalPosition: {x: -0.07, y: -0.21, z: -0.56}
+          meshLocalRotation: {x: -0.055381764, y: -0.031238906, z: 0.079395905, w: 0.9948132}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        - position: {x: -0.94000167, y: -19.3, z: 0}
+          rotation: {x: -0, y: 0, z: -1, w: -4.371139E-08}
+          meshLocalPosition: {x: 0.047, y: -0.295, z: -0.406}
+          meshLocalRotation: {x: -0.061507132, y: -0.016120818, z: 0.32988232, w: 0.94187826}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        PreySpawnpoints:
+        - {x: -0.76, y: -2.56, z: 0}
+        - {x: 1.86, y: -5.57, z: 0}
+        - {x: -0.4100008, y: -9.24, z: 0}
+        - {x: -1.7300012, y: -14.17, z: 0}
+        - {x: -3.4700015, y: -15.91, z: 0}
+        - {x: 0.57999855, y: -16.47, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 1.2899996, y: -3.83, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -0.5600011, y: -12.1, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 0.52999866, y: -14.98, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -1.2700015, y: -17.46, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -1.096, y: -4.203, z: -0.536}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.54281205, y: -0.30743235, z: 0.15355735, w: 0.76632935}
+        - <Position>k__BackingField: {x: -0.269, y: -5.205, z: -0.441}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5950034, y: -0.33372504, z: 0.06798561, w: 0.72799486}
+        - <Position>k__BackingField: {x: 3.15, y: -5.904, z: -0.634}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6700173, y: -0.013427519, z: 0.043964136, w: 0.7409209}
+        - <Position>k__BackingField: {x: 1.876, y: -8.986, z: -0.489}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.47382504, y: -0.4396661, z: 0.52559257, w: 0.5531149}
+        - <Position>k__BackingField: {x: -1.746, y: -9.06, z: -0.5}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6497148, y: -0.41662803, z: 0.29650205, w: 0.5624752}
+        - <Position>k__BackingField: {x: 1.215, y: -13.397, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.36542472, y: -0.4502396, z: 0.6207771, w: 0.5276219}
+        - <Position>k__BackingField: {x: -4.92, y: -16.327, z: -0.444}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4176477, y: 0.39366567, z: -0.42759505, w: 0.69839835}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -2.392, y: -2.588, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.0720993, y: 0.73251826, z: -0.67429864, w: 0.059498325}
+        - <Position>k__BackingField: {x: 2.61, y: -3.983, z: -0.404}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.45187786, y: 0.2822319, z: -0.59208137, w: -0.60464144}
+        - <Position>k__BackingField: {x: 3.24, y: -4.59, z: -0.53}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6320845, y: 0.503553, z: -0.44786692, w: 0.38251647}
+        - <Position>k__BackingField: {x: -0.172, y: -6.04, z: -0.526}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4627433, y: 0.3272238, z: -0.5233978, w: 0.6362767}
+        - <Position>k__BackingField: {x: 3.278, y: -7.753, z: -0.464}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.31823367, y: 0.66450363, z: -0.6341625, w: 0.23452114}
+        - <Position>k__BackingField: {x: 0.933, y: -9.604, z: -0.564}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.22008693, y: 0.68490607, z: -0.62442356, w: -0.3042379}
+        - <Position>k__BackingField: {x: -2.359, y: -10.099, z: -0.448}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.27968094, y: 0.6538132, z: -0.58182794, w: 0.39469388}
+        - <Position>k__BackingField: {x: 0.626, y: -12.466, z: -0.418}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.5280184, y: 0.20997335, z: -0.5983356, w: -0.56489134}
+        - <Position>k__BackingField: {x: -2.753, y: -13.377, z: -0.29}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09091814, y: 0.6399998, z: -0.7245995, w: 0.23893473}
+        - <Position>k__BackingField: {x: -3.3, y: -13.74, z: -0.488}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.7545978, y: -0.050283477, z: -0.18084134, w: 0.6287688}
+        - <Position>k__BackingField: {x: 1.76, y: -14.156, z: -0.479}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5760509, y: 0.4782503, z: -0.4648097, w: 0.47264573}
+        - <Position>k__BackingField: {x: 2.48, y: -16.928, z: -0.51}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.30816662, y: 0.63686043, z: -0.5616781, w: -0.4289054}
+        - <Position>k__BackingField: {x: 1.917, y: -17.353, z: -0.431}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.16494346, y: 0.77889764, z: -0.59996116, w: -0.07847812}
+        - <Position>k__BackingField: {x: -4.5, y: -17.122, z: -0.452}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09849511, y: 0.70725584, z: -0.68411434, w: 0.14857855}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 2
+      maxDifficulty: 12
+      spawnableGroup:
+        FixedElements:
+        - name: Ahopiro_S1
+          position: {x: -3.0200016, y: -17.73, z: 0}
+          rotation: {x: -0, y: -0, z: -0.07149742, w: 0.9974408}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_M1
+          position: {x: 0.099998415, y: -18.17, z: 0}
+          rotation: {x: -0, y: 0, z: -0.039085355, w: -0.99923587}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D2
+          position: {x: 1.3435698, y: -18.171793, z: -0.55127937}
+          rotation: {x: -0.5323554, y: 0.0025181556, z: -0.03672588, w: 0.8457202}
+          scale: {x: 0.8, y: 0.8, z: 0.8}
+        - name: Ahopiro_D1
+          position: {x: 0.6099984, y: -18.35, z: -0.51}
+          rotation: {x: 0.50613904, y: -0.43605465, z: 0.29675797, w: -0.68235946}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Ahopiro_D2
+          position: {x: -2.609323, y: -18.30456, z: -0.55643046}
+          rotation: {x: -0.605146, y: 0.22666867, z: -0.2431148, w: 0.7234051}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 2.4809985, y: -15.517, z: 0}
+          rotation: {x: -0, y: -0, z: -1, w: 0}
+          meshLocalPosition: {x: 0.11, y: 0.08, z: -0.36}
+          meshLocalRotation: {x: 0.008716418, y: -0.031124614, z: -0.30806586, w: 0.95081586}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: -0.9520017, y: -19.326, z: 0}
+          rotation: {x: -0, y: 0, z: -1, w: -4.371139E-08}
+          meshLocalPosition: {x: 0.153, y: -0.397, z: -0.386}
+          meshLocalRotation: {x: -0.048876833, y: -0.05426268, z: 0.21335824, w: 0.9742407}
+          meshLocalScale: {x: 0.7, y: 0.7, z: 0.7}
+        PreySpawnpoints:
+        - {x: 1.4000006, y: -4.1500015, z: 0}
+        - {x: 0.9400008, y: -6.280002, z: 0}
+        - {x: -0.81000036, y: -11.480003, z: 0}
+        - {x: -2.3800004, y: -15.070005, z: 0}
+        - {x: 0.7700008, y: -15.540005, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -0.94000036, y: -2.6000009, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 1.7500011, y: -7.180002, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -0.23999944, y: -14.4900055, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -1.096, y: -4.203, z: -0.536}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.54281205, y: -0.30743235, z: 0.15355735, w: 0.76632935}
+        - <Position>k__BackingField: {x: -0.269, y: -5.205, z: -0.441}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5950034, y: -0.33372504, z: 0.06798561, w: 0.72799486}
+        - <Position>k__BackingField: {x: 3.15, y: -5.904, z: -0.634}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6700173, y: -0.013427519, z: 0.043964136, w: 0.7409209}
+        - <Position>k__BackingField: {x: 1.876, y: -8.986, z: -0.489}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.47382504, y: -0.4396661, z: 0.52559257, w: 0.5531149}
+        - <Position>k__BackingField: {x: -1.746, y: -9.06, z: -0.5}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6497148, y: -0.41662803, z: 0.29650205, w: 0.5624752}
+        - <Position>k__BackingField: {x: -2.640001, y: -11.468, z: -0.596}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.65097785, y: -0.019728957, z: -0.1576742, w: 0.74227864}
+        - <Position>k__BackingField: {x: 1.215, y: -13.397, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.36542472, y: -0.4502396, z: 0.6207771, w: 0.5276219}
+        - <Position>k__BackingField: {x: -4.814001, y: -12.57, z: -2.899}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4120285, y: 0.3703352, z: -0.7274021, w: 0.40493274}
+        - <Position>k__BackingField: {x: -4.92, y: -16.327, z: -0.444}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4176477, y: 0.39366567, z: -0.42759505, w: 0.69839835}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -2.392, y: -2.588, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.0720993, y: 0.73251826, z: -0.67429864, w: 0.059498325}
+        - <Position>k__BackingField: {x: 2.61, y: -3.983, z: -0.404}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.45187786, y: 0.2822319, z: -0.59208137, w: -0.60464144}
+        - <Position>k__BackingField: {x: 3.24, y: -4.59, z: -0.53}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6320845, y: 0.503553, z: -0.44786692, w: 0.38251647}
+        - <Position>k__BackingField: {x: -0.172, y: -6.04, z: -0.526}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4627433, y: 0.3272238, z: -0.5233978, w: 0.6362767}
+        - <Position>k__BackingField: {x: 3.278, y: -7.753, z: -0.464}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.31823367, y: 0.66450363, z: -0.6341625, w: 0.23452114}
+        - <Position>k__BackingField: {x: 0.933, y: -9.604, z: -0.564}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.22008693, y: 0.68490607, z: -0.62442356, w: -0.3042379}
+        - <Position>k__BackingField: {x: -2.359, y: -10.099, z: -0.448}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.27968094, y: 0.6538132, z: -0.58182794, w: 0.39469388}
+        - <Position>k__BackingField: {x: 0.626, y: -12.466, z: -0.418}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.5280184, y: 0.20997335, z: -0.5983356, w: -0.56489134}
+        - <Position>k__BackingField: {x: -4.2070007, y: -11.715, z: -2.911}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.41270143, y: 0.62628525, z: -0.65974075, w: -0.046761345}
+        - <Position>k__BackingField: {x: -3.1600013, y: -13.41, z: -0.52}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.7435698, y: 0.07151864, z: -0.07994776, w: 0.65999806}
+        - <Position>k__BackingField: {x: 1.76, y: -14.156, z: -0.479}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5760509, y: 0.4782503, z: -0.4648097, w: 0.47264573}
+        - <Position>k__BackingField: {x: -5.7600017, y: -13.648999, z: -2.963}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.08217002, y: 0.49409223, z: -0.8495782, w: 0.1653416}
+        - <Position>k__BackingField: {x: 2.48, y: -16.928, z: -0.51}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.30816662, y: 0.63686043, z: -0.5616781, w: -0.4289054}
+        - <Position>k__BackingField: {x: 1.917, y: -17.353, z: -0.431}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.16494346, y: 0.77889764, z: -0.59996116, w: -0.07847812}
+        - <Position>k__BackingField: {x: -4.5, y: -17.122, z: -0.452}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09849511, y: 0.70725584, z: -0.68411434, w: 0.14857855}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 3
+      maxDifficulty: 6
+      spawnableGroup:
+        FixedElements:
+        - name: CrystalCluster_02
+          position: {x: 0.7899995, y: -17.880007, z: -0.06}
+          rotation: {x: -0, y: -0, z: 0.16590832, w: 0.98614126}
+          scale: {x: 1.2999997, y: 1.2999997, z: 1.3}
+        - name: CrystalCluster_01
+          position: {x: -2.6400032, y: -17.910007, z: -0.1}
+          rotation: {x: -0, y: -0, z: -0.19014542, w: 0.981756}
+          scale: {x: 1.5000002, y: 1.5000002, z: 1.5}
+        - name: CrystalCluster_01
+          position: {x: 0.0699981, y: -18.290007, z: -0.07}
+          rotation: {x: -0, y: -0, z: 0.3786487, w: 0.9255405}
+          scale: {x: 1.4999999, y: 1.4999999, z: 1.5}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: -0.94000167, y: -19.3, z: 0}
+          rotation: {x: -0, y: 0, z: -1, w: -4.371139E-08}
+          meshLocalPosition: {x: 0.047, y: -0.295, z: -0.406}
+          meshLocalRotation: {x: -0.061507132, y: -0.016120818, z: 0.32988232, w: 0.94187826}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        PreySpawnpoints:
+        - {x: -0.76, y: -2.56, z: 0}
+        - {x: 1.86, y: -5.57, z: 0}
+        - {x: -0.8, y: -10.02, z: 0}
+        - {x: -2.5500014, y: -15.05, z: 0}
+        - {x: 0.57999855, y: -16.47, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 1.2899996, y: -3.83, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -1.5000011, y: -11.81, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 0.4199987, y: -14.65, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -1.2700015, y: -17.46, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -1.096, y: -4.203, z: -0.536}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.54281205, y: -0.30743235, z: 0.15355735, w: 0.76632935}
+        - <Position>k__BackingField: {x: -0.269, y: -5.205, z: -0.441}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5950034, y: -0.33372504, z: 0.06798561, w: 0.72799486}
+        - <Position>k__BackingField: {x: 3.15, y: -5.904, z: -0.634}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6700173, y: -0.013427519, z: 0.043964136, w: 0.7409209}
+        - <Position>k__BackingField: {x: 1.876, y: -8.986, z: -0.489}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.47382504, y: -0.4396661, z: 0.52559257, w: 0.5531149}
+        - <Position>k__BackingField: {x: -1.746, y: -9.06, z: -0.5}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6497148, y: -0.41662803, z: 0.29650205, w: 0.5624752}
+        - <Position>k__BackingField: {x: 1.215, y: -13.397, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.36542472, y: -0.4502396, z: 0.6207771, w: 0.5276219}
+        - <Position>k__BackingField: {x: -4.92, y: -16.327, z: -0.444}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4176477, y: 0.39366567, z: -0.42759505, w: 0.69839835}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -2.392, y: -2.588, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.0720993, y: 0.73251826, z: -0.67429864, w: 0.059498325}
+        - <Position>k__BackingField: {x: 2.61, y: -3.983, z: -0.404}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.45187786, y: 0.2822319, z: -0.59208137, w: -0.60464144}
+        - <Position>k__BackingField: {x: 3.24, y: -4.59, z: -0.53}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6320845, y: 0.503553, z: -0.44786692, w: 0.38251647}
+        - <Position>k__BackingField: {x: -0.172, y: -6.04, z: -0.526}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4627433, y: 0.3272238, z: -0.5233978, w: 0.6362767}
+        - <Position>k__BackingField: {x: 3.278, y: -7.753, z: -0.464}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.31823367, y: 0.66450363, z: -0.6341625, w: 0.23452114}
+        - <Position>k__BackingField: {x: 0.933, y: -9.604, z: -0.564}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.22008693, y: 0.68490607, z: -0.62442356, w: -0.3042379}
+        - <Position>k__BackingField: {x: -2.359, y: -10.099, z: -0.448}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.27968094, y: 0.6538132, z: -0.58182794, w: 0.39469388}
+        - <Position>k__BackingField: {x: 0.626, y: -12.466, z: -0.418}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.5280184, y: 0.20997335, z: -0.5983356, w: -0.56489134}
+        - <Position>k__BackingField: {x: -2.753, y: -13.377, z: -0.29}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09091814, y: 0.6399998, z: -0.7245995, w: 0.23893473}
+        - <Position>k__BackingField: {x: -3.3, y: -13.74, z: -0.488}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.7545978, y: -0.050283477, z: -0.18084134, w: 0.6287688}
+        - <Position>k__BackingField: {x: 1.76, y: -14.156, z: -0.479}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5760509, y: 0.4782503, z: -0.4648097, w: 0.47264573}
+        - <Position>k__BackingField: {x: 2.48, y: -16.928, z: -0.51}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.30816662, y: 0.63686043, z: -0.5616781, w: -0.4289054}
+        - <Position>k__BackingField: {x: 1.917, y: -17.353, z: -0.431}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.16494346, y: 0.77889764, z: -0.59996116, w: -0.07847812}
+        - <Position>k__BackingField: {x: -4.5, y: -17.122, z: -0.452}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09849511, y: 0.70725584, z: -0.68411434, w: 0.14857855}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 4
+      maxDifficulty: 16
+      spawnableGroup:
+        FixedElements:
+        - name: PlanternSprout
+          position: {x: 1.3399985, y: -17.53, z: 0.453}
+          rotation: {x: 0.20673689, y: -0.95838404, z: -0.19619453, w: 0.016361805}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1M
+          position: {x: 1.1849984, y: -17.77, z: 0.1}
+          rotation: {x: -0, y: -0, z: 0.15988119, w: 0.9871363}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: -2.7900014, y: -17.63, z: 0.43}
+          rotation: {x: -0.27847493, y: -0.9533162, z: 0.073686354, w: 0.09061026}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: -3.4900014, y: -17.53, z: 0.43}
+          rotation: {x: -0.06438665, y: -0.9966612, z: -0.02068837, w: 0.045748986}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1S
+          position: {x: 0.80999845, y: -17.9, z: 0.14}
+          rotation: {x: -0, y: 0, z: -0.29904076, w: -0.9542403}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1M
+          position: {x: -3.1100016, y: -17.83, z: 0.1}
+          rotation: {x: -0, y: -0, z: -0.09141481, w: 0.99581295}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: 0.5499984, y: -18.16, z: 0.48336065}
+          rotation: {x: 0.1033002, y: -0.1705431, z: 0.215797, w: 0.9558639}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: -1.8300016, y: -18.34, z: 0.42}
+          rotation: {x: -0.096898556, y: -0.9663363, z: -0.11531821, w: -0.20858249}
+          scale: {x: 1, y: 1, z: 1}
+        - name: PlanternSprout
+          position: {x: -0.79000163, y: -18.57, z: 0.4}
+          rotation: {x: -0, y: 0, z: -0.046234723, w: -0.99893063}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1L
+          position: {x: -1.3900039, y: -18.610006, z: 0.03}
+          rotation: {x: -0, y: -0, z: 0.008726522, w: 0.9999619}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1S
+          position: {x: -1.6500041, y: -18.600006, z: 0.06}
+          rotation: {x: -0, y: -0, z: 0.20364173, w: 0.9790455}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Plantern_1S
+          position: {x: -1.060004, y: -18.690006, z: 0.06}
+          rotation: {x: -0, y: -0, z: -0.20193268, w: 0.97939944}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints: []
+        PreySpawnpoints:
+        - {x: -0.76, y: -2.56, z: 0}
+        - {x: 1.86, y: -5.57, z: 0}
+        - {x: -0.8, y: -10.02, z: 0}
+        - {x: -1.2000014, y: -15.14, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 1.2899996, y: -3.83, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -1.5000011, y: -11.81, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 0.4199987, y: -14.65, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -2.8000014, y: -15.66, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -1.096, y: -4.203, z: -0.536}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.54281205, y: -0.30743235, z: 0.15355735, w: 0.76632935}
+        - <Position>k__BackingField: {x: -0.269, y: -5.205, z: -0.441}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5950034, y: -0.33372504, z: 0.06798561, w: 0.72799486}
+        - <Position>k__BackingField: {x: 3.15, y: -5.904, z: -0.634}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6700173, y: -0.013427519, z: 0.043964136, w: 0.7409209}
+        - <Position>k__BackingField: {x: 1.876, y: -8.986, z: -0.489}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.47382504, y: -0.4396661, z: 0.52559257, w: 0.5531149}
+        - <Position>k__BackingField: {x: -1.746, y: -9.06, z: -0.5}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6497148, y: -0.41662803, z: 0.29650205, w: 0.5624752}
+        - <Position>k__BackingField: {x: 1.215, y: -13.397, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.36542472, y: -0.4502396, z: 0.6207771, w: 0.5276219}
+        - <Position>k__BackingField: {x: -4.92, y: -16.327, z: -0.444}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4176477, y: 0.39366567, z: -0.42759505, w: 0.69839835}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -2.392, y: -2.588, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.0720993, y: 0.73251826, z: -0.67429864, w: 0.059498325}
+        - <Position>k__BackingField: {x: 2.61, y: -3.983, z: -0.404}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.45187786, y: 0.2822319, z: -0.59208137, w: -0.60464144}
+        - <Position>k__BackingField: {x: 3.24, y: -4.59, z: -0.53}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6320845, y: 0.503553, z: -0.44786692, w: 0.38251647}
+        - <Position>k__BackingField: {x: -0.172, y: -6.04, z: -0.526}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4627433, y: 0.3272238, z: -0.5233978, w: 0.6362767}
+        - <Position>k__BackingField: {x: 3.278, y: -7.753, z: -0.464}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.31823367, y: 0.66450363, z: -0.6341625, w: 0.23452114}
+        - <Position>k__BackingField: {x: 0.933, y: -9.604, z: -0.564}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.22008693, y: 0.68490607, z: -0.62442356, w: -0.3042379}
+        - <Position>k__BackingField: {x: -2.359, y: -10.099, z: -0.448}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.27968094, y: 0.6538132, z: -0.58182794, w: 0.39469388}
+        - <Position>k__BackingField: {x: 0.626, y: -12.466, z: -0.418}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.5280184, y: 0.20997335, z: -0.5983356, w: -0.56489134}
+        - <Position>k__BackingField: {x: -2.753, y: -13.377, z: -0.29}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09091814, y: 0.6399998, z: -0.7245995, w: 0.23893473}
+        - <Position>k__BackingField: {x: -3.3, y: -13.74, z: -0.488}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.7545978, y: -0.050283477, z: -0.18084134, w: 0.6287688}
+        - <Position>k__BackingField: {x: 1.76, y: -14.156, z: -0.479}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5760509, y: 0.4782503, z: -0.4648097, w: 0.47264573}
+        - <Position>k__BackingField: {x: 2.48, y: -16.928, z: -0.51}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.30816662, y: 0.63686043, z: -0.5616781, w: -0.4289054}
+        - <Position>k__BackingField: {x: 1.917, y: -17.353, z: -0.431}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.16494346, y: 0.77889764, z: -0.59996116, w: -0.07847812}
+        - <Position>k__BackingField: {x: -4.5, y: -17.122, z: -0.452}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09849511, y: 0.70725584, z: -0.68411434, w: 0.14857855}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 8
+      maxDifficulty: 34
+      spawnableGroup:
+        FixedElements:
+        - name: Ahopiro_S1
+          position: {x: -3.1600018, y: -17.77, z: 0}
+          rotation: {x: -0, y: -0, z: -0.1210031, w: 0.9926521}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: 1.3399985, y: -18.15, z: -0.51}
+          rotation: {x: -0.013476368, y: 0.7883632, z: -0.6142396, w: -0.03180505}
+          scale: {x: 1.1, y: 1.1, z: 1.1}
+        - name: Ahopiro_D1
+          position: {x: -3.7530017, y: -17.85, z: -0.381}
+          rotation: {x: 0.38221252, y: 0.595929, z: -0.47150046, w: -0.52580374}
+          scale: {x: 1.1, y: 1.1, z: 1.1}
+        - name: Ahopiro_L1
+          position: {x: -0.40000165, y: -18.6, z: 0}
+          rotation: {x: -0, y: 0, z: -0.012216892, w: -0.9999254}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Ahopiro_D1
+          position: {x: -1.3700017, y: -18.9, z: -0.484}
+          rotation: {x: -0.515856, y: 0.28866553, z: -0.33888042, w: 0.73193234}
+          scale: {x: 1.2, y: 1.2, z: 1.2}
+        - name: Ahopiro_D2
+          position: {x: -0.65000165, y: -18.97, z: -0.56}
+          rotation: {x: -0.6591931, y: -0.065734655, z: -0.30516547, w: 0.6841181}
+          scale: {x: 0.8, y: 0.8, z: 0.8}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 0.7599983, y: -18.81, z: 0}
+          rotation: {x: -0, y: 0, z: -1, w: -4.371139E-08}
+          meshLocalPosition: {x: 0.343, y: -0.2819996, z: -0.56}
+          meshLocalRotation: {x: -0.08901338, y: -0.05345284, z: 0.25084522, w: 0.9624428}
+          meshLocalScale: {x: 0.7, y: 0.7, z: 0.7}
+        - position: {x: -2.7600017, y: -18.82, z: 0}
+          rotation: {x: -0, y: 0, z: -1, w: -4.371139E-08}
+          meshLocalPosition: {x: -0.3, y: -0.25, z: -0.57}
+          meshLocalRotation: {x: -0.047502257, y: 0.077664725, z: 0.29278174, w: 0.9518354}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        PreySpawnpoints:
+        - {x: 1.2100006, y: -3.150001, z: 0}
+        - {x: 1.9100007, y: -5.2100015, z: 0}
+        - {x: -0.56000006, y: -9.310003, z: 0}
+        - {x: -0.099999346, y: -13.890005, z: 0}
+        - {x: -3.0800006, y: -15.450006, z: 0}
+        - {x: -1.5200002, y: -17.750006, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 1.6900007, y: -7.1100006, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -2.2599995, y: -14.550002, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: 0.8700006, y: -16.060001, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -1.096, y: -4.203, z: -0.536}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.54281205, y: -0.30743235, z: 0.15355735, w: 0.76632935}
+        - <Position>k__BackingField: {x: -0.269, y: -5.205, z: -0.441}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5950034, y: -0.33372504, z: 0.06798561, w: 0.72799486}
+        - <Position>k__BackingField: {x: 3.15, y: -5.904, z: -0.634}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6700173, y: -0.013427519, z: 0.043964136, w: 0.7409209}
+        - <Position>k__BackingField: {x: 1.876, y: -8.986, z: -0.489}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.47382504, y: -0.4396661, z: 0.52559257, w: 0.5531149}
+        - <Position>k__BackingField: {x: -1.746, y: -9.06, z: -0.5}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6497148, y: -0.41662803, z: 0.29650205, w: 0.5624752}
+        - <Position>k__BackingField: {x: -2.640001, y: -11.468, z: -0.596}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.65097785, y: -0.019728957, z: -0.1576742, w: 0.74227864}
+        - <Position>k__BackingField: {x: 1.215, y: -13.397, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.36542472, y: -0.4502396, z: 0.6207771, w: 0.5276219}
+        - <Position>k__BackingField: {x: -4.814001, y: -12.57, z: -2.899}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4120285, y: 0.3703352, z: -0.7274021, w: 0.40493274}
+        - <Position>k__BackingField: {x: -4.92, y: -16.327, z: -0.444}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4176477, y: 0.39366567, z: -0.42759505, w: 0.69839835}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -2.392, y: -2.588, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.0720993, y: 0.73251826, z: -0.67429864, w: 0.059498325}
+        - <Position>k__BackingField: {x: 2.61, y: -3.983, z: -0.404}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.45187786, y: 0.2822319, z: -0.59208137, w: -0.60464144}
+        - <Position>k__BackingField: {x: 3.24, y: -4.59, z: -0.53}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6320845, y: 0.503553, z: -0.44786692, w: 0.38251647}
+        - <Position>k__BackingField: {x: -0.172, y: -6.04, z: -0.526}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4627433, y: 0.3272238, z: -0.5233978, w: 0.6362767}
+        - <Position>k__BackingField: {x: 3.278, y: -7.753, z: -0.464}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.31823367, y: 0.66450363, z: -0.6341625, w: 0.23452114}
+        - <Position>k__BackingField: {x: 0.933, y: -9.604, z: -0.564}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.22008693, y: 0.68490607, z: -0.62442356, w: -0.3042379}
+        - <Position>k__BackingField: {x: -2.359, y: -10.099, z: -0.448}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.27968094, y: 0.6538132, z: -0.58182794, w: 0.39469388}
+        - <Position>k__BackingField: {x: 0.626, y: -12.466, z: -0.418}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.5280184, y: 0.20997335, z: -0.5983356, w: -0.56489134}
+        - <Position>k__BackingField: {x: -4.2070007, y: -11.715, z: -2.911}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.41270143, y: 0.62628525, z: -0.65974075, w: -0.046761345}
+        - <Position>k__BackingField: {x: -3.1600013, y: -13.41, z: -0.52}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.7435698, y: 0.07151864, z: -0.07994776, w: 0.65999806}
+        - <Position>k__BackingField: {x: 1.76, y: -14.156, z: -0.479}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5760509, y: 0.4782503, z: -0.4648097, w: 0.47264573}
+        - <Position>k__BackingField: {x: -5.7600017, y: -13.648999, z: -2.963}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.08217002, y: 0.49409223, z: -0.8495782, w: 0.1653416}
+        - <Position>k__BackingField: {x: 2.48, y: -16.928, z: -0.51}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.30816662, y: 0.63686043, z: -0.5616781, w: -0.4289054}
+        - <Position>k__BackingField: {x: 1.917, y: -17.353, z: -0.431}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.16494346, y: 0.77889764, z: -0.59996116, w: -0.07847812}
+        - <Position>k__BackingField: {x: -4.5, y: -17.122, z: -0.452}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09849511, y: 0.70725584, z: -0.68411434, w: 0.14857855}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 13
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Mahamakao_45DegreesShadowed
+          position: {x: -2.2500012, y: -13.1, z: 0.602}
+          rotation: {x: 0.21443619, y: 0.5468363, z: -0.7578781, w: 0.28391555}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao
+          position: {x: -0.2100014, y: -15.99, z: 1}
+          rotation: {x: 0.5, y: 0.49999997, z: -0.49999997, w: -0.5}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 2.4499986, y: -15.54, z: 0}
+          rotation: {x: -0, y: -0, z: -1, w: 0}
+          meshLocalPosition: {x: 0.127, y: -0.011, z: -0.364}
+          meshLocalRotation: {x: 0.040688124, y: -0.033090036, z: -0.018042393, w: 0.9984608}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: 0.53999835, y: -18.93, z: 0}
+          rotation: {x: -0, y: -0, z: -1, w: 0}
+          meshLocalPosition: {x: 0.18600002, y: -0.4200001, z: -0.538}
+          meshLocalRotation: {x: -0.045481563, y: -0.10649906, z: -0.48755056, w: 0.8653808}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: -0.9100017, y: -19.29, z: 0}
+          rotation: {x: -0, y: 0, z: -1, w: -4.371139E-08}
+          meshLocalPosition: {x: -0.011, y: -0.26, z: -0.424}
+          meshLocalRotation: {x: -0.0400317, y: -0.076889634, z: -0.27567458, w: 0.9573344}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: -0.31000027, y: -2.97, z: 0}
+        - {x: 1.7999994, y: -7.13, z: 0}
+        - {x: 0.049998775, y: -14.04, z: 0}
+        - {x: -2.6900012, y: -14.79, z: 0}
+        - {x: -0.73000157, y: -17.69, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 1.9399996, y: -5.29, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -0.71000093, y: -10.99, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -3.2900014, y: -16.68, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -1.096, y: -4.203, z: -0.536}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.54281205, y: -0.30743235, z: 0.15355735, w: 0.76632935}
+        - <Position>k__BackingField: {x: -0.269, y: -5.205, z: -0.441}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5950034, y: -0.33372504, z: 0.06798561, w: 0.72799486}
+        - <Position>k__BackingField: {x: 3.15, y: -5.904, z: -0.634}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6700173, y: -0.013427519, z: 0.043964136, w: 0.7409209}
+        - <Position>k__BackingField: {x: 1.876, y: -8.986, z: -0.489}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.47382504, y: -0.4396661, z: 0.52559257, w: 0.5531149}
+        - <Position>k__BackingField: {x: -1.746, y: -9.06, z: -0.5}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6497148, y: -0.41662803, z: 0.29650205, w: 0.5624752}
+        - <Position>k__BackingField: {x: 1.215, y: -13.397, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.36542472, y: -0.4502396, z: 0.6207771, w: 0.5276219}
+        - <Position>k__BackingField: {x: -4.92, y: -16.327, z: -0.444}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4176477, y: 0.39366567, z: -0.42759505, w: 0.69839835}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -2.392, y: -2.588, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.0720993, y: 0.73251826, z: -0.67429864, w: 0.059498325}
+        - <Position>k__BackingField: {x: 2.61, y: -3.983, z: -0.404}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.45187786, y: 0.2822319, z: -0.59208137, w: -0.60464144}
+        - <Position>k__BackingField: {x: 3.24, y: -4.59, z: -0.53}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6320845, y: 0.503553, z: -0.44786692, w: 0.38251647}
+        - <Position>k__BackingField: {x: -0.172, y: -6.04, z: -0.526}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4627433, y: 0.3272238, z: -0.5233978, w: 0.6362767}
+        - <Position>k__BackingField: {x: 3.278, y: -7.753, z: -0.464}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.31823367, y: 0.66450363, z: -0.6341625, w: 0.23452114}
+        - <Position>k__BackingField: {x: 0.933, y: -9.604, z: -0.564}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.22008693, y: 0.68490607, z: -0.62442356, w: -0.3042379}
+        - <Position>k__BackingField: {x: -2.359, y: -10.099, z: -0.448}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.27968094, y: 0.6538132, z: -0.58182794, w: 0.39469388}
+        - <Position>k__BackingField: {x: 0.626, y: -12.466, z: -0.418}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.5280184, y: 0.20997335, z: -0.5983356, w: -0.56489134}
+        - <Position>k__BackingField: {x: -3.1600013, y: -13.41, z: -0.52}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.7435698, y: 0.07151864, z: -0.07994776, w: 0.65999806}
+        - <Position>k__BackingField: {x: 1.76, y: -14.156, z: -0.479}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5760509, y: 0.4782503, z: -0.4648097, w: 0.47264573}
+        - <Position>k__BackingField: {x: 2.48, y: -16.928, z: -0.51}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.30816662, y: 0.63686043, z: -0.5616781, w: -0.4289054}
+        - <Position>k__BackingField: {x: 1.917, y: -17.353, z: -0.431}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.16494346, y: 0.77889764, z: -0.59996116, w: -0.07847812}
+        - <Position>k__BackingField: {x: -4.5, y: -17.122, z: -0.452}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09849511, y: 0.70725584, z: -0.68411434, w: 0.14857855}
+        - <Position>k__BackingField: {x: -2.3130016, y: -18.412, z: -0.398}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.049043883, y: 0.80814004, z: -0.552178, w: 0.1990071}
+    - useDifficulty: 1
+      useZen: 0
+      minDifficulty: 32
+      maxDifficulty: 0
+      spawnableGroup:
+        FixedElements:
+        - name: Kinateko2
+          position: {x: -0.08000042, y: -4.84, z: 0.85}
+          rotation: {x: -0, y: 0, z: -0.9121201, w: -0.40992308}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 0.16999947, y: -6.07, z: 0.85}
+          rotation: {x: -0, y: -0, z: -0.8209998, w: 0.57092845}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko2
+          position: {x: 0.089999005, y: -11.43, z: 0.85}
+          rotation: {x: -0, y: 0, z: -0.6135963, w: -0.78961986}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Kinateko1
+          position: {x: 0.2599989, y: -12.53, z: 0.85}
+          rotation: {x: -0, y: 0, z: -1, w: -4.371139E-08}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao_45DegreesShadowed
+          position: {x: -2.4600012, y: -13.6, z: 0.602}
+          rotation: {x: 0.28254664, y: 0.5149568, z: -0.7879417, w: 0.18475638}
+          scale: {x: 1, y: 1, z: 1}
+        - name: Mahamakao
+          position: {x: 0.00999857, y: -16.35, z: 1}
+          rotation: {x: 0.5, y: 0.49999997, z: -0.49999997, w: -0.5}
+          scale: {x: 1, y: 1, z: 1}
+        Boulders: []
+        StarSpawnpoints:
+        - position: {x: 2.4499986, y: -15.54, z: 0}
+          rotation: {x: -0, y: -0, z: -1, w: 0}
+          meshLocalPosition: {x: 0.127, y: -0.011, z: -0.364}
+          meshLocalRotation: {x: 0.040688124, y: -0.033090036, z: -0.018042393, w: 0.9984608}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: -3.7400017, y: -18.15, z: 0}
+          rotation: {x: -0, y: -0, z: -1, w: 0}
+          meshLocalPosition: {x: -0.07299997, y: -0.14900017, z: -0.401}
+          meshLocalRotation: {x: -0.06053985, y: -0.0316839, z: -0.48650026, w: 0.87100434}
+          meshLocalScale: {x: 0.8, y: 0.8, z: 0.8}
+        - position: {x: -0.9100017, y: -19.29, z: 0}
+          rotation: {x: -0, y: 0, z: -1, w: -4.371139E-08}
+          meshLocalPosition: {x: -0.011, y: -0.26, z: -0.424}
+          meshLocalRotation: {x: -0.0400317, y: -0.076889634, z: -0.27567458, w: 0.9573344}
+          meshLocalScale: {x: 1, y: 1, z: 1}
+        PreySpawnpoints:
+        - {x: -0.31000027, y: -2.97, z: 0}
+        - {x: 1.7999994, y: -7.13, z: 0}
+        - {x: -0.7700009, y: -9.98, z: 0}
+        - {x: -0.17000122, y: -14.02, z: 0}
+        - {x: -2.0700014, y: -15.85, z: 0}
+        - {x: -1.4600016, y: -17.71, z: 0}
+        MotileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: 1.9399996, y: -5.29, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -1.4300009, y: -11.18, z: 0}
+          <Biome>k__BackingField: 111210920
+        - <Position>k__BackingField: {x: -3.4100015, y: -16.01, z: 0}
+          <Biome>k__BackingField: 111210920
+        SessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -1.096, y: -4.203, z: -0.536}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.54281205, y: -0.30743235, z: 0.15355735, w: 0.76632935}
+        - <Position>k__BackingField: {x: -0.269, y: -5.205, z: -0.441}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5950034, y: -0.33372504, z: 0.06798561, w: 0.72799486}
+        - <Position>k__BackingField: {x: 3.15, y: -5.904, z: -0.634}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6700173, y: -0.013427519, z: 0.043964136, w: 0.7409209}
+        - <Position>k__BackingField: {x: 1.876, y: -8.986, z: -0.489}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.47382504, y: -0.4396661, z: 0.52559257, w: 0.5531149}
+        - <Position>k__BackingField: {x: -1.746, y: -9.06, z: -0.5}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6497148, y: -0.41662803, z: 0.29650205, w: 0.5624752}
+        - <Position>k__BackingField: {x: 1.215, y: -13.397, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.36542472, y: -0.4502396, z: 0.6207771, w: 0.5276219}
+        - <Position>k__BackingField: {x: -4.814001, y: -12.57, z: -2.899}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4120285, y: 0.3703352, z: -0.7274021, w: 0.40493274}
+        - <Position>k__BackingField: {x: -4.92, y: -16.327, z: -0.444}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4176477, y: 0.39366567, z: -0.42759505, w: 0.69839835}
+        SmallSessileWildlifeSpawnpoints:
+        - <Position>k__BackingField: {x: -2.392, y: -2.588, z: -0.481}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.0720993, y: 0.73251826, z: -0.67429864, w: 0.059498325}
+        - <Position>k__BackingField: {x: 2.61, y: -3.983, z: -0.404}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.45187786, y: 0.2822319, z: -0.59208137, w: -0.60464144}
+        - <Position>k__BackingField: {x: 3.24, y: -4.59, z: -0.53}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.6320845, y: 0.503553, z: -0.44786692, w: 0.38251647}
+        - <Position>k__BackingField: {x: -0.172, y: -6.04, z: -0.526}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.4627433, y: 0.3272238, z: -0.5233978, w: 0.6362767}
+        - <Position>k__BackingField: {x: 3.278, y: -7.753, z: -0.464}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.31823367, y: 0.66450363, z: -0.6341625, w: 0.23452114}
+        - <Position>k__BackingField: {x: 0.933, y: -9.604, z: -0.564}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.22008693, y: 0.68490607, z: -0.62442356, w: -0.3042379}
+        - <Position>k__BackingField: {x: -2.359, y: -10.099, z: -0.448}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.27968094, y: 0.6538132, z: -0.58182794, w: 0.39469388}
+        - <Position>k__BackingField: {x: 0.626, y: -12.466, z: -0.418}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.5280184, y: 0.20997335, z: -0.5983356, w: -0.56489134}
+        - <Position>k__BackingField: {x: -4.2070007, y: -11.715, z: -2.911}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.41270143, y: 0.62628525, z: -0.65974075, w: -0.046761345}
+        - <Position>k__BackingField: {x: -3.1600013, y: -13.41, z: -0.52}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.7435698, y: 0.07151864, z: -0.07994776, w: 0.65999806}
+        - <Position>k__BackingField: {x: 1.76, y: -14.156, z: -0.479}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.5760509, y: 0.4782503, z: -0.4648097, w: 0.47264573}
+        - <Position>k__BackingField: {x: -5.7600017, y: -13.648999, z: -2.963}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.08217002, y: 0.49409223, z: -0.8495782, w: 0.1653416}
+        - <Position>k__BackingField: {x: 1.917, y: -17.353, z: -0.431}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: -0.16494346, y: 0.77889764, z: -0.59996116, w: -0.07847812}
+        - <Position>k__BackingField: {x: -4.5, y: -17.122, z: -0.452}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.09849511, y: 0.70725584, z: -0.68411434, w: 0.14857855}
+        - <Position>k__BackingField: {x: -2.3130016, y: -18.412, z: -0.398}
+          <Biome>k__BackingField: 111210920
+          <Rotation>k__BackingField: {x: 0.049043883, y: 0.80814004, z: -0.552178, w: 0.1990071}
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ff7e1db3338e1f64cbd3749a40a357, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
