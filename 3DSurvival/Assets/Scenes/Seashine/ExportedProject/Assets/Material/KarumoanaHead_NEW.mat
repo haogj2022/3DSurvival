@@ -8,7 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: KarumoanaHead_NEW
-  m_Shader: {fileID: 4800000, guid: 0715e106e8d89424692cc1b19ed39c27, type: 3}
+  m_Shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 0
@@ -17,28 +19,34 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: {}
-    m_Ints: {}
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
-      _FresnelMult: 5.16
-      _HitMix: 0.7
-      _InnerFresnel: 1.5
-      _OuterFresnel: 1
-      _echoAlpha: 2
-      _echoHitMix0: 0.5357143
-      _echoMix: 0
+    - _Cutoff: 0.5
+    - _FresnelMult: 5.16
+    - _HitMix: 0.7
+    - _InnerFresnel: 1.5
+    - _OuterFresnel: 1
+    - _echoAlpha: 2
+    - _echoHitMix0: 0.5357143
+    - _echoMix: 0
     m_Colors:
-      _CenterColor: {r: 0, g: 0.07450981, b: 0.10196079, a: 1}
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _EdgeColor: {r: 0.9921569, g: 0.9960785, b: 1, a: 1}
-      _MidColor: {r: 0.54509807, g: 0.85098046, b: 1, a: 1}
-      _TintColor: {r: 0.5588235, g: 0.8722109, b: 1, a: 1}
-      _echoEdgeColor: {r: 0.99264705, g: 0.9978702, b: 1, a: 1}
-      _echoHitColor: {r: 0, g: 0.073123716, b: 0.102941155, a: 0}
-      _echoMidColor: {r: 0.5441177, g: 0.84908736, b: 1, a: 1}
-      _echoRGBA: {r: 1, g: 1, b: 1, a: 1}
-      _echoScale: {r: 1, g: 1, b: 1, a: 1}
-      _echoUV: {r: 0, g: 0, b: 0, a: 0}
+    - _CenterColor: {r: 0, g: 0.07450981, b: 0.10196079, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 0.9921569, g: 0.9960785, b: 1, a: 1}
+    - _MidColor: {r: 0.54509807, g: 0.85098046, b: 1, a: 1}
+    - _TintColor: {r: 0.5588235, g: 0.8722109, b: 1, a: 1}
+    - _echoEdgeColor: {r: 0.99264705, g: 0.9978702, b: 1, a: 1}
+    - _echoHitColor: {r: 0, g: 0.073123716, b: 0.102941155, a: 0}
+    - _echoMidColor: {r: 0.5441177, g: 0.84908736, b: 1, a: 1}
+    - _echoRGBA: {r: 1, g: 1, b: 1, a: 1}
+    - _echoScale: {r: 1, g: 1, b: 1, a: 1}
+    - _echoUV: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
