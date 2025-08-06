@@ -8,7 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AnglerFish
-  m_Shader: {fileID: 4800000, guid: ae458d7edb941a94daff608d674b9321, type: 3}
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 5
@@ -17,22 +19,23 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: c5040cd64fb31144bb46c9a88e12513b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _NormalMap:
+    - _NormalMap:
         m_Texture: {fileID: 2800000, guid: c01804604996d7a4e8187b62aa739a35, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: {}
-    m_Floats: {}
+    m_Ints: []
+    m_Floats: []
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _echoRGBA: {r: 1, g: 1, b: 1, a: 1}
-      _echoScale: {r: 1, g: 1, b: 1, a: 1}
-      _echoUV: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _echoRGBA: {r: 1, g: 1, b: 1, a: 1}
+    - _echoScale: {r: 1, g: 1, b: 1, a: 1}
+    - _echoUV: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

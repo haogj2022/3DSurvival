@@ -1,125 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!104 &88
-RenderSettings:
-  serializedVersion: 9
-  m_ObjectHideFlags: 0
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
-  m_LinearFogStart: 0
-  m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
-  m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
-  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
-  m_AmbientIntensity: 1
-  m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
-  m_HaloStrength: 0.5
-  m_FlareStrength: 1
-  m_FlareFadeSpeed: 3
-  m_HaloTexture: {fileID: 0}
-  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
-  m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
-  m_UseRadianceAmbientProbe: 0
---- !u!157 &89
-LightmapSettings:
-  serializedVersion: 12
-  m_ObjectHideFlags: 0
-  m_GIWorkflowMode: 1
-  m_GISettings:
-    serializedVersion: 2
-    m_BounceScale: 1
-    m_IndirectOutputScale: 1
-    m_AlbedoBoost: 1
-    m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 0
-  m_LightmapEditorSettings:
-    serializedVersion: 12
-    m_Resolution: 2
-    m_BakeResolution: 40
-    m_AtlasSize: 1024
-    m_AO: 0
-    m_AOMaxDistance: 1
-    m_CompAOExponent: 1
-    m_CompAOExponentDirect: 0
-    m_ExtractAmbientOcclusion: 0
-    m_Padding: 2
-    m_LightmapParameters: {fileID: 0}
-    m_LightmapsBakeMode: 1
-    m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
-    m_ReflectionCompression: 2
-    m_MixedBakeMode: 2
-    m_BakeBackend: 0
-    m_PVRSampling: 1
-    m_PVRDirectSampleCount: 32
-    m_PVRSampleCount: 500
-    m_PVRBounces: 2
-    m_PVREnvironmentSampleCount: 256
-    m_PVREnvironmentReferencePointCount: 2048
-    m_PVRFilteringMode: 1
-    m_PVRDenoiserTypeDirect: 1
-    m_PVRDenoiserTypeIndirect: 1
-    m_PVRDenoiserTypeAO: 1
-    m_PVRFilterTypeDirect: 0
-    m_PVRFilterTypeIndirect: 0
-    m_PVRFilterTypeAO: 0
-    m_PVREnvironmentMIS: 1
-    m_PVRCulling: 1
-    m_PVRFilteringGaussRadiusDirect: 1
-    m_PVRFilteringGaussRadiusIndirect: 5
-    m_PVRFilteringGaussRadiusAO: 2
-    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
-    m_PVRFilteringAtrousPositionSigmaIndirect: 2
-    m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ExportTrainingData: 0
-    m_TrainingDataDestination: TrainingData
-    m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: a298eaf18510c0a48ab66a58801f4f8e, type: 2}
-  m_LightingSettings: {fileID: 0}
---- !u!196 &90
-NavMeshSettings:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_BuildSettings:
-    serializedVersion: 2
-    agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
-    ledgeDropHeight: 0
-    maxJumpAcrossDistance: 0
-    minRegionArea: 2
-    manualCellSize: 0
-    cellSize: 0.16666667
-    manualTileSize: 0
-    tileSize: 256
-    accuratePlacement: 0
-    maxJobWorkers: 0
-    preserveTilesOutsideBounds: 0
-    debug:
-      m_Flags: 0
-  m_NavMeshData: {fileID: 0}
 --- !u!1 &1
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 28}
   - component: {fileID: 91}
@@ -130,14 +17,14 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &2
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 29}
   - component: {fileID: 71}
@@ -151,11 +38,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &3
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 30}
   - component: {fileID: 92}
@@ -168,11 +55,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &4
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 31}
   m_Layer: 19
@@ -184,11 +71,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &5
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 32}
   - component: {fileID: 72}
@@ -202,11 +89,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &6
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 33}
   - component: {fileID: 73}
@@ -219,11 +106,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &7
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 34}
   - component: {fileID: 74}
@@ -236,11 +123,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &8
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 35}
   - component: {fileID: 76}
@@ -253,11 +140,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &9
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 36}
   - component: {fileID: 66}
@@ -270,11 +157,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &10
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 37}
   - component: {fileID: 75}
@@ -287,11 +174,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &11
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 38}
   - component: {fileID: 65}
@@ -304,11 +191,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &12
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 39}
   - component: {fileID: 77}
@@ -321,11 +208,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &13
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 40}
   - component: {fileID: 57}
@@ -340,11 +227,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &14
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 41}
   - component: {fileID: 94}
@@ -358,11 +245,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &15
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 42}
   - component: {fileID: 93}
@@ -376,11 +263,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &16
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 43}
   - component: {fileID: 84}
@@ -393,11 +280,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &17
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 44}
   - component: {fileID: 81}
@@ -410,11 +297,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &18
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 45}
   - component: {fileID: 80}
@@ -427,11 +314,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &19
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 46}
   - component: {fileID: 68}
@@ -444,11 +331,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &20
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 47}
   - component: {fileID: 79}
@@ -461,11 +348,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &21
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 48}
   - component: {fileID: 83}
@@ -478,11 +365,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &22
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 49}
   - component: {fileID: 69}
@@ -495,11 +382,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &23
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 50}
   - component: {fileID: 82}
@@ -512,11 +399,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &24
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 51}
   - component: {fileID: 58}
@@ -531,11 +418,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &25
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 52}
   - component: {fileID: 85}
@@ -549,11 +436,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &26
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 53}
   - component: {fileID: 86}
@@ -567,11 +454,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &27
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 54}
   - component: {fileID: 87}
@@ -590,6 +477,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -602,7 +490,6 @@ Transform:
   - {fileID: 42}
   - {fileID: 31}
   m_Father: {fileID: 30}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!4 &29
 Transform:
@@ -611,13 +498,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.10287935, w: 0.9946939}
   m_LocalPosition: {x: -0.9, y: 15.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 31}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -11.810001}
 --- !u!4 &30
 Transform:
@@ -626,6 +513,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -633,7 +521,6 @@ Transform:
   m_Children:
   - {fileID: 28}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
 --- !u!4 &31
 Transform:
@@ -642,6 +529,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -650,7 +538,6 @@ Transform:
   - {fileID: 29}
   - {fileID: 32}
   m_Father: {fileID: 28}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!4 &32
 Transform:
@@ -659,13 +546,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.083243035, w: 0.9965293}
   m_LocalPosition: {x: 7.24, y: 54.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 31}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -9.55}
 --- !u!4 &33
 Transform:
@@ -674,14 +561,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6}
-  m_LocalRotation: {x: 0.40862298, y: 0.91270334, z: -2.086299E-09, w: 4.882628E-08}
-  m_LocalPosition: {x: 0.1254425, y: 0.030004501, z: -2.014733E-08}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40862298, y: 0.91270334, z: -0.000000002086299, w: 0.00000004882628}
+  m_LocalPosition: {x: 0.1254425, y: 0.030004501, z: -0.00000002014733}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 40}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 180, y: -5.2043374E-06, z: -131.76328}
+  m_LocalEulerAnglesHint: {x: 180, y: -0.0000052043374, z: -131.76328}
 --- !u!4 &34
 Transform:
   m_ObjectHideFlags: 0
@@ -689,14 +576,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7}
-  m_LocalRotation: {x: -0.16481131, y: 0.98632514, z: -2.876095E-08, w: 3.9511594E-08}
-  m_LocalPosition: {x: -0.2733307, y: 0.33691406, z: 2.0982336E-08}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.16481131, y: 0.98632514, z: -0.00000002876095, w: 0.000000039511594}
+  m_LocalPosition: {x: -0.2733307, y: 0.33691406, z: 0.000000020982336}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 40}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -180, y: -3.9226E-06, z: 161.02745}
+  m_LocalEulerAnglesHint: {x: -180, y: -0.0000039226, z: 161.02745}
 --- !u!4 &35
 Transform:
   m_ObjectHideFlags: 0
@@ -704,14 +591,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8}
-  m_LocalRotation: {x: 0.2734203, y: 0.9618947, z: -9.071296E-09, w: 4.802154E-08}
-  m_LocalPosition: {x: -0.78884125, y: -0.56801987, z: -4.4133756E-08}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.2734203, y: 0.9618947, z: -0.000000009071296, w: 0.00000004802154}
+  m_LocalPosition: {x: -0.78884125, y: -0.56801987, z: -0.000000044133756}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 40}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 180, y: -5.5773935E-06, z: -148.2642}
+  m_LocalEulerAnglesHint: {x: 180, y: -0.0000055773935, z: -148.2642}
 --- !u!4 &36
 Transform:
   m_ObjectHideFlags: 0
@@ -719,13 +606,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.29808044, y: -0.23303318, z: -2.3359421E-08}
+  m_LocalPosition: {x: 0.29808044, y: -0.23303318, z: -0.000000023359421}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 40}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!4 &37
 Transform:
@@ -734,14 +621,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10}
-  m_LocalRotation: {x: 3.388701E-09, y: -1.6943505E-09, z: -0.03876222, w: 0.9992485}
-  m_LocalPosition: {x: -0.4780655, y: -0.054138184, z: -9.625035E-09}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000003388701, y: -0.0000000016943505, z: -0.03876222,
+    w: 0.9992485}
+  m_LocalPosition: {x: -0.4780655, y: -0.054138184, z: -0.000000009625035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 40}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 3.9555073E-07, y: 1.7896035E-07, z: 4.4429364}
+  m_LocalEulerAnglesHint: {x: 0.00000039555073, y: 0.00000017896035, z: 4.4429364}
 --- !u!4 &38
 Transform:
   m_ObjectHideFlags: 0
@@ -749,13 +637,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7829437, y: -0.24689388, z: 1.6864615E-07}
+  m_LocalPosition: {x: 0.7829437, y: -0.24689388, z: 0.00000016864615}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 40}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!4 &39
 Transform:
@@ -764,14 +652,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12}
-  m_LocalRotation: {x: -0.045642883, y: 0.9989579, z: -2.3828033E-08, w: 4.266828E-08}
-  m_LocalPosition: {x: -0.35362244, y: -0.6566744, z: 2.7591817E-08}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.045642883, y: 0.9989579, z: -0.000000023828033, w: 0.00000004266828}
+  m_LocalPosition: {x: -0.35362244, y: -0.6566744, z: 0.000000027591817}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 40}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -180, y: -4.7597014E-06, z: 174.7679}
+  m_LocalEulerAnglesHint: {x: -180, y: -0.0000047597014, z: 174.7679}
 --- !u!4 &40
 Transform:
   m_ObjectHideFlags: 0
@@ -779,7 +667,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13}
-  m_LocalRotation: {x: -0.8425124, y: -0.53867704, z: -2.5054259E-08, w: 4.1960003E-08}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.8425124, y: -0.53867704, z: -0.000000025054259, w: 0.000000041960003}
   m_LocalPosition: {x: 2.4800005, y: -0.9499855, z: -0.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -792,8 +681,7 @@ Transform:
   - {fileID: 34}
   - {fileID: 35}
   m_Father: {fileID: 42}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -180, y: 5.0089584E-06, z: -65.18725}
+  m_LocalEulerAnglesHint: {x: -180, y: 0.0000050089584, z: -65.18725}
 --- !u!4 &41
 Transform:
   m_ObjectHideFlags: 0
@@ -801,13 +689,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 34.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 28}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: 90}
 --- !u!4 &42
 Transform:
@@ -816,6 +704,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.5, y: 63.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -824,7 +713,6 @@ Transform:
   - {fileID: 40}
   - {fileID: 51}
   m_Father: {fileID: 28}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!4 &43
 Transform:
@@ -833,13 +721,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.96189946, y: -0.27320525, z: 0.009617076, w: 0.0039904015}
-  m_LocalPosition: {x: 0.27348328, y: 0.64361, z: 5.893655E-09}
+  m_LocalPosition: {x: 0.27348328, y: 0.64361, z: 0.000000005893655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 51}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 179.8612, y: 1.1850595, z: 31.7105}
 --- !u!4 &44
 Transform:
@@ -848,13 +736,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.86077476, y: -0.50887954, z: 0.008285825, w: 0.0063048964}
-  m_LocalPosition: {x: -0.9676895, y: -0.3799553, z: 1.1440043E-07}
+  m_LocalPosition: {x: -0.9676895, y: -0.3799553, z: 0.00000011440043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 51}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 179.86125, y: 1.185037, z: 61.180687}
 --- !u!4 &45
 Transform:
@@ -863,13 +751,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.9386858, y: -0.34461677, z: 0.009290802, w: 0.0047004335}
-  m_LocalPosition: {x: 1.1761589, y: 0.192276, z: -1.341611E-08}
+  m_LocalPosition: {x: 1.1761589, y: 0.192276, z: -0.00000001341611}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 51}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850748, z: 40.31765}
 --- !u!4 &46
 Transform:
@@ -878,14 +766,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19}
-  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -4.2751125E-08, w: -9.111899E-09}
-  m_LocalPosition: {x: 0.17569351, y: -0.08924866, z: 1.44427075E-08}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -0.000000042751125, w: -0.000000009111899}
+  m_LocalPosition: {x: 0.17569351, y: -0.08924866, z: 0.0000000144427075}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 51}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: -180, y: -4.5736388E-06, z: -24.063765}
+  m_LocalEulerAnglesHint: {x: -180, y: -0.0000045736388, z: -24.063765}
 --- !u!4 &47
 Transform:
   m_ObjectHideFlags: 0
@@ -893,13 +781,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.99346477, y: -0.113663815, z: 0.0101369135, w: 0.0023781885}
-  m_LocalPosition: {x: 0.660347, y: 0.3937664, z: 3.16776E-08}
+  m_LocalPosition: {x: 0.660347, y: 0.3937664, z: 0.0000000316776}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 51}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850734, z: 13.052399}
 --- !u!4 &48
 Transform:
@@ -908,13 +796,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.9612439, y: -0.2755027, z: 0.0096076485, w: 0.004012931}
-  m_LocalPosition: {x: 1.0472107, y: 0.26481247, z: -6.174774E-08}
+  m_LocalPosition: {x: 1.0472107, y: 0.26481247, z: -0.00000006174774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 51}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 179.86127, y: 1.1850605, z: 31.984291}
 --- !u!4 &49
 Transform:
@@ -923,14 +811,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22}
-  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -4.2751125E-08, w: -9.111899E-09}
-  m_LocalPosition: {x: 0.50613785, y: -0.22626114, z: -1.4445654E-08}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.97803175, y: 0.20845595, z: -0.000000042751125, w: -0.000000009111899}
+  m_LocalPosition: {x: 0.50613785, y: -0.22626114, z: -0.000000014445654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 51}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -180, y: -4.5736388E-06, z: -24.063765}
+  m_LocalEulerAnglesHint: {x: -180, y: -0.0000045736388, z: -24.063765}
 --- !u!4 &50
 Transform:
   m_ObjectHideFlags: 0
@@ -938,14 +826,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23}
-  m_LocalRotation: {x: 0.99750805, y: 0.07055326, z: 2.4165926E-11, w: -3.6314118E-10}
-  m_LocalPosition: {x: -0.439888, y: -0.011802673, z: 8.653908E-09}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.99750805, y: 0.07055326, z: 2.4165926e-11, w: -3.6314118e-10}
+  m_LocalPosition: {x: -0.439888, y: -0.011802673, z: 0.000000008653908}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 51}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -180, y: 5.698237E-09, z: -8.091531}
+  m_LocalEulerAnglesHint: {x: -180, y: 0.000000005698237, z: -8.091531}
 --- !u!4 &51
 Transform:
   m_ObjectHideFlags: 0
@@ -953,7 +841,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24}
-  m_LocalRotation: {x: -0.7738123, y: -0.6334151, z: 3.3824417E-08, w: -2.7687447E-08}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7738123, y: -0.6334151, z: 0.000000033824417, w: -0.000000027687447}
   m_LocalPosition: {x: -2.3300014, y: -0.9199829, z: -0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -967,8 +856,7 @@ Transform:
   - {fileID: 46}
   - {fileID: 44}
   m_Father: {fileID: 42}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -180, y: -5.0089566E-06, z: -78.605064}
+  m_LocalEulerAnglesHint: {x: -180, y: -0.0000050089566, z: -78.605064}
 --- !u!4 &52
 Transform:
   m_ObjectHideFlags: 0
@@ -976,13 +864,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 30.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 28}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: 90}
 --- !u!4 &53
 Transform:
@@ -991,13 +879,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -71.6, y: 34.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 28}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!4 &54
 Transform:
@@ -1006,13 +894,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 73, y: 36.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 28}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!23 &55
 MeshRenderer:
@@ -1131,6 +1019,12 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1152,6 +1046,12 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1173,6 +1073,12 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1194,6 +1100,12 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1215,6 +1127,12 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1236,13 +1154,18 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!58 &65
 CircleCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1251,14 +1174,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Radius: 0.4
 --- !u!58 &66
 CircleCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1267,14 +1209,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Radius: 0.75
 --- !u!58 &67
 CircleCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1283,14 +1244,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -8}
+  serializedVersion: 2
   m_Radius: 15
 --- !u!58 &68
 CircleCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1299,14 +1279,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Radius: 0.85
 --- !u!58 &69
 CircleCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1315,14 +1314,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Radius: 0.7
 --- !u!61 &70
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1331,6 +1349,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1344,11 +1381,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 143, y: 1}
   m_EdgeRadius: 0
 --- !u!61 &71
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1357,6 +1394,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1370,11 +1426,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 4, y: 1}
   m_EdgeRadius: 0
 --- !u!61 &72
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1383,6 +1439,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1396,11 +1471,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 4, y: 1}
   m_EdgeRadius: 0
 --- !u!61 &73
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1409,6 +1484,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1422,11 +1516,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 1.41, y: 1.4}
   m_EdgeRadius: 0
 --- !u!61 &74
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1435,6 +1529,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1448,11 +1561,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 1.28, y: 1}
   m_EdgeRadius: 0
 --- !u!61 &75
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1461,6 +1574,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1474,11 +1606,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 1.21, y: 1.22}
   m_EdgeRadius: 0
 --- !u!61 &76
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1487,6 +1619,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1500,11 +1651,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.57, y: 0.44}
   m_EdgeRadius: 0
 --- !u!61 &77
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1513,6 +1664,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1526,11 +1696,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.69, y: 0.44}
   m_EdgeRadius: 0
 --- !u!61 &78
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1539,6 +1709,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1552,11 +1741,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 41, y: 120}
   m_EdgeRadius: 0
 --- !u!61 &79
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1565,6 +1754,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1578,11 +1786,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.63, y: 0.43}
   m_EdgeRadius: 0
 --- !u!61 &80
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1591,6 +1799,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1604,11 +1831,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.17, y: 0.31}
   m_EdgeRadius: 0
 --- !u!61 &81
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1617,6 +1844,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1630,11 +1876,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.81, y: 0.34}
   m_EdgeRadius: 0
 --- !u!61 &82
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1643,6 +1889,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1656,11 +1921,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 1.19, y: 1.85}
   m_EdgeRadius: 0
 --- !u!61 &83
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1669,6 +1934,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1682,11 +1966,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.32, y: 0.43}
   m_EdgeRadius: 0
 --- !u!61 &84
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1695,6 +1979,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1708,11 +2011,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.81, y: 0.34}
   m_EdgeRadius: 0
 --- !u!61 &85
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1721,6 +2024,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1734,11 +2056,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 68, y: 145}
   m_EdgeRadius: 0
 --- !u!61 &86
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1747,6 +2069,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1760,11 +2101,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 3, y: 35}
   m_EdgeRadius: 0
 --- !u!61 &87
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1773,6 +2114,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1786,8 +2146,123 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 3, y: 35}
   m_EdgeRadius: 0
+--- !u!104 &88
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &89
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 112000000, guid: a298eaf18510c0a48ab66a58801f4f8e,
+    type: 2}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &90
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
 --- !u!114 &91
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1798,15 +2273,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fd5c6c7632f5fae881efee50f03308a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   chunkType: 0
   generateReturn: 1
   returnProbability: 1
   doorElements:
   - name: Rock_23
     position: {x: 0.59000003, y: -0.34000003, z: -0.3}
-    rotation: {x: 0.8028176, y: -0.5962249, z: -2.6061809E-08, w: -3.509228E-08}
+    rotation: {x: 0.8028176, y: -0.5962249, z: -0.000000026061809, w: -0.00000003509228}
     scale: {x: 1, y: 1, z: 1}
   chunkBoundaries:
     serializedVersion: 2
@@ -1820,35 +2295,35 @@ MonoBehaviour:
     FixedElements:
     - name: Rock_05
       position: {x: -1.0163232, y: -2.3925886, z: -0.34}
-      rotation: {x: -0.10366058, y: -0.9946128, z: -4.3475907E-08, w: 4.5311506E-09}
+      rotation: {x: -0.10366058, y: -0.9946128, z: -0.000000043475907, w: 0.0000000045311506}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_04
       position: {x: -1.0600005, y: 2.5000005, z: -0.23}
-      rotation: {x: 0.947253, y: -0.32048702, z: 4.841025E-08, w: -6.693968E-09}
+      rotation: {x: 0.947253, y: -0.32048702, z: 0.00000004841025, w: -0.000000006693968}
       scale: {x: 1, y: 1, z: 1}
     - name: Border_07
       position: {x: -3.0500004, y: 0.029999495, z: 1.88}
-      rotation: {x: -0.6896196, y: -0.72417194, z: -3.1654558E-08, w: 3.014423E-08}
+      rotation: {x: -0.6896196, y: -0.72417194, z: -0.000000031654558, w: 0.00000003014423}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_30
       position: {x: -4.260001, y: -1.7400012, z: -0.3}
-      rotation: {x: 0.99991333, y: -0.013169855, z: -4.5276494E-09, w: -4.347626E-08}
+      rotation: {x: 0.99991333, y: -0.013169855, z: -0.0000000045276494, w: -0.00000004347626}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23
       position: {x: -4.2400017, y: 2.2700005, z: -0.4}
-      rotation: {x: 0.02617699, y: -0.99965745, z: -4.369641E-08, w: -1.1442332E-09}
+      rotation: {x: 0.02617699, y: -0.99965745, z: -0.00000004369641, w: -0.0000000011442332}
       scale: {x: 1, y: 1, z: 1}
     - name: Wall_21
       position: {x: -7.4900007, y: 0.44999886, z: 1.83}
-      rotation: {x: -0.038387835, y: -0.999263, z: -4.3679172E-08, w: 1.6779875E-09}
+      rotation: {x: -0.038387835, y: -0.999263, z: -0.000000043679172, w: 0.0000000016779875}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_20
       position: {x: -7.790003, y: -2.1100016, z: -0.3}
-      rotation: {x: 0.22256958, y: -0.97491693, z: -4.2614975E-08, w: -9.728826E-09}
+      rotation: {x: 0.22256958, y: -0.97491693, z: -0.000000042614975, w: -0.000000009728826}
       scale: {x: 1, y: 1, z: 1}
     - name: Wall_11
       position: {x: -8.680001, y: -1.250001, z: 1.78}
-      rotation: {x: 0.72717404, y: -0.6864532, z: -3.0005825E-08, w: -3.1785785E-08}
+      rotation: {x: 0.72717404, y: -0.6864532, z: -0.000000030005825, w: -0.000000031785785}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -7.9100003, y: -4.3900013, z: 0}
@@ -1856,7 +2331,7 @@ MonoBehaviour:
       scale: {x: 16, y: 4, z: 4}
     - name: Rock_32
       position: {x: -8.850003, y: 2.0999994, z: -0.2}
-      rotation: {x: 0.99993575, y: -0.011344433, z: -4.9588245E-10, w: -4.370858E-08}
+      rotation: {x: 0.99993575, y: -0.011344433, z: -4.9588245e-10, w: -0.00000004370858}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -9.420002, y: 3.7699995, z: 0}
@@ -1864,23 +2339,23 @@ MonoBehaviour:
       scale: {x: 16, y: 4, z: 4}
     - name: Rock_05
       position: {x: -9.970003, y: -2.7800016, z: -0.4}
-      rotation: {x: -0.263873, y: -0.9645575, z: -4.216215E-08, w: 1.1534256E-08}
+      rotation: {x: -0.263873, y: -0.9645575, z: -0.00000004216215, w: 0.000000011534256}
       scale: {x: 1, y: 1, z: 1}
     - name: Wall_22
       position: {x: -12.260002, y: -0.8200016, z: 1.88}
-      rotation: {x: 0.98822856, y: 0.15298584, z: 6.687225E-09, w: -4.319684E-08}
+      rotation: {x: 0.98822856, y: 0.15298584, z: 0.000000006687225, w: -0.00000004319684}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23
       position: {x: -12.760006, y: -2.9300022, z: -0.3}
-      rotation: {x: 0.9995855, y: -0.02879396, z: -1.2586217E-09, w: -4.3693277E-08}
+      rotation: {x: 0.9995855, y: -0.02879396, z: -0.0000000012586217, w: -0.000000043693277}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23
       position: {x: -13.690005, y: 1.289998, z: -0.35}
-      rotation: {x: 0.08715567, y: -0.9961947, z: -4.3545054E-08, w: -3.8097028E-09}
+      rotation: {x: 0.08715567, y: -0.9961947, z: -0.000000043545054, w: -0.0000000038097028}
       scale: {x: 1, y: 1, z: 1}
     - name: Border_08
       position: {x: -15.460002, y: -0.96000195, z: 2}
-      rotation: {x: 0.7710693, y: -0.6367514, z: -2.7833288E-08, w: -3.370451E-08}
+      rotation: {x: 0.7710693, y: -0.6367514, z: -0.000000027833288, w: -0.00000003370451}
       scale: {x: 1, y: 1, z: 1}
     - name: CrystalCluster_01
       position: {x: -15.454002, y: -2.3480034, z: -0.239}
@@ -1896,7 +2371,7 @@ MonoBehaviour:
       scale: {x: 1.7, y: 1.7, z: 1.7}
     - name: Rock_30
       position: {x: -15.650005, y: -4.920003, z: -0.3}
-      rotation: {x: 0.65631884, y: -0.75448376, z: -3.9146126E-08, w: 1.9449104E-08}
+      rotation: {x: 0.65631884, y: -0.75448376, z: -0.000000039146126, w: 0.000000019449104}
       scale: {x: 1, y: 1, z: 1}
     - name: Flower_Purple_M
       position: {x: -17.35001, y: 1.3699989, z: -0.6}
@@ -1908,7 +2383,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_34
       position: {x: -17.630005, y: 2.5899982, z: -0.4}
-      rotation: {x: 0.8965782, y: -0.4428859, z: -7.102951E-09, w: -4.3130438E-08}
+      rotation: {x: 0.8965782, y: -0.4428859, z: -0.000000007102951, w: -0.000000043130438}
       scale: {x: 1, y: 1, z: 1}
     - name: Flower_Purple_S
       position: {x: -18.04001, y: 1.9799976, z: -0.61}
@@ -1916,7 +2391,7 @@ MonoBehaviour:
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_32
       position: {x: -15.500005, y: -9.990005, z: -0.2}
-      rotation: {x: 0.7565608, y: -0.6539234, z: -3.4614366E-08, w: -2.6693307E-08}
+      rotation: {x: 0.7565608, y: -0.6539234, z: -0.000000034614366, w: -0.000000026693307}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -13.63, y: -13.840004, z: 0}
@@ -1932,7 +2407,7 @@ MonoBehaviour:
       scale: {x: 16, y: 4, z: 4}
     - name: Rock_23
       position: {x: -19.190006, y: 7.1400013, z: -0.3}
-      rotation: {x: -0.7188914, y: -0.6951225, z: -3.818007E-08, w: 2.128304E-08}
+      rotation: {x: -0.7188914, y: -0.6951225, z: -0.00000003818007, w: 0.00000002128304}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_05_D
       position: {x: -12.139998, y: -16.340023, z: -2.49}
@@ -1948,11 +2423,11 @@ MonoBehaviour:
       scale: {x: 1.4, y: 1.4, z: 1.4}
     - name: Rock_34
       position: {x: -15.640004, y: -15.510008, z: -0.4}
-      rotation: {x: 0.7360381, y: 0.6769403, z: 2.9590003E-08, w: -3.2173247E-08}
+      rotation: {x: 0.7360381, y: 0.6769403, z: 0.000000029590003, w: -0.000000032173247}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_30
       position: {x: -19.280003, y: 11.449999, z: -0.3}
-      rotation: {x: 0.74750966, y: -0.664251, z: -3.26747E-08, w: -2.903534E-08}
+      rotation: {x: 0.74750966, y: -0.664251, z: -0.0000000326747, w: -0.00000002903534}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_32_D
       position: {x: -19.39003, y: 11.650026, z: 3.05}
@@ -1964,7 +2439,7 @@ MonoBehaviour:
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_32
       position: {x: -18.320004, y: 16.19, z: -0.3}
-      rotation: {x: 0.5604063, y: -0.828218, z: -4.1700652E-08, w: -1.3105047E-08}
+      rotation: {x: 0.5604063, y: -0.828218, z: -0.000000041700652, w: -0.000000013105047}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23_D
       position: {x: -18.939995, y: 17.759989, z: 3.32}
@@ -1976,7 +2451,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_32
       position: {x: -16.100004, y: -21.100008, z: -0.3}
-      rotation: {x: 0.67365366, y: -0.7390472, z: -3.7874365E-08, w: 2.1822451E-08}
+      rotation: {x: 0.67365366, y: -0.7390472, z: -0.000000037874365, w: 0.000000021822451}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23_D
       position: {x: -13.759999, y: -22.830023, z: -3.51}
@@ -1984,7 +2459,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_23
       position: {x: -17.140007, y: 20.770006, z: -0.4}
-      rotation: {x: 0.6843563, y: -0.72914785, z: -3.1872062E-08, w: -2.9914162E-08}
+      rotation: {x: 0.6843563, y: -0.72914785, z: -0.000000031872062, w: -0.000000029914162}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -17.139996, y: 22.489988, z: 3.38}
@@ -1992,11 +2467,11 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_20
       position: {x: -17.140007, y: 24.930012, z: -0.28}
-      rotation: {x: 0.6691307, y: -0.74314487, z: -3.24839E-08, w: -2.9248636E-08}
+      rotation: {x: 0.6691307, y: -0.74314487, z: -0.0000000324839, w: -0.000000029248636}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_33
       position: {x: -16.400002, y: -26.300013, z: -0.4}
-      rotation: {x: 0.69778657, y: -0.71630585, z: -3.857706E-08, w: 2.0554715E-08}
+      rotation: {x: 0.69778657, y: -0.71630585, z: -0.00000003857706, w: 0.000000020554715}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -14.880006, y: 27.250004, z: -0.11}
@@ -2016,11 +2491,11 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_32
       position: {x: -16.770012, y: 28.99001, z: -0.3}
-      rotation: {x: 0.7214582, y: -0.69245803, z: -3.0268303E-08, w: -3.153594E-08}
+      rotation: {x: 0.7214582, y: -0.69245803, z: -0.000000030268303, w: -0.00000003153594}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23
       position: {x: -17.000002, y: -30.600014, z: -0.3}
-      rotation: {x: 0.9033873, y: 0.42882574, z: -2.9017192E-08, w: -3.2690817E-08}
+      rotation: {x: 0.9033873, y: 0.42882574, z: -0.000000029017192, w: -0.000000032690817}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23_D
       position: {x: -18.319998, y: -31.340029, z: 4.3}
@@ -2028,7 +2503,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_23
       position: {x: -17.170012, y: 33.740005, z: -0.34}
-      rotation: {x: 0.700042, y: -0.7141019, z: -1.883226E-08, w: -3.9446572E-08}
+      rotation: {x: 0.700042, y: -0.7141019, z: -0.00000001883226, w: -0.000000039446572}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -17.009996, y: 34.089996, z: 3.67}
@@ -2036,7 +2511,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_32
       position: {x: -19.200003, y: -34.80001, z: -0.3}
-      rotation: {x: 0.54536617, y: -0.83819807, z: -3.3849936E-08, w: 2.7656244E-08}
+      rotation: {x: 0.54536617, y: -0.83819807, z: -0.000000033849936, w: 0.000000027656244}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -17.279997, y: 38.659996, z: 3.49}
@@ -2044,7 +2519,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_33
       position: {x: -17.32001, y: 38.84001, z: -0.4}
-      rotation: {x: 0.683073, y: -0.7303502, z: -2.4936817E-08, w: -3.590044E-08}
+      rotation: {x: 0.683073, y: -0.7303502, z: -0.000000024936817, w: -0.00000003590044}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_32_D
       position: {x: -19.88, y: -37.810028, z: 4.2}
@@ -2056,7 +2531,7 @@ MonoBehaviour:
       scale: {x: 16, y: 4, z: 4}
     - name: Rock_34
       position: {x: -20.200003, y: -40.200012, z: -0.4}
-      rotation: {x: 0.67944545, y: 0.7337262, z: -1.8542124E-08, w: -3.9583764E-08}
+      rotation: {x: 0.67944545, y: 0.7337262, z: -0.000000018542124, w: -0.000000039583764}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23_D
       position: {x: -16.889994, y: 43.019997, z: 2.68}
@@ -2068,7 +2543,7 @@ MonoBehaviour:
       scale: {x: 16, y: 4, z: 4}
     - name: Rock_23
       position: {x: -16.370012, y: 43.80001, z: -0.3}
-      rotation: {x: -0.8094755, y: -0.58715385, z: -3.950066E-08, w: 1.8718524E-08}
+      rotation: {x: -0.8094755, y: -0.58715385, z: -0.00000003950066, w: 0.000000018718524}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -20.42, y: -44.14003, z: 4}
@@ -2076,11 +2551,11 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_33
       position: {x: -20.400002, y: -46.000015, z: -0.4}
-      rotation: {x: 0.62059623, y: -0.7841304, z: -2.4404937E-08, w: -3.6264094E-08}
+      rotation: {x: 0.62059623, y: -0.7841304, z: -0.000000024404937, w: -0.000000036264094}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_34
       position: {x: -16.600008, y: 48.870026, z: -0.14}
-      rotation: {x: 0.7875327, y: -0.61627305, z: -3.524835E-08, w: 2.5850383E-08}
+      rotation: {x: 0.7875327, y: -0.61627305, z: -0.00000003524835, w: 0.000000025850383}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_31_D
       position: {x: -17.080019, y: 48.850006, z: 2.83}
@@ -2100,7 +2575,7 @@ MonoBehaviour:
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_24
       position: {x: -53.500023, y: 3.899994, z: -0.4}
-      rotation: {x: 0.8395796, y: -0.5432371, z: -2.3611923E-08, w: -3.6785373E-08}
+      rotation: {x: 0.8395796, y: -0.5432371, z: -0.000000023611923, w: -0.000000036785373}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -53.520016, y: 1.1599884, z: 3.7}
@@ -2108,7 +2583,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_34
       position: {x: -53.800022, y: -0.80000687, z: -0.3}
-      rotation: {x: 0.62585485, y: -0.77993965, z: -2.1686969E-08, w: -3.7952088E-08}
+      rotation: {x: 0.62585485, y: -0.77993965, z: -0.000000021686969, w: -0.000000037952088}
       scale: {x: 1, y: 1, z: 1}
     - name: CrystalCluster_01
       position: {x: -54.30001, y: 6.199993, z: -0.2}
@@ -2120,7 +2595,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_30
       position: {x: -19.960009, y: -51.18004, z: -0.2}
-      rotation: {x: 0.7885492, y: -0.61497176, z: -4.242218E-08, w: 1.05378195E-08}
+      rotation: {x: 0.7885492, y: -0.61497176, z: -0.00000004242218, w: 0.0000000105378195}
       scale: {x: 1, y: 1, z: 1}
     - name: CrystalCluster_02
       position: {x: -54.90001, y: 6.39999, z: -0.2}
@@ -2132,11 +2607,11 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_34
       position: {x: -54.900024, y: -6.8000107, z: -0.4}
-      rotation: {x: 0.6815915, y: -0.73173296, z: 2.7468065E-08, w: -3.4002827E-08}
+      rotation: {x: 0.6815915, y: -0.73173296, z: 0.000000027468065, w: -0.000000034002827}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23
       position: {x: -54.000023, y: 12.099998, z: -0.2}
-      rotation: {x: 0.797584, y: 0.603208, z: 2.6367058E-08, w: -3.48635E-08}
+      rotation: {x: 0.797584, y: 0.603208, z: 0.000000026367058, w: -0.0000000348635}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_32_D
       position: {x: -53.02001, y: 15.359993, z: 4.2}
@@ -2148,15 +2623,15 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_34
       position: {x: -52.900024, y: 17, z: -0.4}
-      rotation: {x: 0.65077424, y: -0.7592714, z: -3.3188808E-08, w: -2.8446248E-08}
+      rotation: {x: 0.65077424, y: -0.7592714, z: -0.000000033188808, w: -0.000000028446248}
       scale: {x: 1, y: 1, z: 1}
     - name: Border_07
       position: {x: -55.100006, y: 7.399994, z: 2}
-      rotation: {x: -0.6481199, y: -0.7615384, z: -3.32879E-08, w: 2.8330224E-08}
+      rotation: {x: -0.6481199, y: -0.7615384, z: -0.0000000332879, w: 0.000000028330224}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_05
       position: {x: -55.000023, y: 9.399994, z: -0.4}
-      rotation: {x: 0.91506755, y: 0.40330073, z: 3.3915004E-08, w: -2.7576416E-08}
+      rotation: {x: 0.91506755, y: 0.40330073, z: 0.000000033915004, w: -0.000000027576416}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -54.720013, y: 10.159985, z: 4.5}
@@ -2164,15 +2639,15 @@ MonoBehaviour:
       scale: {x: 1.3, y: 1.3, z: 1.3}
     - name: Rock_23
       position: {x: -54.700024, y: -11.700008, z: -0.3}
-      rotation: {x: -0.6649809, y: -0.7468606, z: -1.5250269E-08, w: -4.0964824E-08}
+      rotation: {x: -0.6649809, y: -0.7468606, z: -0.000000015250269, w: -0.000000040964824}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_20
       position: {x: -55.800022, y: 5.199993, z: -0.3}
-      rotation: {x: 0.999421, y: -0.034027338, z: -1.4873827E-09, w: -4.368609E-08}
+      rotation: {x: 0.999421, y: -0.034027338, z: -0.0000000014873827, w: -0.00000004368609}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_05
       position: {x: -54.30002, y: -15.000015, z: -0.3}
-      rotation: {x: -0.72394127, y: -0.6898617, z: -1.8555593E-08, w: -3.957749E-08}
+      rotation: {x: -0.72394127, y: -0.6898617, z: -0.000000018555593, w: -0.00000003957749}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -55.320015, y: -10.240021, z: 4.1}
@@ -2180,7 +2655,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_24
       position: {x: -17.050013, y: 53.77002, z: -0.34}
-      rotation: {x: 0.71569276, y: 0.6984154, z: 3.0528707E-08, w: -3.128392E-08}
+      rotation: {x: 0.71569276, y: 0.6984154, z: 0.000000030528707, w: -0.00000003128392}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -52.320015, y: 21.659988, z: 4}
@@ -2192,7 +2667,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_05
       position: {x: -52.900024, y: 21, z: -0.3}
-      rotation: {x: 0.7912236, y: 0.61152714, z: 2.67307E-08, w: -3.4585486E-08}
+      rotation: {x: 0.7912236, y: 0.61152714, z: 0.0000000267307, w: -0.000000034585486}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -56.88001, y: -3.3400078, z: 0}
@@ -2204,7 +2679,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_33
       position: {x: -54.30002, y: -18.500015, z: -0.3}
-      rotation: {x: -0.77912855, y: -0.6268643, z: -2.1802265E-08, w: -3.7885975E-08}
+      rotation: {x: -0.77912855, y: -0.6268643, z: -0.000000021802265, w: -0.000000037885975}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -54.98001, y: 17.539997, z: 0}
@@ -2212,15 +2687,15 @@ MonoBehaviour:
       scale: {x: 10, y: 4, z: 4}
     - name: Rock_24
       position: {x: -52.900024, y: 23.699997, z: -0.2}
-      rotation: {x: 0.623081, y: -0.78215736, z: -3.1885886E-08, w: -2.989943E-08}
+      rotation: {x: 0.623081, y: -0.78215736, z: -0.000000031885886, w: -0.00000002989943}
       scale: {x: 1, y: 1, z: 1}
     - name: Wall_22
       position: {x: -57.600006, y: 6.599991, z: 1.9}
-      rotation: {x: 0.9513259, y: 0.308187, z: 1.3471281E-08, w: -4.1583775E-08}
+      rotation: {x: 0.9513259, y: 0.308187, z: 0.000000013471281, w: -0.000000041583775}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_20
       position: {x: -18.890009, y: -54.910034, z: -0.4}
-      rotation: {x: 0.72621644, y: -0.6874664, z: -4.122196E-08, w: 1.4540916E-08}
+      rotation: {x: 0.72621644, y: -0.6874664, z: -0.00000004122196, w: 0.000000014540916}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -52.320007, y: 25.259998, z: 3.4}
@@ -2252,23 +2727,23 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_05
       position: {x: -17.810015, y: 56.52002, z: -0.3}
-      rotation: {x: 0.8087092, y: -0.58820885, z: -2.5711426E-08, w: -3.5349803E-08}
+      rotation: {x: 0.8087092, y: -0.58820885, z: -0.000000025711426, w: -0.000000035349803}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_20
       position: {x: -54.80002, y: -23.200014, z: -0.3}
-      rotation: {x: 0.8284142, y: 0.5601162, z: -4.3710507E-08, w: 2.7756286E-10}
+      rotation: {x: 0.8284142, y: 0.5601162, z: -0.000000043710507, w: 2.7756286e-10}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_33
       position: {x: -59.400024, y: 4.399994, z: -0.3}
-      rotation: {x: 0.11580405, y: -0.9932722, z: -4.341731E-08, w: -5.0619544E-09}
+      rotation: {x: 0.11580405, y: -0.9932722, z: -0.00000004341731, w: -0.0000000050619544}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_34
       position: {x: -59.10002, y: 8.499992, z: -0.4}
-      rotation: {x: 0.0017452836, y: -0.9999986, z: -4.371133E-08, w: -7.62892E-11}
+      rotation: {x: 0.0017452836, y: -0.9999986, z: -0.00000004371133, w: -7.62892e-11}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_33
       position: {x: -53.10003, y: 27.900005, z: -0.2}
-      rotation: {x: -0.6101452, y: -0.79228973, z: -3.4632095E-08, w: 2.66703E-08}
+      rotation: {x: -0.6101452, y: -0.79228973, z: -0.000000034632095, w: 0.0000000266703}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -59.210007, y: 11.029991, z: 0}
@@ -2280,11 +2755,11 @@ MonoBehaviour:
       scale: {x: 16, y: 4, z: 4}
     - name: Rock_02
       position: {x: -54.70002, y: -25.900019, z: -0.3}
-      rotation: {x: 0.72733974, y: -0.6862776, z: -9.2642765E-09, w: 4.271837E-08}
+      rotation: {x: 0.72733974, y: -0.6862776, z: -0.0000000092642765, w: 0.00000004271837}
       scale: {x: 1, y: 1, z: 1}
     - name: Border_08
       position: {x: -60.500008, y: 5.2999954, z: 2}
-      rotation: {x: 0.8720266, y: -0.48945862, z: -2.1394916E-08, w: -3.81175E-08}
+      rotation: {x: 0.8720266, y: -0.48945862, z: -0.000000021394916, w: -0.0000000381175}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -56.730003, y: -21.90001, z: 0}
@@ -2292,7 +2767,7 @@ MonoBehaviour:
       scale: {x: 10, y: 4, z: 4}
     - name: Border_07
       position: {x: -60.600006, y: 8.699997, z: 2}
-      rotation: {x: 0.6004203, y: -0.7996847, z: -3.495533E-08, w: -2.6245207E-08}
+      rotation: {x: 0.6004203, y: -0.7996847, z: -0.00000003495533, w: -0.000000026245207}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -55.10001, y: 27.14, z: 0}
@@ -2312,19 +2787,19 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_34
       position: {x: -18.220007, y: -59.550034, z: -0.3}
-      rotation: {x: 0.72606766, y: -0.6876234, z: -3.240326E-08, w: 2.933793E-08}
+      rotation: {x: 0.72606766, y: -0.6876234, z: -0.00000003240326, w: 0.00000002933793}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_24
       position: {x: -55.30002, y: -28.900019, z: -0.3}
-      rotation: {x: 0.6307955, y: -0.77594924, z: -3.5673295E-09, w: 4.356558E-08}
+      rotation: {x: 0.6307955, y: -0.77594924, z: -0.0000000035673295, w: 0.00000004356558}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_20
       position: {x: -54.00003, y: 32.400013, z: -0.3}
-      rotation: {x: 0.6448107, y: -0.7643424, z: -3.1033238E-08, w: -3.0783497E-08}
+      rotation: {x: 0.6448107, y: -0.7643424, z: -0.000000031033238, w: -0.000000030783497}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_34
       position: {x: -18.22001, y: 60.45002, z: -0.3}
-      rotation: {x: 0.72606766, y: -0.6876234, z: -3.240326E-08, w: 2.933793E-08}
+      rotation: {x: 0.72606766, y: -0.6876234, z: -0.00000003240326, w: 0.00000002933793}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_31_D
       position: {x: -54.320015, y: -34.24003, z: 3.5}
@@ -2332,7 +2807,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_32
       position: {x: -55.100018, y: -33.20002, z: -0.3}
-      rotation: {x: 0.5797957, y: 0.814762, z: 1.5047757E-08, w: -4.1039637E-08}
+      rotation: {x: 0.5797957, y: 0.814762, z: 0.000000015047757, w: -0.000000041039637}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_31_D
       position: {x: -19.070013, y: 61.39, z: 3.73}
@@ -2340,7 +2815,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_30
       position: {x: -53.700024, y: 36.500008, z: -0.3}
-      rotation: {x: 0.7709746, y: -0.63686615, z: -2.5035236E-08, w: -3.5831864E-08}
+      rotation: {x: 0.7709746, y: -0.63686615, z: -0.000000025035236, w: -0.000000035831864}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -51.520016, y: -39.540028, z: 4}
@@ -2352,11 +2827,11 @@ MonoBehaviour:
       scale: {x: 10, y: 4, z: 4}
     - name: Rock_34
       position: {x: -52.80002, y: -38.70002, z: -0.4}
-      rotation: {x: 0.5378319, y: 0.84305215, z: 1.7104801E-08, w: -4.0225757E-08}
+      rotation: {x: 0.5378319, y: 0.84305215, z: 0.000000017104801, w: -0.000000040225757}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_05
       position: {x: -17.810007, y: -63.480034, z: -0.3}
-      rotation: {x: 0.8087092, y: -0.58820885, z: -2.5711426E-08, w: -3.5349803E-08}
+      rotation: {x: 0.8087092, y: -0.58820885, z: -0.000000025711426, w: -0.000000035349803}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -53.720016, y: 38.459995, z: 3.3}
@@ -2376,11 +2851,11 @@ MonoBehaviour:
       scale: {x: 16, y: 4, z: 4}
     - name: Rock_32
       position: {x: -53.50003, y: 41.60001, z: -0.3}
-      rotation: {x: 0.7846142, y: 0.6199846, z: 2.7100386E-08, w: -3.4296576E-08}
+      rotation: {x: 0.7846142, y: 0.6199846, z: 0.000000027100386, w: -0.000000034296576}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_20
       position: {x: -18.890009, y: 65.09002, z: -0.4}
-      rotation: {x: 0.72621644, y: -0.6874664, z: -4.122196E-08, w: 1.4540916E-08}
+      rotation: {x: 0.72621644, y: -0.6874664, z: -0.00000004122196, w: 0.000000014540916}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -54.980003, y: -39.790012, z: 0}
@@ -2396,11 +2871,11 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_34
       position: {x: -52.10003, y: -44.100033, z: -0.4}
-      rotation: {x: 0.75792706, y: 0.65233946, z: -2.7281526E-08, w: -3.4152702E-08}
+      rotation: {x: 0.75792706, y: 0.65233946, z: -0.000000027281526, w: -0.000000034152702}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_24
       position: {x: -17.050009, y: -66.230034, z: -0.34}
-      rotation: {x: 0.71569276, y: 0.6984154, z: 3.0528707E-08, w: -3.128392E-08}
+      rotation: {x: 0.71569276, y: 0.6984154, z: 0.000000030528707, w: -0.00000003128392}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_24_D
       position: {x: -51.80003, y: -45.100033, z: 3.8}
@@ -2408,7 +2883,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_24
       position: {x: -52.000023, y: 45.70001, z: -0.3}
-      rotation: {x: 0.5424416, y: -0.8400936, z: -3.672166E-08, w: -2.3710875E-08}
+      rotation: {x: 0.5424416, y: -0.8400936, z: -0.00000003672166, w: -0.000000023710875}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -19.880014, y: 66.43001, z: 4.03}
@@ -2420,7 +2895,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_20
       position: {x: -50.80003, y: 48.800014, z: -0.3}
-      rotation: {x: 0.8433916, y: 0.5372997, z: 2.3486113E-08, w: -3.6865817E-08}
+      rotation: {x: 0.8433916, y: 0.5372997, z: 0.000000023486113, w: -0.000000036865817}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -54.610012, y: 45.869995, z: 0}
@@ -2432,15 +2907,15 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_30
       position: {x: -19.960009, y: 68.82002, z: -0.2}
-      rotation: {x: 0.7885492, y: -0.61497176, z: -4.242218E-08, w: 1.05378195E-08}
+      rotation: {x: 0.7885492, y: -0.61497176, z: -0.00000004242218, w: 0.0000000105378195}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_03
       position: {x: -50.20003, y: 51.200016, z: -0.3}
-      rotation: {x: 0.7529895, y: 0.6580327, z: 2.8763527E-08, w: -3.291422E-08}
+      rotation: {x: 0.7529895, y: 0.6580327, z: 0.000000028763527, w: -0.00000003291422}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_32
       position: {x: -51.90003, y: -49.700043, z: -0.3}
-      rotation: {x: 0.5747452, y: 0.81833255, z: -1.8070043E-08, w: -3.9801527E-08}
+      rotation: {x: 0.5747452, y: 0.81833255, z: -0.000000018070043, w: -0.000000039801527}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -53.89, y: -49.120014, z: 0}
@@ -2452,7 +2927,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_34
       position: {x: -16.600008, y: -71.13003, z: -0.14}
-      rotation: {x: 0.7875327, y: -0.61627305, z: -3.524835E-08, w: 2.5850383E-08}
+      rotation: {x: 0.7875327, y: -0.61627305, z: -0.00000003524835, w: 0.000000025850383}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_31_D
       position: {x: -17.080011, y: -71.15005, z: 2.83}
@@ -2460,11 +2935,11 @@ MonoBehaviour:
       scale: {x: 1.2, y: 1.2, z: 1.2}
     - name: Rock_02
       position: {x: -51.100025, y: -53.30004, z: -0.3}
-      rotation: {x: 0.699267, y: -0.7148607, z: -3.5820186E-08, w: 2.5051953E-08}
+      rotation: {x: 0.699267, y: -0.7148607, z: -0.000000035820186, w: 0.000000025051953}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23
       position: {x: -51.00003, y: 54.20002, z: -0.4}
-      rotation: {x: -0.5921538, y: -0.8058251, z: -3.5223735E-08, w: 2.5883864E-08}
+      rotation: {x: -0.5921538, y: -0.8058251, z: -0.000000035223735, w: 0.000000025883864}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_24_D
       position: {x: -20.600008, y: 71.51001, z: 3.83}
@@ -2476,7 +2951,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_23
       position: {x: -51.40003, y: -56.500042, z: -0.3}
-      rotation: {x: 0.6390124, y: -0.76919657, z: -3.367137E-08, w: 2.7873412E-08}
+      rotation: {x: 0.6390124, y: -0.76919657, z: -0.00000003367137, w: 0.000000027873412}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -53.600014, y: 54.82, z: 0}
@@ -2488,7 +2963,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_33
       position: {x: -51.70003, y: 58.800014, z: -0.3}
-      rotation: {x: 0.73432255, y: 0.6788008, z: 2.9671329E-08, w: -3.2098264E-08}
+      rotation: {x: 0.73432255, y: 0.6788008, z: 0.000000029671329, w: -0.000000032098264}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -53.75, y: -58.800014, z: 0}
@@ -2496,7 +2971,7 @@ MonoBehaviour:
       scale: {x: 10, y: 4, z: 4}
     - name: Rock_33
       position: {x: -51.700027, y: -61.200043, z: -0.3}
-      rotation: {x: 0.73432255, y: 0.6788008, z: 2.9671329E-08, w: -3.2098264E-08}
+      rotation: {x: 0.73432255, y: 0.6788008, z: 0.000000029671329, w: -0.000000032098264}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_23_D
       position: {x: -51.700027, y: -62.10004, z: 3.2}
@@ -2504,7 +2979,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_23
       position: {x: -51.400032, y: 63.500015, z: -0.3}
-      rotation: {x: 0.6390124, y: -0.76919657, z: -3.367137E-08, w: 2.7873412E-08}
+      rotation: {x: 0.6390124, y: -0.76919657, z: -0.00000003367137, w: 0.000000027873412}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_32_D
       position: {x: -51.300026, y: 64.400024, z: 3.7}
@@ -2512,7 +2987,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_23
       position: {x: -51.000027, y: -65.80004, z: -0.4}
-      rotation: {x: -0.5921538, y: -0.8058251, z: -3.5223735E-08, w: 2.5883864E-08}
+      rotation: {x: -0.5921538, y: -0.8058251, z: -0.000000035223735, w: 0.000000025883864}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -53.560017, y: 64.369995, z: 0}
@@ -2524,7 +2999,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_02
       position: {x: -51.10003, y: 66.70001, z: -0.3}
-      rotation: {x: 0.699267, y: -0.7148607, z: -3.5820186E-08, w: 2.5051953E-08}
+      rotation: {x: 0.699267, y: -0.7148607, z: -0.000000035820186, w: 0.000000025051953}
       scale: {x: 1, y: 1, z: 1}
     - name: QuadMask
       position: {x: -52.93, y: -65.710014, z: 0}
@@ -2532,7 +3007,7 @@ MonoBehaviour:
       scale: {x: 10, y: 4, z: 4}
     - name: Rock_03
       position: {x: -50.200027, y: -68.80004, z: -0.3}
-      rotation: {x: 0.7529895, y: 0.6580327, z: 2.8763527E-08, w: -3.291422E-08}
+      rotation: {x: 0.7529895, y: 0.6580327, z: 0.000000028763527, w: -0.00000003291422}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_22_D
       position: {x: -51.10003, y: 70.10001, z: 4}
@@ -2540,7 +3015,7 @@ MonoBehaviour:
       scale: {x: 1.5, y: 1.5, z: 1.5}
     - name: Rock_32
       position: {x: -51.900032, y: 70.30002, z: -0.3}
-      rotation: {x: 0.5747452, y: 0.81833255, z: -1.8070043E-08, w: -3.9801527E-08}
+      rotation: {x: 0.5747452, y: 0.81833255, z: -0.000000018070043, w: -0.000000039801527}
       scale: {x: 1, y: 1, z: 1}
     - name: Rock_24_D
       position: {x: -51.800026, y: 74.900024, z: 3.8}
@@ -2552,7 +3027,7 @@ MonoBehaviour:
       scale: {x: 10, y: 4, z: 4}
     - name: Rock_34
       position: {x: -52.10003, y: 75.90001, z: -0.4}
-      rotation: {x: 0.75792706, y: 0.65233946, z: -2.7281526E-08, w: -3.4152702E-08}
+      rotation: {x: 0.75792706, y: 0.65233946, z: -0.000000027281526, w: -0.000000034152702}
       scale: {x: 1, y: 1, z: 1}
     Boulders: []
     StarSpawnpoints:
@@ -2589,7 +3064,7 @@ MonoBehaviour:
     - position: {x: -52.179005, y: -39.560013, z: 0}
       rotation: {x: -0, y: -0, z: 0.03851995, w: 0.9992579}
       meshLocalPosition: {x: 0.206, y: 0.111, z: -0.749}
-      meshLocalRotation: {x: 0.056567308, y: -9.9988756E-05, z: -0.97300595, w: 0.22374006}
+      meshLocalRotation: {x: 0.056567308, y: -0.000099988756, z: -0.97300595, w: 0.22374006}
       meshLocalScale: {x: 0.9, y: 0.9, z: 0.9}
     PreySpawnpoints:
     - {x: -9.219993, y: -0.5400057, z: -0.6}
@@ -2822,7 +3297,8 @@ MonoBehaviour:
       <Rotation>k__BackingField: {x: 0.57319754, y: 0.5424467, z: -0.4306757, w: -0.43785268}
     - <Position>k__BackingField: {x: -51.100018, y: -41.80002, z: -0.3}
       <Biome>k__BackingField: 111151805
-      <Rotation>k__BackingField: {x: -0.74099195, y: -0.29605785, z: -0.022716433, w: 0.6022997}
+      <Rotation>k__BackingField: {x: -0.74099195, y: -0.29605785, z: -0.022716433,
+        w: 0.6022997}
     - <Position>k__BackingField: {x: -53.201004, y: 40.300983, z: -0.5}
       <Biome>k__BackingField: 111151805
       <Rotation>k__BackingField: {x: -0.6160347, y: -0.5929219, z: 0.437159, w: 0.27899307}
@@ -2832,7 +3308,8 @@ MonoBehaviour:
     SmallSessileWildlifeSpawnpoints:
     - <Position>k__BackingField: {x: -2.385, y: -1.9930005, z: -0.537}
       <Biome>k__BackingField: 111210920
-      <Rotation>k__BackingField: {x: -0.025402248, y: -0.71962816, z: 0.68987155, w: -0.07461536}
+      <Rotation>k__BackingField: {x: -0.025402248, y: -0.71962816, z: 0.68987155,
+        w: -0.07461536}
     - <Position>k__BackingField: {x: -3.2250001, y: -1.5980008, z: -0.515}
       <Biome>k__BackingField: 111210920
       <Rotation>k__BackingField: {x: -0.519978, y: -0.3411438, z: 0.318097, w: 0.7155825}
@@ -2859,7 +3336,8 @@ MonoBehaviour:
       <Rotation>k__BackingField: {x: -0.030382067, y: -0.8141763, z: 0.5791288, w: -0.028353512}
     - <Position>k__BackingField: {x: -58.169006, y: 8.355995, z: -0.681}
       <Biome>k__BackingField: 111210920
-      <Rotation>k__BackingField: {x: -0.0070492923, y: -0.6731384, z: 0.73947155, w: -0.0041348636}
+      <Rotation>k__BackingField: {x: -0.0070492923, y: -0.6731384, z: 0.73947155,
+        w: -0.0041348636}
     - <Position>k__BackingField: {x: -60.334007, y: 8.237991, z: -0.493}
       <Biome>k__BackingField: 111210920
       <Rotation>k__BackingField: {x: -0.06431231, y: -0.6849768, z: 0.7085252, w: 0.15704456}
@@ -2877,8 +3355,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17a728e458119278bb5c7e351f2af2f4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &93
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2889,8 +3367,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f5a1c382317059a962ec079790ac2e6, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   spawnedChunk: {fileID: 0}
   returnConnector: 0
 --- !u!114 &94
@@ -2903,8 +3381,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bd08f2116dc4fda1027de26af70414e, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   teleporterAxis: 1
   teleportableAnimals:
     serializedVersion: 2
@@ -2919,5 +3397,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82ff7e1db3338e1f64cbd3749a40a357, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!29 &96
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 30}

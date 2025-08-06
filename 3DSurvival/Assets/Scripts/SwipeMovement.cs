@@ -4,7 +4,7 @@ public class SwipeMovement : MonoBehaviour
 {
     Vector3 startPos, endPos, direction;
 
-    public float swipeRange = 1f;
+    public float moveDistance = 50f;
 
     Rigidbody rb;
     Animator anim;
@@ -29,7 +29,7 @@ public class SwipeMovement : MonoBehaviour
             anim.SetTrigger("swimming");
             endPos = Input.GetTouch(0).position;
             direction = endPos - startPos;
-            rb.AddForce(direction * swipeRange);
+            rb.AddForce(direction.normalized * moveDistance, ForceMode.VelocityChange);
         }
 
         //smooth rotate to face swipe direction

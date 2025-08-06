@@ -8,46 +8,113 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Crystals
-  m_Shader: {fileID: 4800000, guid: 414aa5da90bfef1418572b8c4b9266ba, type: 3}
+  m_Shader: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 5
+  m_InvalidKeywords:
+  - _ALPHATEST_ON
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: {}
-    m_Ints: {}
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
-      _Glow: 1
-      _RimSize: 0
-      _Size: 1.58
-      _echoAlpha: 0
-      _echoAmount: 4
-      _echoDarkSize: 0.125
-      _echoFlareScale: 16
-      _echoGlowScale: 12
-      _echoGlowStrength: 1.5
-      _echoHeight: 1
-      _echoHitMix0: 0.4642857
-      _echoLightSize: 0
-      _echoMix: 0
-      _echoRimSize: 4
-      _echoShine: 8.0875
-      _echoSpeed: 16
-      _echoV2Start: 0.5
+    - PixelSnap: 0
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMask: 15
+    - _ColorMode: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 0
+    - _EmissionEnabled: 0
+    - _EnableExternalAlpha: 0
+    - _FlipbookMode: 0
+    - _Glow: 1
+    - _InvFade: 1
+    - _LightingEnabled: 0
+    - _Mode: 1
+    - _Parallax: 0.02
+    - _RimSize: 0
+    - _Shininess: 0.078125
+    - _Size: 1.58
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    - _ZWrite: 1
+    - _echoAlpha: 0
+    - _echoAmount: 4
+    - _echoDarkSize: 0.125
+    - _echoFlareScale: 16
+    - _echoGlowScale: 12
+    - _echoGlowStrength: 1.5
+    - _echoHeight: 1
+    - _echoHitMix0: 0.4642857
+    - _echoLightSize: 0
+    - _echoMix: 0
+    - _echoRimSize: 4
+    - _echoShine: 8.0875
+    - _echoSpeed: 16
+    - _echoV2Start: 0.5
     m_Colors:
-      _Color: {r: 0.5441177, g: 0.9066265, b: 1, a: 1}
-      _RimColor: {r: 0.54509807, g: 0.9058824, b: 1, a: 1}
-      _TintColor: {r: 0.43522924, g: 0.7703557, b: 0.8455882, a: 1}
-      _echoEdgeColor: {r: 0.23529412, g: 0.48235294, b: 0.5411765, a: 1}
-      _echoGlowColor: {r: 1, g: 1, b: 1, a: 1}
-      _echoHitColor: {r: 1, g: 1, b: 1, a: 1}
-      _echoMidColor: {r: 0.25367647, g: 0.65481454, b: 0.75, a: 1}
-      _echoRGBA: {r: 1, g: 1, b: 1, a: 1}
-      _echoScale: {r: 1, g: 1, b: 1, a: 1}
-      _echoUV: {r: 0, g: 0, b: 0, a: 0}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 0.5441177, g: 0.9066265, b: 1, a: 1}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.54509807, g: 0.9058824, b: 1, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _Specular: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 0.43522924, g: 0.7703557, b: 0.8455882, a: 1}
+    - _echoEdgeColor: {r: 0.23529412, g: 0.48235294, b: 0.5411765, a: 1}
+    - _echoGlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _echoHitColor: {r: 1, g: 1, b: 1, a: 1}
+    - _echoMidColor: {r: 0.25367647, g: 0.65481454, b: 0.75, a: 1}
+    - _echoRGBA: {r: 1, g: 1, b: 1, a: 1}
+    - _echoScale: {r: 1, g: 1, b: 1, a: 1}
+    - _echoUV: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
