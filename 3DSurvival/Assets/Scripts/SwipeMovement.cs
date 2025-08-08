@@ -4,12 +4,20 @@ public class SwipeMovement : MonoBehaviour
 {
     Vector3 startPos, endPos, direction;
 
-    public float moveDistance = 50f;
+    public float moveSpeed = 2.5f;
+    public ParticleSystem pushDustEffect;
+
+    float rotateSpeed = 5f;
+    bool touchEnabled = true;
+
+    float swipeForce = 10f;    
+    float swipeDelay = 0.5f;
+    bool canSwipe = true;
 
     Rigidbody rb;
     Animator anim;
 
-    private void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
@@ -18,25 +26,43 @@ public class SwipeMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (touchEnabled)
         {
-            startPos = Input.GetTouch(0).position;
+            HandleTouchInput();
+        }
+    }
+
+    void HandleTouchInput()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)
+            {
+                startPos = touch.position;
+            }
+            else if (touch.phase == TouchPhase.Ended && canSwipe)
+            {
+                pushDustEffect.Play();
+                canSwipe = false;
+                Invoke("SwipeEnabled", swipeDelay);
+                rb.useGravity = true;
+                anim.SetTrigger("swimming");
+                endPos = touch.position;
+                direction = endPos - startPos;
+                rb.AddForce(direction.normalized * moveSpeed * swipeForce, ForceMode.Impulse);
+            }
         }
 
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
-        {
-            rb.useGravity = true;
-            anim.SetTrigger("swimming");
-            endPos = Input.GetTouch(0).position;
-            direction = endPos - startPos;
-            rb.AddForce(direction.normalized * moveDistance, ForceMode.VelocityChange);
-        }
-
-        //smooth rotate to face swipe direction
         if (direction != Vector3.zero)
         {
             Quaternion targetRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotateSpeed);
         }
+    }
+
+    void SwipeEnabled()
+    {
+        canSwipe = true;
     }
 }
