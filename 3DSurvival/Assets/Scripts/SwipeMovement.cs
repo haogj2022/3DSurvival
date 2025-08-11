@@ -47,7 +47,7 @@ public class SwipeMovement : MonoBehaviour
                 canSwipe = false;
                 Invoke("SwipeEnabled", swipeDelay);
                 rb.useGravity = true;
-                anim.SetTrigger("swimming");
+                anim.Play("Swim", 0, 0.5f);
                 endPos = touch.position;
                 direction = endPos - startPos;
                 rb.AddForce(direction.normalized * moveSpeed * swipeForce, ForceMode.Impulse);
