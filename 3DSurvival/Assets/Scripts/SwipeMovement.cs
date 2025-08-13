@@ -7,9 +7,8 @@ public class SwipeMovement : MonoBehaviour
     public float moveSpeed = 2.5f;
     public ParticleSystem pushDustEffect;
 
-    float rotateSpeed = 5f;
     bool touchEnabled = true;
-
+    float rotateSpeed = 5f;
     float swipeForce = 10f;    
     float swipeDelay = 0.5f;
     bool canSwipe = true;
@@ -31,7 +30,6 @@ public class SwipeMovement : MonoBehaviour
             HandleTouchInput();
         }
     }
-
     void HandleTouchInput()
     {
         if (Input.touchCount > 0)
@@ -53,16 +51,18 @@ public class SwipeMovement : MonoBehaviour
                 rb.AddForce(direction.normalized * moveSpeed * swipeForce, ForceMode.Impulse);
             }
         }
-
-        if (direction != Vector3.zero)
-        {
-            Quaternion targetRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotateSpeed);
-        }
+        RotateTowardsDirection();
     }
 
     void SwipeEnabled()
     {
         canSwipe = true;
+    }
+
+    void RotateTowardsDirection()
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+        Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, direction);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
     }
 }
