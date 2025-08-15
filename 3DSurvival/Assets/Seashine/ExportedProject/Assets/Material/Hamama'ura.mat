@@ -8,7 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hamama'ura
-  m_Shader: {fileID: 4800000, guid: ed4eace3808cfdf4a90c843d9acf897b, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -17,48 +19,85 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: {}
-    m_Ints: {}
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
-      _BumpScale: 1
-      _Cutoff: 0.5
-      _DetailNormalMapScale: 1
-      _DstBlend: 0
-      _EndDistance: 2.5
-      _GlossMapScale: 1
-      _Glossiness: 0.5
-      _GlossyReflections: 1
-      _GradientCenter: 0
-      _Luminence: 0
-      _MaxNew: 1
-      _MaxOld: 3.6
-      _Metallic: 0
-      _MinNew: 0
-      _MinOld: 3
-      _Mode: 0
-      _OcclusionStrength: 1
-      _Parallax: 0.02
-      _PoseFactor: 0.35
-      _RadiusMultiplier: 0.2
-      _Roughness: 0.86
-      _SmoothnessTextureChannel: 0
-      _SpecularHighlights: 1
-      _SrcBlend: 1
-      _StartDistance: 2.05
-      _UVSec: 0
-      _ZWrite: 1
-      _pose: 0.05
-      _pow: 4.88
-      _radius: 4.56
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EndDistance: 2.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradientCenter: 0
+    - _Luminence: 0
+    - _MaxNew: 1
+    - _MaxOld: 3.6
+    - _Metallic: 0
+    - _MinNew: 0
+    - _MinOld: 3
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PoseFactor: 0.35
+    - _RadiusMultiplier: 0.2
+    - _Roughness: 0.86
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StartDistance: 2.05
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _pose: 0.05
+    - _pow: 4.88
+    - _radius: 4.56
     m_Colors:
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _Color0: {r: 0, g: 0.7383389, b: 1, a: 1}
-      _Color1: {r: 0.8634625, g: 0.43867922, b: 1, a: 1}
-      _Color2: {r: 0.33490568, g: 0.7370559, b: 1, a: 1}
-      _ColorA: {r: 0.8726415, g: 0.9817316, b: 1, a: 1}
-      _ColorB: {r: 0.5654812, g: 0.46564618, b: 0.9056604, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-      _SpecularColor: {r: 0.91734266, g: 0.8820755, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0, g: 0.7383389, b: 1, a: 1}
+    - _Color1: {r: 0.8634625, g: 0.43867922, b: 1, a: 1}
+    - _Color2: {r: 0.33490568, g: 0.7370559, b: 1, a: 1}
+    - _ColorA: {r: 0.8726415, g: 0.9817316, b: 1, a: 1}
+    - _ColorB: {r: 0.5654812, g: 0.46564618, b: 0.9056604, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 0.91734266, g: 0.8820755, b: 1, a: 1}
   m_BuildTextureStacks: []

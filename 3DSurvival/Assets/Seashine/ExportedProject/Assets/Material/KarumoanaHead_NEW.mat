@@ -14,7 +14,6 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _ALPHAPREMULTIPLY_ON
-  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -34,6 +33,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -95,7 +98,7 @@ Material:
     - _CameraNearFadeDistance: 1
     - _ColorMask: 15
     - _Cull: 2
-    - _Cutoff: 0.5
+    - _Cutoff: 0
     - _DetailNormalMapScale: 5
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
@@ -107,21 +110,21 @@ Material:
     - _EnableExternalAlpha: 0
     - _FlipbookMode: 0
     - _FresnelMult: 5.16
-    - _GlossMapScale: 0.5
-    - _Glossiness: 0.5
+    - _GlossMapScale: 1
+    - _Glossiness: 1
     - _GlossyReflections: 1
     - _HitMix: 0.7
     - _InnerFresnel: 1.5
     - _InvFade: 1
     - _LightingEnabled: 1
-    - _Metallic: 0.5
+    - _Metallic: 1
     - _Mode: 3
     - _OcclusionStrength: 1
     - _OuterFresnel: 1
     - _Parallax: 0.02
     - _Roughness: 1
-    - _Shininess: 0.078125
-    - _SmoothnessTextureChannel: 1
+    - _Shininess: 0.1
+    - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 0
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
