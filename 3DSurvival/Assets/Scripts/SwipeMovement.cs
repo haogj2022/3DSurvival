@@ -40,11 +40,9 @@ public class SwipeMovement : MonoBehaviour
                 case TouchPhase.Began:
                     startPos = touch.position;
                     break;
-                case TouchPhase.Moved:
-                    endPos = touch.position;
-                    break;
                 case TouchPhase.Ended:
-                    if (canSwipe)
+                    endPos = touch.position;
+                    if (canSwipe && endPos != startPos)
                     {
                         canSwipe = false;
                         Invoke("SwipeEnabled", swipeDelay);
