@@ -3,15 +3,18 @@ using UnityEngine.UI;
 
 public class HealthDecline : MonoBehaviour
 {
-    public Slider playerHealth;
     public float maxHealth = 50f;
 
     float currentHealth = 0f;
-    bool healthDecline = false;
+    float declineSpeed = 2f;
+    bool canDecline = false;
+    Slider playerHealth;
 
     void Start()
     {
         currentHealth = maxHealth;
+        playerHealth = GetComponentInChildren<Slider>();
+        playerHealth.gameObject.SetActive(false);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -34,7 +37,7 @@ public class HealthDecline : MonoBehaviour
 
         if (other.tag == "SafeZone")
         {
-            healthDecline = false;
+            canDecline = false;
         }
     }
 
@@ -42,7 +45,7 @@ public class HealthDecline : MonoBehaviour
     {
         if (other.tag == "SafeZone")
         {
-            healthDecline = true;
+            canDecline = true;
         }
     }
 
@@ -50,11 +53,11 @@ public class HealthDecline : MonoBehaviour
     {
         if (playerHealth.gameObject.activeSelf)
         {
-            if (healthDecline)
+            if (canDecline)
             {
-                currentHealth -= Time.deltaTime * 2f;
+                currentHealth -= Time.deltaTime * declineSpeed;
+                playerHealth.value = currentHealth / maxHealth;
             }
-            playerHealth.value = currentHealth / maxHealth;
         }
     }
 }

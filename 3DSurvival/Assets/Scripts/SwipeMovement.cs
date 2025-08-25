@@ -4,7 +4,7 @@ public class SwipeMovement : MonoBehaviour
 {
     Vector3 startPos, endPos, moveDir;
 
-    public float moveSpeed = 3f;
+    public float moveSpeed = 30f;
     public ParticleSystem pushDustEffect;
 
     bool touchEnabled = true;
@@ -46,11 +46,11 @@ public class SwipeMovement : MonoBehaviour
                     {
                         canSwipe = false;
                         Invoke("SwipeEnabled", swipeDelay);
-                        anim.Play("Swim", 0, 0.5f);
+                        anim.Play("Swim", 0, swipeDelay);
                         pushDustEffect.Play();
                         moveDir = endPos - startPos;
                         rb.useGravity = true;
-                        rb.AddForce(moveDir.normalized * moveSpeed * 10f, ForceMode.Impulse);
+                        rb.AddForce(moveDir.normalized * moveSpeed, ForceMode.Impulse);
                     }
                     break;
                 default:
